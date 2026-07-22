@@ -1,0 +1,18 @@
+{
+  "rules": [
+    {
+      "name": "GuildMarkInstance",
+      "target_symbol": "psingleton_CGuildMarkManagerInstance",
+      "type": "INSTANCE_REGISTER",
+      "direction": "DOWN",
+      "expected_call_index": 2
+    },
+    {
+      "name": "SendAttackPacketMethod",
+      "target_symbol": "netSendAttackPacket",
+      "type": "METHOD_CALL",
+      "direction": "DOWN",
+      "expected_call_index": 1
+    }
+  ]
+}

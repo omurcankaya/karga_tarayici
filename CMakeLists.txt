@@ -1,0 +1,43 @@
+cmake_minimum_required(VERSION 3.25)
+
+project(KargaTarayici VERSION 1.0.0 LANGUAGES C CXX)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+
+include(OutputDirectories)
+include(CompilerFlags)
+include(Dependencies)
+
+include_directories(
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+set(CORE_SOURCES
+    src/Core/WinHandle.cpp
+    src/Core/MemoryReader.cpp
+    src/Engine/DisassemblerEngine.cpp
+    src/Engine/PatternScanner.cpp
+    src/Engine/ScanPipeline.cpp
+    src/Strategies/InstanceRegisterStrategy.cpp
+    src/Strategies/MethodCallStrategy.cpp
+    src/Rules/JsonRuleParser.cpp
+    src/UI/OverlayWindow.cpp
+)
+
+add_library(KargaScannerCore STATIC ${CORE_SOURCES})
+target_link_libraries(KargaScannerCore PRIVATE zydis nlohmann_json::nlohmann_json)
+
+add_executable(KargaScannerApp src/AppMain.cpp)
+target_link_libraries(KargaScannerApp PRIVATE KargaScannerCore imgui::imgui)
+
+add_library(KargaScanner SHARED src/DllMain.cpp)
+target_link_libraries(KargaScanner PRIVATE KargaScannerCore imgui::imgui)
+
+if(BUILD_TESTING)
+    enable_testing()
+    add_subdirectory(tests)
+endif()

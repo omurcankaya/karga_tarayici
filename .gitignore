@@ -1,0 +1,9 @@
+# Build Output Directories
+bin/
+build/
+.vs/
+*.user
+*.suo
+*.pdb
+*.idb
+*.ilk
