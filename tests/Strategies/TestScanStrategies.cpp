@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 #include "KargaTarayici/Strategies/RegisterDataFlowStrategy.h"
+#include "KargaTarayici/Engine/PyModuleScanner.h"
 #include "KargaTarayici/Core/IMemoryReader.h"
 
 TEST(RegisterDataFlowStrategyTest, TracesCallPairAndPushCountCorrectly) {
@@ -26,4 +27,32 @@ TEST(RegisterDataFlowStrategyTest, TracesCallPairAndPushCountCorrectly) {
     ASSERT_EQ(pairs.size(), 1);
     EXPECT_EQ(pairs[0].instanceAddress, 0x008F1234);
     EXPECT_EQ(pairs[0].pushCount, 2);
+}
+
+TEST(PyModuleScannerTest, ParsesMockPyMethodDefTable) {
+    using namespace KargaTarayici;
+
+    const char mockMethodName[] = "SendAttackPacket";
+    const Core::Byte mockCode[] = { 0xC3 }; // RET instruction
+
+    Core::Address nameAddr = reinterpret_cast<Core::Address>(mockMethodName);
+    Core::Address methAddr = reinterpret_cast<Core::Address>(mockCode);
+
+    uint32_t mockTable[8] = {
+        static_cast<uint32_t>(nameAddr),
+        static_cast<uint32_t>(methAddr),
+        1, // METH_VARARGS
+        0, // NULL doc
+        0, 0, 0, 0 // Null terminator entry
+    };
+
+    Core::DirectMemoryReader reader;
+    Engine::PyModuleScanner scanner;
+
+    Core::Address tableAddr = reinterpret_cast<Core::Address>(mockTable);
+    auto methods = scanner.ParsePyMethodTable(tableAddr, reader);
+
+    ASSERT_EQ(methods.size(), 1);
+    EXPECT_EQ(methods[0].methodName, "SendAttackPacket");
+    EXPECT_EQ(methods[0].wrapperAddress, methAddr);
 }

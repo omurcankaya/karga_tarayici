@@ -5,6 +5,7 @@
 #include "KargaTarayici/UI/AssemblyInspectorWindow.h"
 #include "KargaTarayici/Engine/DisassemblerEngine.h"
 #include "KargaTarayici/Engine/ScanPipeline.h"
+#include "KargaTarayici/Engine/PyModuleScanner.h"
 #include "KargaTarayici/Core/IMemoryReader.h"
 
 namespace KargaTarayici::UI {
@@ -16,6 +17,7 @@ private:
     AssemblyInspectorWindow assemblyInspector_{};
     Engine::DisassemblerEngine disassembler_{};
     Engine::ScanPipeline scanPipeline_{};
+    Engine::PyModuleScanner pyScanner_{};
     Core::DirectMemoryReader memoryReader_{};
 
 public:
