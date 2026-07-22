@@ -1,4 +1,5 @@
 #include "KargaTarayici/Core/IMemoryReader.h"
+#include <windows.h>
 #include <cstring>
 
 namespace KargaTarayici::Core {
@@ -7,9 +8,14 @@ bool DirectMemoryReader::Read(Address address, void* buffer, Size size) const {
     if (address == 0 || buffer == nullptr || size == 0) {
         return false;
     }
-    auto src = reinterpret_cast<const void*>(address);
-    std::memcpy(buffer, src, size);
-    return true;
+
+    __try {
+        auto src = reinterpret_cast<const void*>(address);
+        std::memcpy(buffer, src, size);
+        return true;
+    } __except (EXCEPTION_EXECUTE_HANDLER) {
+        return false;
+    }
 }
 
 Buffer DirectMemoryReader::ReadBytes(Address address, Size size) const {
