@@ -25,17 +25,22 @@ set(CORE_SOURCES
     src/Strategies/InstanceRegisterStrategy.cpp
     src/Strategies/MethodCallStrategy.cpp
     src/Rules/JsonRuleParser.cpp
+    src/UI/RenderEngineD3D11.cpp
+    src/UI/UIContext.cpp
+    src/UI/ScannerWindow.cpp
+    src/UI/LogWindow.cpp
+    src/UI/AssemblyInspectorWindow.cpp
     src/UI/OverlayWindow.cpp
 )
 
 add_library(KargaScannerCore STATIC ${CORE_SOURCES})
-target_link_libraries(KargaScannerCore PRIVATE zydis nlohmann_json::nlohmann_json)
+target_link_libraries(KargaScannerCore PRIVATE zydis nlohmann_json::nlohmann_json imgui::imgui d3d11.lib dxgi.lib)
 
 add_executable(KargaScannerApp src/AppMain.cpp)
-target_link_libraries(KargaScannerApp PRIVATE KargaScannerCore imgui::imgui)
+target_link_libraries(KargaScannerApp PRIVATE KargaScannerCore imgui::imgui d3d11.lib dxgi.lib)
 
 add_library(KargaScanner SHARED src/DllMain.cpp)
-target_link_libraries(KargaScanner PRIVATE KargaScannerCore imgui::imgui)
+target_link_libraries(KargaScanner PRIVATE KargaScannerCore imgui::imgui d3d11.lib dxgi.lib)
 
 if(BUILD_TESTING)
     enable_testing()

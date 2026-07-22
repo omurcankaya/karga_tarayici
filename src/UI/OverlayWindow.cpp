@@ -1,11 +1,22 @@
 #include "KargaTarayici/UI/OverlayWindow.h"
+#include <imgui.h>
+#include <imgui_impl_win32.h>
+#include <imgui_impl_dx11.h>
+
+extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
 namespace KargaTarayici::UI {
 
 namespace {
 
 LRESULT CALLBACK OverlayWndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
+    if (ImGui_ImplWin32_WndProcHandler(hwnd, msg, wParam, lParam)) {
+        return true;
+    }
+
     switch (msg) {
+    case WM_SIZE:
+        return 0;
     case WM_DESTROY:
         PostQuitMessage(0);
         return 0;
@@ -57,6 +68,21 @@ bool OverlayWindow::Create(HWND targetHwnd) {
     ShowWindow(hwnd_, SW_SHOW);
     UpdateWindow(hwnd_);
 
+    if (!renderEngine_.Initialize(hwnd_)) {
+        return false;
+    }
+
+    IMGUI_CHECKVERSION();
+    ImGui::CreateContext();
+    ImGuiIO& io = ImGui::GetIO();
+    io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;
+    io.ConfigFlags |= ImGuiConfigFlags_DockingEnable;
+
+    ImGui::StyleColorsDark();
+
+    ImGui_ImplWin32_Init(hwnd_);
+    ImGui_ImplDX11_Init(renderEngine_.GetDevice(), renderEngine_.GetDeviceContext());
+
     running_ = true;
     return true;
 }
@@ -79,17 +105,36 @@ void OverlayWindow::RunLoop() {
             SetWindowPos(hwnd_, HWND_TOPMOST, rect.left, rect.top, rect.right - rect.left, rect.bottom - rect.top, SWP_NOACTIVATE);
         }
 
+        ImGui_ImplDX11_NewFrame();
+        ImGui_ImplWin32_NewFrame();
+        ImGui::NewFrame();
+
+        uiContext_.RenderAllPanels();
+
+        ImGui::Render();
+        renderEngine_.BeginFrame();
+        ImGui_ImplDX11_RenderDrawData(ImGui::GetDrawData());
+        renderEngine_.EndFrame();
+
         Sleep(10);
     }
 }
 
 void OverlayWindow::Destroy() {
-    if (hwnd_ != nullptr) {
-        DestroyWindow(hwnd_);
-        hwnd_ = nullptr;
+    if (running_) {
+        ImGui_ImplDX11_Shutdown();
+        ImGui_ImplWin32_Shutdown();
+        ImGui::DestroyContext();
+
+        renderEngine_.Shutdown();
+
+        if (hwnd_ != nullptr) {
+            DestroyWindow(hwnd_);
+            hwnd_ = nullptr;
+        }
+        UnregisterClassW(L"KargaOverlayClass", GetModuleHandleW(nullptr));
+        running_ = false;
     }
-    UnregisterClassW(L"KargaOverlayClass", GetModuleHandleW(nullptr));
-    running_ = false;
 }
 
 }
