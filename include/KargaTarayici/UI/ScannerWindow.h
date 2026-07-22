@@ -14,6 +14,7 @@ struct DiscoveredSymbolItem {
     Core::Address address{0};
     bool found{false};
     bool isInstance{false};
+    std::string failureReason{};
 };
 
 class ScannerWindow {
@@ -26,6 +27,9 @@ private:
     bool hasSelection_{false};
     bool scanExecuted_{false};
     std::string generatedCppHeader_{};
+    
+    char searchFilter_[128]{""};
+    int filterMode_{0}; // 0: All, 1: Found Only, 2: Missing Only
 
 public:
     ScannerWindow();

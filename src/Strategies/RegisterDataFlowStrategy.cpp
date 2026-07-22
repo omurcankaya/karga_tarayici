@@ -1,5 +1,6 @@
 #include "KargaTarayici/Strategies/RegisterDataFlowStrategy.h"
 #include <cstring>
+#include <unordered_map>
 
 namespace KargaTarayici::Strategies {
 
@@ -14,20 +15,43 @@ std::vector<CallPairContext> RegisterDataFlowStrategy::TraceCallPairs(Core::Addr
 
     auto instructions = disassembler_.DisassembleRange(funcAddress, funcBytes.data(), funcBytes.size());
 
+    std::unordered_map<ZydisRegister, Core::Address> regValues;
     Core::Address lastInstanceAddr = 0;
     uint32_t currentPushCount = 0;
 
     for (const auto& inst : instructions) {
         if (inst.mnemonic == ZYDIS_MNEMONIC_PUSH) {
             currentPushCount++;
+            if (inst.operands[0].type == ZYDIS_OPERAND_TYPE_MEMORY) {
+                lastInstanceAddr = static_cast<Core::Address>(inst.operands[0].mem.disp.value);
+            } else if (inst.operands[0].type == ZYDIS_OPERAND_TYPE_REGISTER) {
+                auto reg = inst.operands[0].reg.value;
+                if (regValues.contains(reg) && regValues[reg] != 0) {
+                    lastInstanceAddr = regValues[reg];
+                }
+            }
         }
 
-        if (inst.mnemonic == ZYDIS_MNEMONIC_MOV && 
-            inst.operands[0].type == ZYDIS_OPERAND_TYPE_REGISTER && 
-            inst.operands[0].reg.value == ZYDIS_REGISTER_ECX &&
-            inst.operands[1].type == ZYDIS_OPERAND_TYPE_MEMORY) {
-            
-            lastInstanceAddr = static_cast<Core::Address>(inst.operands[1].mem.disp.value);
+        if (inst.mnemonic == ZYDIS_MNEMONIC_MOV) {
+            if (inst.operands[0].type == ZYDIS_OPERAND_TYPE_REGISTER) {
+                auto dstReg = inst.operands[0].reg.value;
+                
+                if (inst.operands[1].type == ZYDIS_OPERAND_TYPE_MEMORY) {
+                    Core::Address addr = static_cast<Core::Address>(inst.operands[1].mem.disp.value);
+                    regValues[dstReg] = addr;
+                    if (dstReg == ZYDIS_REGISTER_ECX || dstReg == ZYDIS_REGISTER_RCX) {
+                        lastInstanceAddr = addr;
+                    }
+                } else if (inst.operands[1].type == ZYDIS_OPERAND_TYPE_REGISTER) {
+                    auto srcReg = inst.operands[1].reg.value;
+                    if (regValues.contains(srcReg)) {
+                        regValues[dstReg] = regValues[srcReg];
+                        if (dstReg == ZYDIS_REGISTER_ECX || dstReg == ZYDIS_REGISTER_RCX) {
+                            lastInstanceAddr = regValues[srcReg];
+                        }
+                    }
+                }
+            }
         }
 
         if (inst.mnemonic == ZYDIS_MNEMONIC_CALL) {

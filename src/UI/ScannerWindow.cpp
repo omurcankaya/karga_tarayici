@@ -1,11 +1,33 @@
 #include "KargaTarayici/UI/ScannerWindow.h"
 #include "KargaTarayici/Rules/JsonRuleParser.h"
+#include "KargaTarayici/Utils/Logger.h"
+#include <windows.h>
 #include <imgui.h>
 #include <filesystem>
 #include <sstream>
 #include <format>
+#include <algorithm>
 
 namespace KargaTarayici::UI {
+
+namespace {
+
+std::string GetModuleDirectory() {
+    HMODULE hMod = nullptr;
+    GetModuleHandleExA(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS | GET_MODULE_HANDLE_EX_FLAG_UNCHANGED_REFCOUNT,
+                       reinterpret_cast<LPCSTR>(&GetModuleDirectory), &hMod);
+    
+    char buffer[MAX_PATH];
+    GetModuleFileNameA(hMod, buffer, MAX_PATH);
+    std::string path(buffer);
+    size_t pos = path.find_last_of("\\/");
+    if (pos != std::string::npos) {
+        return path.substr(0, pos);
+    }
+    return ".";
+}
+
+}
 
 ScannerWindow::ScannerWindow() {
     RefreshRuleFiles();
@@ -14,22 +36,46 @@ ScannerWindow::ScannerWindow() {
 
 void ScannerWindow::RefreshRuleFiles() {
     ruleFiles_.clear();
-    std::string configDir = "config";
-    if (std::filesystem::exists(configDir)) {
-        for (const auto& entry : std::filesystem::directory_iterator(configDir)) {
-            if (entry.path().extension() == ".json") {
-                ruleFiles_.push_back(entry.path().string());
+    std::string dllDir = GetModuleDirectory();
+    
+    std::vector<std::string> candidateDirs = {
+        dllDir + "\\config",
+        dllDir,
+        "config",
+        "D:\\dev\\Karga_Tarayici\\config"
+    };
+
+    Utils::Logger::Info("Scanning for rule configuration files...");
+
+    for (const auto& dir : candidateDirs) {
+        if (std::filesystem::exists(dir)) {
+            Utils::Logger::Info(std::format("Checking directory for rules: '{}'", dir));
+            for (const auto& entry : std::filesystem::directory_iterator(dir)) {
+                if (entry.path().extension() == ".json") {
+                    std::string jsonPath = entry.path().string();
+                    if (std::find(ruleFiles_.begin(), ruleFiles_.end(), jsonPath) == ruleFiles_.end()) {
+                        ruleFiles_.push_back(jsonPath);
+                        Utils::Logger::Info(std::format("Discovered rule preset file: '{}'", jsonPath));
+                    }
+                }
             }
         }
     }
+
     if (ruleFiles_.empty()) {
-        ruleFiles_.push_back("config/default_rules.json");
+        Utils::Logger::Warning("No .json rule preset files found in candidate directories. Falling back to default.");
+        ruleFiles_.push_back("config/rules_auto_generated.json");
     }
 }
 
 void ScannerWindow::LoadSelectedRules() {
     if (selectedRuleIndex_ >= 0 && selectedRuleIndex_ < static_cast<int>(ruleFiles_.size())) {
-        currentRules_ = Rules::JsonRuleParser::ParseFile(ruleFiles_[selectedRuleIndex_]);
+        std::string selectedFile = ruleFiles_[selectedRuleIndex_];
+        Utils::Logger::Info(std::format("Loading rules from file: '{}'", selectedFile));
+        currentRules_ = Rules::JsonRuleParser::ParseFile(selectedFile);
+        Utils::Logger::Info(std::format("Successfully loaded {} rules into active scanner memory.", currentRules_.size()));
+    } else {
+        Utils::Logger::Error(std::format("Invalid rule file index: {}", selectedRuleIndex_));
     }
 }
 
@@ -39,15 +85,19 @@ void ScannerWindow::SetScanResults(const std::vector<Strategies::ScanResult>& re
 
     for (const auto& rule : currentRules_) {
         DiscoveredSymbolItem item{};
-        item.symbol = rule.targetSymbol;
+        item.symbol = std::format("{} ({})", rule.targetSymbol, rule.name);
         item.moduleName = rule.name;
         item.found = false;
         item.address = 0;
+        item.failureReason = std::format("Pattern '{}' not matched in process memory space.", rule.pattern);
 
         for (const auto& res : results) {
             if (res.symbol == rule.targetSymbol) {
                 item.address = res.foundAddress;
                 item.found = res.success;
+                if (res.success) {
+                    item.failureReason = std::format("Successfully resolved via wrapper '{}' at 0x{:08X}", rule.name, res.foundAddress);
+                }
                 break;
             }
         }
@@ -80,9 +130,28 @@ void ScannerWindow::GenerateCppHeaderOutput() {
 }
 
 void ScannerWindow::Render() {
-    ImGui::Begin("Karga Scanner Control & Results");
+    ImGui::Begin("Karga Scanner Control & Results", nullptr, ImGuiWindowFlags_MenuBar);
 
-    ImGui::TextColored(ImVec4(0.4f, 0.8f, 1.0f, 1.0f), "Rule Preset Selector:");
+    if (ImGui::BeginMenuBar()) {
+        if (ImGui::BeginMenu("Preset File")) {
+            for (size_t i = 0; i < ruleFiles_.size(); ++i) {
+                if (ImGui::MenuItem(ruleFiles_[i].c_str(), nullptr, selectedRuleIndex_ == static_cast<int>(i))) {
+                    selectedRuleIndex_ = static_cast<int>(i);
+                    LoadSelectedRules();
+                }
+            }
+            ImGui::Separator();
+            if (ImGui::MenuItem("Refresh Presets List")) {
+                RefreshRuleFiles();
+                LoadSelectedRules();
+            }
+            ImGui::EndMenu();
+        }
+        ImGui::EndMenuBar();
+    }
+
+    ImGui::TextColored(ImVec4(0.4f, 0.8f, 1.0f, 1.0f), "Active Preset:");
+    ImGui::SameLine();
     if (!ruleFiles_.empty()) {
         std::vector<const char*> items;
         for (const auto& file : ruleFiles_) {
@@ -94,45 +163,118 @@ void ScannerWindow::Render() {
     }
 
     ImGui::SameLine();
-    if (ImGui::Button("Refresh Presets")) {
-        RefreshRuleFiles();
-        LoadSelectedRules();
-    }
+    ImGui::TextColored(ImVec4(0.2f, 1.0f, 0.4f, 1.0f), "(Total Rules: %d)", static_cast<int>(currentRules_.size()));
 
     ImGui::Separator();
-    ImGui::Text("Loaded Rules: %d", static_cast<int>(currentRules_.size()));
+
+    ImGui::InputText("Search Symbol", searchFilter_, sizeof(searchFilter_));
+    ImGui::SameLine();
+    ImGui::RadioButton("All", &filterMode_, 0);
+    ImGui::SameLine();
+    ImGui::RadioButton("Found Only", &filterMode_, 1);
+    ImGui::SameLine();
+    ImGui::RadioButton("Missing Only", &filterMode_, 2);
+
+    ImGui::Separator();
 
     if (ImGui::BeginTabBar("ScannerMainTabs")) {
-        if (ImGui::BeginTabItem("Results & Module Tree")) {
+        if (ImGui::BeginTabItem("Discovered Symbols & Offsets")) {
             if (scanResults_.empty()) {
-                ImGui::TextDisabled("No scan results. Click 'Start Scan' to begin.");
+                ImGui::TextDisabled("No scan results yet. Click 'START MEMORY SCAN' in the top bar.");
             } else {
-                if (ImGui::TreeNodeEx("Discovered Symbols", ImGuiTreeNodeFlags_DefaultOpen)) {
+                size_t foundCount = std::count_if(scanResults_.begin(), scanResults_.end(), [](const auto& i){ return i.found; });
+                ImGui::TextColored(ImVec4(0.2f, 1.0f, 0.2f, 1.0f), "Found: %d / %d (%.1f%%)", 
+                                   static_cast<int>(foundCount), 
+                                   static_cast<int>(scanResults_.size()), 
+                                   (scanResults_.empty() ? 0.0f : (foundCount * 100.0f / scanResults_.size())));
+
+                ImGui::BeginChild("ResultsTableArea", ImVec2(0, 0), true);
+                if (ImGui::BeginTable("SymbolResultsTable", 4, ImGuiTableFlags_Borders | ImGuiTableFlags_RowBg | ImGuiTableFlags_ScrollY | ImGuiTableFlags_Resizable)) {
+                    ImGui::TableSetupColumn("Status", ImGuiTableColumnFlags_WidthFixed, 80.0f);
+                    ImGui::TableSetupColumn("Symbol Name", ImGuiTableColumnFlags_WidthStretch);
+                    ImGui::TableSetupColumn("Address (HEX)", ImGuiTableColumnFlags_WidthFixed, 120.0f);
+                    ImGui::TableSetupColumn("Wrapper Source", ImGuiTableColumnFlags_WidthFixed, 180.0f);
+                    ImGui::TableHeadersRow();
+
+                    std::string filterStr(searchFilter_);
+                    std::transform(filterStr.begin(), filterStr.end(), filterStr.begin(), [](unsigned char c) -> char {
+                        return static_cast<char>(std::tolower(c));
+                    });
+
+                    int rowIndex = 0;
                     for (const auto& item : scanResults_) {
-                        if (item.found) {
-                            std::string label = std::format("[FOUND] {} -> 0x{:08X}", item.symbol, item.address);
-                            if (ImGui::Selectable(label.c_str(), selectedItem_.symbol == item.symbol)) {
-                                selectedItem_ = item;
-                                hasSelection_ = true;
-                            }
-                        } else {
-                            std::string label = std::format("[NOT FOUND] {} -> 0x00000000", item.symbol);
-                            ImGui::TextColored(ImVec4(0.6f, 0.6f, 0.6f, 1.0f), "%s", label.c_str());
+                        rowIndex++;
+                        if (filterMode_ == 1 && !item.found) continue;
+                        if (filterMode_ == 2 && item.found) continue;
+
+                        if (!filterStr.empty()) {
+                            std::string lowerSym = item.symbol;
+                            std::transform(lowerSym.begin(), lowerSym.end(), lowerSym.begin(), [](unsigned char c) -> char {
+                                return static_cast<char>(std::tolower(c));
+                            });
+                            if (lowerSym.find(filterStr) == std::string::npos) continue;
                         }
+
+                        ImGui::PushID(rowIndex);
+                        ImGui::TableNextRow();
+
+                        ImGui::TableSetColumnIndex(0);
+                        if (item.found) {
+                            ImGui::TextColored(ImVec4(0.0f, 1.0f, 0.0f, 1.0f), "[OK]");
+                        } else {
+                            ImGui::TextColored(ImVec4(1.0f, 0.3f, 0.3f, 1.0f), "[MISSING]");
+                            if (ImGui::IsItemHovered()) {
+                                ImGui::BeginTooltip();
+                                ImGui::TextColored(ImVec4(1.0f, 0.4f, 0.4f, 1.0f), "Reason: %s", item.failureReason.c_str());
+                                ImGui::EndTooltip();
+                            }
+                        }
+
+                        ImGui::TableSetColumnIndex(1);
+                        if (ImGui::Selectable(item.symbol.c_str(), selectedItem_.symbol == item.symbol, ImGuiSelectableFlags_SpanAllColumns)) {
+                            selectedItem_ = item;
+                            hasSelection_ = true;
+                        }
+                        if (ImGui::IsItemHovered()) {
+                            ImGui::BeginTooltip();
+                            if (item.found) {
+                                ImGui::TextColored(ImVec4(0.4f, 1.0f, 0.4f, 1.0f), "%s", item.failureReason.c_str());
+                            } else {
+                                ImGui::TextColored(ImVec4(1.0f, 0.4f, 0.4f, 1.0f), "Reason: %s", item.failureReason.c_str());
+                            }
+                            ImGui::EndTooltip();
+                        }
+
+                        ImGui::TableSetColumnIndex(2);
+                        if (item.found) {
+                            ImGui::Text("0x%08X", item.address);
+                        } else {
+                            ImGui::TextDisabled("0x00000000");
+                        }
+
+                        ImGui::TableSetColumnIndex(3);
+                        ImGui::TextDisabled("%s", item.moduleName.c_str());
+
+                        ImGui::PopID();
                     }
-                    ImGui::TreePop();
+
+                    ImGui::EndTable();
                 }
+                ImGui::EndChild();
             }
             ImGui::EndTabItem();
         }
 
-        if (ImGui::BeginTabItem("C++ Output Header")) {
+        if (ImGui::BeginTabItem("Generated C++ Offsets Header")) {
             if (generatedCppHeader_.empty()) {
-                ImGui::TextDisabled("C++ header will be generated after scanning.");
+                ImGui::TextDisabled("C++ header will be generated automatically after memory scan.");
             } else {
-                if (ImGui::Button("Copy C++ Header to Clipboard")) {
+                if (ImGui::Button("Copy C++ Header to Clipboard", ImVec2(220, 28))) {
                     ImGui::SetClipboardText(generatedCppHeader_.c_str());
                 }
+                ImGui::SameLine();
+                ImGui::TextDisabled("(Ready to paste into your C++ bot / hook project)");
+
                 ImGui::Separator();
                 ImGui::InputTextMultiline("##CppHeaderOutput", const_cast<char*>(generatedCppHeader_.c_str()), 
                                           generatedCppHeader_.size() + 1, ImVec2(-1, -1), ImGuiInputTextFlags_ReadOnly);

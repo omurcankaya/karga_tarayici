@@ -1,6 +1,8 @@
 #include "KargaTarayici/Strategies/StringXrefStrategy.h"
 #include "KargaTarayici/Engine/PatternScanner.h"
-#include <sstream>
+#include "KargaTarayici/Utils/Logger.h"
+#include <cstring>
+#include <format>
 
 namespace KargaTarayici::Strategies {
 
@@ -17,7 +19,7 @@ Core::Address StringXrefStrategy::FindStringXref(Core::Address moduleBase,
     Core::Address stringAddress = 0;
 
     for (Core::Size i = 0; i <= moduleBytes.size() - stringLen; ++i) {
-        if (std::memcmp(moduleBytes.data() + i, targetString.data(), stringLen) == 0) {
+        if (std::memcmp(moduleBytes.data() + i, targetString.data(), stringLen) == 0 && moduleBytes[i + stringLen] == '\0') {
             stringAddress = moduleBase + i;
             break;
         }
@@ -25,6 +27,16 @@ Core::Address StringXrefStrategy::FindStringXref(Core::Address moduleBase,
 
     if (stringAddress == 0) {
         return 0;
+    }
+
+    for (Core::Size i = 0; i <= moduleBytes.size() - 8; ++i) {
+        uint32_t val = *reinterpret_cast<const uint32_t*>(moduleBytes.data() + i);
+        if (val == stringAddress) {
+            uint32_t wrapperCandidate = *reinterpret_cast<const uint32_t*>(moduleBytes.data() + i + 4);
+            if (wrapperCandidate > moduleBase && wrapperCandidate < moduleBase + moduleSize) {
+                return wrapperCandidate;
+            }
+        }
     }
 
     for (Core::Size i = 0; i <= moduleBytes.size() - 5; ++i) {
@@ -46,12 +58,12 @@ ScanResult StringXrefStrategy::Execute(Core::Address baseAddress,
     result.symbol = rule.targetSymbol;
 
     constexpr Core::Size defaultModuleSize = 10 * 1024 * 1024;
-    Core::Address xrefAddress = FindStringXref(baseAddress, defaultModuleSize, reader, rule.pattern);
-    if (xrefAddress == 0) {
+    Core::Address wrapperFuncAddress = FindStringXref(baseAddress, defaultModuleSize, reader, rule.pattern);
+    if (wrapperFuncAddress == 0) {
         return result;
     }
 
-    return dataFlowStrategy_.Execute(xrefAddress, reader, rule);
+    return dataFlowStrategy_.Execute(wrapperFuncAddress, reader, rule);
 }
 
 }

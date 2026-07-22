@@ -1,6 +1,7 @@
 [
   {
-    "wrapper_name": "appShowWebPage",
+    "wrapper_name": "ShowWebPage",
+    "cpp_wrapper_func": "appShowWebPage",
     "param_signature": [
       "string"
     ],
@@ -13,7 +14,8 @@
     ]
   },
   {
-    "wrapper_name": "appMoveWebPage",
+    "wrapper_name": "MoveWebPage",
+    "cpp_wrapper_func": "appMoveWebPage",
     "param_signature": [],
     "targets": [
       {
@@ -24,7 +26,8 @@
     ]
   },
   {
-    "wrapper_name": "appHideWebPage",
+    "wrapper_name": "HideWebPage",
+    "cpp_wrapper_func": "appHideWebPage",
     "param_signature": [],
     "targets": [
       {
@@ -35,7 +38,8 @@
     ]
   },
   {
-    "wrapper_name": "appIsWebPageMode",
+    "wrapper_name": "IsWebPageMode",
+    "cpp_wrapper_func": "appIsWebPageMode",
     "param_signature": [],
     "targets": [
       {
@@ -46,7 +50,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetMinFog",
+    "wrapper_name": "SetMinFog",
+    "cpp_wrapper_func": "appSetMinFog",
     "param_signature": [
       "float"
     ],
@@ -59,7 +64,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetFrameSkip",
+    "wrapper_name": "SetFrameSkip",
+    "cpp_wrapper_func": "appSetFrameSkip",
     "param_signature": [
       "int"
     ],
@@ -72,7 +78,8 @@
     ]
   },
   {
-    "wrapper_name": "appIsExistFile",
+    "wrapper_name": "IsExistFile",
+    "cpp_wrapper_func": "appIsExistFile",
     "param_signature": [
       "string"
     ],
@@ -85,7 +92,8 @@
     ]
   },
   {
-    "wrapper_name": "appUpdateGame",
+    "wrapper_name": "UpdateGame",
+    "cpp_wrapper_func": "appUpdateGame",
     "param_signature": [],
     "targets": [
       {
@@ -96,7 +104,8 @@
     ]
   },
   {
-    "wrapper_name": "appRenderGame",
+    "wrapper_name": "RenderGame",
+    "cpp_wrapper_func": "appRenderGame",
     "param_signature": [],
     "targets": [
       {
@@ -107,7 +116,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetMouseHandler",
+    "wrapper_name": "SetMouseHandler",
+    "cpp_wrapper_func": "appSetMouseHandler",
     "param_signature": [],
     "targets": [
       {
@@ -118,7 +128,8 @@
     ]
   },
   {
-    "wrapper_name": "appCreate",
+    "wrapper_name": "Create",
+    "cpp_wrapper_func": "appCreate",
     "param_signature": [
       "int",
       "string"
@@ -132,7 +143,8 @@
     ]
   },
   {
-    "wrapper_name": "appLoop",
+    "wrapper_name": "Loop",
+    "cpp_wrapper_func": "appLoop",
     "param_signature": [],
     "targets": [
       {
@@ -143,7 +155,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetInfo",
+    "wrapper_name": "GetInfo",
+    "cpp_wrapper_func": "appGetInfo",
     "param_signature": [
       "int"
     ],
@@ -156,7 +169,8 @@
     ]
   },
   {
-    "wrapper_name": "appProcess",
+    "wrapper_name": "Process",
+    "cpp_wrapper_func": "appProcess",
     "param_signature": [],
     "targets": [
       {
@@ -167,7 +181,8 @@
     ]
   },
   {
-    "wrapper_name": "appAbort",
+    "wrapper_name": "Abort",
+    "cpp_wrapper_func": "appAbort",
     "param_signature": [],
     "targets": [
       {
@@ -178,7 +193,8 @@
     ]
   },
   {
-    "wrapper_name": "appExit",
+    "wrapper_name": "Exit",
+    "cpp_wrapper_func": "appExit",
     "param_signature": [],
     "targets": [
       {
@@ -189,7 +205,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetCamera",
+    "wrapper_name": "SetCamera",
+    "cpp_wrapper_func": "appSetCamera",
     "param_signature": [
       "float"
     ],
@@ -202,7 +219,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetCamera",
+    "wrapper_name": "GetCamera",
+    "cpp_wrapper_func": "appGetCamera",
     "param_signature": [],
     "targets": [
       {
@@ -213,7 +231,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetCameraPitch",
+    "wrapper_name": "GetCameraPitch",
+    "cpp_wrapper_func": "appGetCameraPitch",
     "param_signature": [],
     "targets": [
       {
@@ -224,7 +243,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetCameraRotation",
+    "wrapper_name": "GetCameraRotation",
+    "cpp_wrapper_func": "appGetCameraRotation",
     "param_signature": [],
     "targets": [
       {
@@ -235,7 +255,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetTime",
+    "wrapper_name": "GetTime",
+    "cpp_wrapper_func": "appGetTime",
     "param_signature": [],
     "targets": [
       {
@@ -246,7 +267,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetGlobalTime",
+    "wrapper_name": "GetGlobalTime",
+    "cpp_wrapper_func": "appGetGlobalTime",
     "param_signature": [],
     "targets": [
       {
@@ -257,7 +279,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetGlobalTimeStamp",
+    "wrapper_name": "GetGlobalTimeStamp",
+    "cpp_wrapper_func": "appGetGlobalTimeStamp",
     "param_signature": [],
     "targets": [
       {
@@ -268,7 +291,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetUpdateFPS",
+    "wrapper_name": "GetUpdateFPS",
+    "cpp_wrapper_func": "appGetUpdateFPS",
     "param_signature": [],
     "targets": [
       {
@@ -279,7 +303,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetRenderFPS",
+    "wrapper_name": "GetRenderFPS",
+    "cpp_wrapper_func": "appGetRenderFPS",
     "param_signature": [],
     "targets": [
       {
@@ -290,7 +315,8 @@
     ]
   },
   {
-    "wrapper_name": "appRotateCamera",
+    "wrapper_name": "RotateCamera",
+    "cpp_wrapper_func": "appRotateCamera",
     "param_signature": [
       "int"
     ],
@@ -303,7 +329,8 @@
     ]
   },
   {
-    "wrapper_name": "appPitchCamera",
+    "wrapper_name": "PitchCamera",
+    "cpp_wrapper_func": "appPitchCamera",
     "param_signature": [
       "int"
     ],
@@ -316,7 +343,8 @@
     ]
   },
   {
-    "wrapper_name": "appZoomCamera",
+    "wrapper_name": "ZoomCamera",
+    "cpp_wrapper_func": "appZoomCamera",
     "param_signature": [
       "int"
     ],
@@ -329,7 +357,8 @@
     ]
   },
   {
-    "wrapper_name": "appMovieRotateCamera",
+    "wrapper_name": "MovieRotateCamera",
+    "cpp_wrapper_func": "appMovieRotateCamera",
     "param_signature": [
       "int"
     ],
@@ -342,7 +371,8 @@
     ]
   },
   {
-    "wrapper_name": "appMoviePitchCamera",
+    "wrapper_name": "MoviePitchCamera",
+    "cpp_wrapper_func": "appMoviePitchCamera",
     "param_signature": [
       "int"
     ],
@@ -355,7 +385,8 @@
     ]
   },
   {
-    "wrapper_name": "appMovieZoomCamera",
+    "wrapper_name": "MovieZoomCamera",
+    "cpp_wrapper_func": "appMovieZoomCamera",
     "param_signature": [
       "int"
     ],
@@ -368,7 +399,8 @@
     ]
   },
   {
-    "wrapper_name": "appMovieResetCamera",
+    "wrapper_name": "MovieResetCamera",
+    "cpp_wrapper_func": "appMovieResetCamera",
     "param_signature": [],
     "targets": [
       {
@@ -379,7 +411,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetFaceSpeed",
+    "wrapper_name": "GetFaceSpeed",
+    "cpp_wrapper_func": "appGetFaceSpeed",
     "param_signature": [],
     "targets": [
       {
@@ -390,7 +423,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetRenderTime",
+    "wrapper_name": "GetRenderTime",
+    "cpp_wrapper_func": "appGetRenderTime",
     "param_signature": [],
     "targets": [
       {
@@ -406,7 +440,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetUpdateTime",
+    "wrapper_name": "GetUpdateTime",
+    "cpp_wrapper_func": "appGetUpdateTime",
     "param_signature": [],
     "targets": [
       {
@@ -417,7 +452,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetLoad",
+    "wrapper_name": "GetLoad",
+    "cpp_wrapper_func": "appGetLoad",
     "param_signature": [],
     "targets": [
       {
@@ -428,7 +464,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetFaceCount",
+    "wrapper_name": "GetFaceCount",
+    "cpp_wrapper_func": "appGetFaceCount",
     "param_signature": [],
     "targets": [
       {
@@ -439,7 +476,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetFPS",
+    "wrapper_name": "SetFPS",
+    "cpp_wrapper_func": "appSetFPS",
     "param_signature": [
       "int"
     ],
@@ -452,7 +490,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetGlobalCenterPosition",
+    "wrapper_name": "SetGlobalCenterPosition",
+    "cpp_wrapper_func": "appSetGlobalCenterPosition",
     "param_signature": [
       "int"
     ],
@@ -465,7 +504,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetCenterPosition",
+    "wrapper_name": "SetCenterPosition",
+    "cpp_wrapper_func": "appSetCenterPosition",
     "param_signature": [
       "float"
     ],
@@ -478,7 +518,8 @@
     ]
   },
   {
-    "wrapper_name": "appRunPythonFile",
+    "wrapper_name": "RunPythonFile",
+    "cpp_wrapper_func": "appRunPythonFile",
     "param_signature": [
       "string"
     ],
@@ -491,7 +532,8 @@
     ]
   },
   {
-    "wrapper_name": "appIsPressed",
+    "wrapper_name": "IsPressed",
+    "cpp_wrapper_func": "appIsPressed",
     "param_signature": [
       "int"
     ],
@@ -504,7 +546,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetCursor",
+    "wrapper_name": "SetCursor",
+    "cpp_wrapper_func": "appSetCursor",
     "param_signature": [
       "int",
       "string"
@@ -523,7 +566,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetCursor",
+    "wrapper_name": "GetCursor",
+    "cpp_wrapper_func": "appGetCursor",
     "param_signature": [],
     "targets": [
       {
@@ -534,7 +578,8 @@
     ]
   },
   {
-    "wrapper_name": "appShowCursor",
+    "wrapper_name": "ShowCursor",
+    "cpp_wrapper_func": "appShowCursor",
     "param_signature": [],
     "targets": [
       {
@@ -545,7 +590,8 @@
     ]
   },
   {
-    "wrapper_name": "appHideCursor",
+    "wrapper_name": "HideCursor",
+    "cpp_wrapper_func": "appHideCursor",
     "param_signature": [],
     "targets": [
       {
@@ -556,7 +602,8 @@
     ]
   },
   {
-    "wrapper_name": "appIsShowCursor",
+    "wrapper_name": "IsShowCursor",
+    "cpp_wrapper_func": "appIsShowCursor",
     "param_signature": [],
     "targets": [
       {
@@ -567,7 +614,8 @@
     ]
   },
   {
-    "wrapper_name": "appIsLiarCursorOn",
+    "wrapper_name": "IsLiarCursorOn",
+    "cpp_wrapper_func": "appIsLiarCursorOn",
     "param_signature": [],
     "targets": [
       {
@@ -578,7 +626,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetSoftwareCursor",
+    "wrapper_name": "SetSoftwareCursor",
+    "cpp_wrapper_func": "appSetSoftwareCursor",
     "param_signature": [],
     "targets": [
       {
@@ -589,7 +638,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetHardwareCursor",
+    "wrapper_name": "SetHardwareCursor",
+    "cpp_wrapper_func": "appSetHardwareCursor",
     "param_signature": [],
     "targets": [
       {
@@ -600,7 +650,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetConnectData",
+    "wrapper_name": "SetConnectData",
+    "cpp_wrapper_func": "appSetConnectData",
     "param_signature": [
       "int",
       "string"
@@ -614,7 +665,8 @@
     ]
   },
   {
-    "wrapper_name": "appGetConnectData",
+    "wrapper_name": "GetConnectData",
+    "cpp_wrapper_func": "appGetConnectData",
     "param_signature": [],
     "targets": [
       {
@@ -625,7 +677,8 @@
     ]
   },
   {
-    "wrapper_name": "appEnableSpecialCameraMode",
+    "wrapper_name": "EnableSpecialCameraMode",
+    "cpp_wrapper_func": "appEnableSpecialCameraMode",
     "param_signature": [],
     "targets": [
       {
@@ -636,7 +689,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetCameraSpeed",
+    "wrapper_name": "SetCameraSpeed",
+    "cpp_wrapper_func": "appSetCameraSpeed",
     "param_signature": [
       "int"
     ],
@@ -654,7 +708,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetCameraSetting",
+    "wrapper_name": "SetCameraSetting",
+    "cpp_wrapper_func": "appSetCameraSetting",
     "param_signature": [
       "int"
     ],
@@ -667,7 +722,8 @@
     ]
   },
   {
-    "wrapper_name": "appSaveCameraSetting",
+    "wrapper_name": "SaveCameraSetting",
+    "cpp_wrapper_func": "appSaveCameraSetting",
     "param_signature": [
       "string"
     ],
@@ -680,7 +736,8 @@
     ]
   },
   {
-    "wrapper_name": "appLoadCameraSetting",
+    "wrapper_name": "LoadCameraSetting",
+    "cpp_wrapper_func": "appLoadCameraSetting",
     "param_signature": [
       "string"
     ],
@@ -693,7 +750,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetDefaultCamera",
+    "wrapper_name": "SetDefaultCamera",
+    "cpp_wrapper_func": "appSetDefaultCamera",
     "param_signature": [],
     "targets": [
       {
@@ -704,7 +762,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetSightRange",
+    "wrapper_name": "SetSightRange",
+    "cpp_wrapper_func": "appSetSightRange",
     "param_signature": [
       "int"
     ],
@@ -717,7 +776,8 @@
     ]
   },
   {
-    "wrapper_name": "appSetGuildMarkPath",
+    "wrapper_name": "SetGuildMarkPath",
+    "cpp_wrapper_func": "appSetGuildMarkPath",
     "param_signature": [
       "string"
     ],
@@ -730,7 +790,8 @@
     ]
   },
   {
-    "wrapper_name": "appLogoOpen",
+    "wrapper_name": "OnLogoOpen",
+    "cpp_wrapper_func": "appLogoOpen",
     "param_signature": [
       "string"
     ],
@@ -748,7 +809,8 @@
     ]
   },
   {
-    "wrapper_name": "appLogoUpdate",
+    "wrapper_name": "OnLogoUpdate",
+    "cpp_wrapper_func": "appLogoUpdate",
     "param_signature": [],
     "targets": [
       {
@@ -759,7 +821,8 @@
     ]
   },
   {
-    "wrapper_name": "appLogoRender",
+    "wrapper_name": "OnLogoRender",
+    "cpp_wrapper_func": "appLogoRender",
     "param_signature": [],
     "targets": [
       {
@@ -770,7 +833,8 @@
     ]
   },
   {
-    "wrapper_name": "appLogoClose",
+    "wrapper_name": "OnLogoClose",
+    "cpp_wrapper_func": "appLogoClose",
     "param_signature": [],
     "targets": [
       {
@@ -781,7 +845,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundIsSoftwareTiling",
+    "wrapper_name": "IsSoftwareTiling",
+    "cpp_wrapper_func": "backgroundIsSoftwareTiling",
     "param_signature": [],
     "targets": [
       {
@@ -792,7 +857,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundEnableSoftwareTiling",
+    "wrapper_name": "EnableSoftwareTiling",
+    "cpp_wrapper_func": "backgroundEnableSoftwareTiling",
     "param_signature": [
       "int"
     ],
@@ -810,7 +876,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundEnableSnow",
+    "wrapper_name": "EnableSnow",
+    "cpp_wrapper_func": "backgroundEnableSnow",
     "param_signature": [
       "int"
     ],
@@ -828,7 +895,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundLoadMap",
+    "wrapper_name": "LoadMap",
+    "cpp_wrapper_func": "backgroundLoadMap",
     "param_signature": [
       "string",
       "float"
@@ -852,7 +920,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundDestroy",
+    "wrapper_name": "Destroy",
+    "cpp_wrapper_func": "backgroundDestroy",
     "param_signature": [],
     "targets": [
       {
@@ -868,7 +937,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRegisterEnvironmentData",
+    "wrapper_name": "RegisterEnvironmentData",
+    "cpp_wrapper_func": "backgroundRegisterEnvironmentData",
     "param_signature": [
       "int",
       "string"
@@ -882,7 +952,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetEnvironmentData",
+    "wrapper_name": "SetEnvironmentData",
+    "cpp_wrapper_func": "backgroundSetEnvironmentData",
     "param_signature": [
       "int"
     ],
@@ -900,7 +971,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGetCurrentMapName",
+    "wrapper_name": "GetCurrentMapName",
+    "cpp_wrapper_func": "backgroundGetCurrentMapName",
     "param_signature": [],
     "targets": [
       {
@@ -911,7 +983,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGetPickingPoint",
+    "wrapper_name": "GetPickingPoint",
+    "cpp_wrapper_func": "backgroundGetPickingPoint",
     "param_signature": [],
     "targets": [
       {
@@ -922,7 +995,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundBeginEnvironment",
+    "wrapper_name": "BeginEnvironment",
+    "cpp_wrapper_func": "backgroundBeginEnvironment",
     "param_signature": [],
     "targets": [
       {
@@ -933,7 +1007,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundEndEnvironemt",
+    "wrapper_name": "EndEnvironment",
+    "cpp_wrapper_func": "backgroundEndEnvironemt",
     "param_signature": [],
     "targets": [
       {
@@ -944,7 +1019,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetCharacterDirLight",
+    "wrapper_name": "SetCharacterDirLight",
+    "cpp_wrapper_func": "backgroundSetCharacterDirLight",
     "param_signature": [],
     "targets": [
       {
@@ -955,7 +1031,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetBackgroundDirLight",
+    "wrapper_name": "SetBackgroundDirLight",
+    "cpp_wrapper_func": "backgroundSetBackgroundDirLight",
     "param_signature": [],
     "targets": [
       {
@@ -966,7 +1043,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundInitialize",
+    "wrapper_name": "Initialize",
+    "cpp_wrapper_func": "backgroundInitialize",
     "param_signature": [],
     "targets": [
       {
@@ -977,7 +1055,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundUpdate",
+    "wrapper_name": "Update",
+    "cpp_wrapper_func": "backgroundUpdate",
     "param_signature": [
       "float"
     ],
@@ -990,7 +1069,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRender",
+    "wrapper_name": "Render",
+    "cpp_wrapper_func": "backgroundRender",
     "param_signature": [],
     "targets": [
       {
@@ -1001,7 +1081,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRenderPCBlocker",
+    "wrapper_name": "RenderPCBlocker",
+    "cpp_wrapper_func": "backgroundRenderPCBlocker",
     "param_signature": [],
     "targets": [
       {
@@ -1012,7 +1093,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRenderCollision",
+    "wrapper_name": "RenderCollision",
+    "cpp_wrapper_func": "backgroundRenderCollision",
     "param_signature": [],
     "targets": [
       {
@@ -1023,7 +1105,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRenderSky",
+    "wrapper_name": "RenderSky",
+    "cpp_wrapper_func": "backgroundRenderSky",
     "param_signature": [],
     "targets": [
       {
@@ -1034,7 +1117,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRenderCloud",
+    "wrapper_name": "RenderCloud",
+    "cpp_wrapper_func": "backgroundRenderCloud",
     "param_signature": [],
     "targets": [
       {
@@ -1045,7 +1129,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRenderWater",
+    "wrapper_name": "RenderWater",
+    "cpp_wrapper_func": "backgroundRenderWater",
     "param_signature": [],
     "targets": [
       {
@@ -1056,7 +1141,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRenderEffect",
+    "wrapper_name": "RenderEffect",
+    "cpp_wrapper_func": "backgroundRenderEffect",
     "param_signature": [],
     "targets": [
       {
@@ -1067,7 +1153,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRenderBeforeLensFlare",
+    "wrapper_name": "RenderBeforeLensFlare",
+    "cpp_wrapper_func": "backgroundRenderBeforeLensFlare",
     "param_signature": [],
     "targets": [
       {
@@ -1078,7 +1165,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRenderAfterLensFlare",
+    "wrapper_name": "RenderAfterLensFlare",
+    "cpp_wrapper_func": "backgroundRenderAfterLensFlare",
     "param_signature": [],
     "targets": [
       {
@@ -1089,7 +1177,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRenderCharacterShadowToTexture",
+    "wrapper_name": "RenderCharacterShadowToTexture",
+    "cpp_wrapper_func": "backgroundRenderCharacterShadowToTexture",
     "param_signature": [],
     "targets": [
       {
@@ -1100,7 +1189,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGetHeight",
+    "wrapper_name": "GetHeight",
+    "cpp_wrapper_func": "backgroundGetHeight",
     "param_signature": [
       "float"
     ],
@@ -1113,7 +1203,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGetRenderedSplatNum",
+    "wrapper_name": "GetRenderedSplatNum",
+    "cpp_wrapper_func": "backgroundGetRenderedSplatNum",
     "param_signature": [],
     "targets": [
       {
@@ -1124,7 +1215,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGetRenderedGTINum",
+    "wrapper_name": "GetRenderedGraphicThingInstanceNum",
+    "cpp_wrapper_func": "backgroundGetRenderedGTINum",
     "param_signature": [],
     "targets": [
       {
@@ -1135,7 +1227,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGetRenderShadowTime",
+    "wrapper_name": "GetRenderShadowTime",
+    "cpp_wrapper_func": "backgroundGetRenderShadowTime",
     "param_signature": [],
     "targets": [
       {
@@ -1146,7 +1239,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGetShadowMapcolor",
+    "wrapper_name": "GetShadowMapColor",
+    "cpp_wrapper_func": "backgroundGetShadowMapcolor",
     "param_signature": [
       "float"
     ],
@@ -1159,7 +1253,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetShadowLevel",
+    "wrapper_name": "SetShadowLevel",
+    "cpp_wrapper_func": "backgroundSetShadowLevel",
     "param_signature": [
       "int"
     ],
@@ -1172,7 +1267,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetVisiblePart",
+    "wrapper_name": "SetVisiblePart",
+    "cpp_wrapper_func": "backgroundSetVisiblePart",
     "param_signature": [
       "int"
     ],
@@ -1185,7 +1281,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetSpaltLimit",
+    "wrapper_name": "SetSplatLimit",
+    "cpp_wrapper_func": "backgroundSetSpaltLimit",
     "param_signature": [
       "int"
     ],
@@ -1198,7 +1295,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSelectViewDistanceNum",
+    "wrapper_name": "SelectViewDistanceNum",
+    "cpp_wrapper_func": "backgroundSelectViewDistanceNum",
     "param_signature": [
       "int"
     ],
@@ -1211,7 +1309,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetViewDistanceSet",
+    "wrapper_name": "SetViewDistanceSet",
+    "cpp_wrapper_func": "backgroundSetViewDistanceSet",
     "param_signature": [
       "int",
       "float"
@@ -1225,7 +1324,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGetFarClip",
+    "wrapper_name": "GetFarClip",
+    "cpp_wrapper_func": "backgroundGetFarClip",
     "param_signature": [],
     "targets": [
       {
@@ -1236,7 +1336,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGetDistanceSetInfo",
+    "wrapper_name": "GetDistanceSetInfo",
+    "cpp_wrapper_func": "backgroundGetDistanceSetInfo",
     "param_signature": [],
     "targets": [
       {
@@ -1247,7 +1348,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetBGLoading",
+    "wrapper_name": "SetBGLoading",
+    "cpp_wrapper_func": "backgroundSetBGLoading",
     "param_signature": [],
     "targets": [
       {
@@ -1258,7 +1360,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetRenderSort",
+    "wrapper_name": "SetRenderSort",
+    "cpp_wrapper_func": "backgroundSetRenderSort",
     "param_signature": [
       "int"
     ],
@@ -1271,7 +1374,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetTransparentTree",
+    "wrapper_name": "SetTransparentTree",
+    "cpp_wrapper_func": "backgroundSetTransparentTree",
     "param_signature": [
       "int"
     ],
@@ -1284,7 +1388,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGlobalPositionToLocalPosition",
+    "wrapper_name": "GlobalPositionToLocalPosition",
+    "cpp_wrapper_func": "backgroundGlobalPositionToLocalPosition",
     "param_signature": [
       "int"
     ],
@@ -1297,7 +1402,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundGlobalPositionToMapInfo",
+    "wrapper_name": "GlobalPositionToMapInfo",
+    "cpp_wrapper_func": "backgroundGlobalPositionToMapInfo",
     "param_signature": [
       "int"
     ],
@@ -1310,7 +1416,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundWarpTest",
+    "wrapper_name": "WarpTest",
+    "cpp_wrapper_func": "backgroundWarpTest",
     "param_signature": [
       "int"
     ],
@@ -1323,7 +1430,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundSetXMasTree",
+    "wrapper_name": "SetXMasTree",
+    "cpp_wrapper_func": "backgroundSetXMasTree",
     "param_signature": [
       "int"
     ],
@@ -1336,7 +1444,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundRegisterDungeonMapName",
+    "wrapper_name": "RegisterDungeonMapName",
+    "cpp_wrapper_func": "backgroundRegisterDungeonMapName",
     "param_signature": [
       "string"
     ],
@@ -1349,7 +1458,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundVisibleGuildArea",
+    "wrapper_name": "VisibleGuildArea",
+    "cpp_wrapper_func": "backgroundVisibleGuildArea",
     "param_signature": [],
     "targets": [
       {
@@ -1360,7 +1470,8 @@
     ]
   },
   {
-    "wrapper_name": "backgroundDisableGuildArea",
+    "wrapper_name": "DisableGuildArea",
+    "cpp_wrapper_func": "backgroundDisableGuildArea",
     "param_signature": [],
     "targets": [
       {
@@ -1371,7 +1482,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrSetEmpireNameMode",
+    "wrapper_name": "SetEmpireNameMode",
+    "cpp_wrapper_func": "chrmgrSetEmpireNameMode",
     "param_signature": [
       "int"
     ],
@@ -1384,7 +1496,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrGetPickedVID",
+    "wrapper_name": "GetPickedVID",
+    "cpp_wrapper_func": "chrmgrGetPickedVID",
     "param_signature": [],
     "targets": [
       {
@@ -1395,7 +1508,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrGetVIDInfo",
+    "wrapper_name": "GetVIDInfo",
+    "cpp_wrapper_func": "chrmgrGetVIDInfo",
     "param_signature": [
       "int"
     ],
@@ -1428,7 +1542,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrSetPathName",
+    "wrapper_name": "SetPathName",
+    "cpp_wrapper_func": "chrmgrSetPathName",
     "param_signature": [
       "string"
     ],
@@ -1441,7 +1556,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrCreateRace",
+    "wrapper_name": "CreateRace",
+    "cpp_wrapper_func": "chrmgrCreateRace",
     "param_signature": [
       "int"
     ],
@@ -1454,7 +1570,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrSelectRace",
+    "wrapper_name": "SelectRace",
+    "cpp_wrapper_func": "chrmgrSelectRace",
     "param_signature": [
       "int"
     ],
@@ -1467,7 +1584,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterAttachingBoneName",
+    "wrapper_name": "RegisterAttachingBoneName",
+    "cpp_wrapper_func": "chrmgrRegisterAttachingBoneName",
     "param_signature": [
       "int",
       "string"
@@ -1481,7 +1599,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterMotionMode",
+    "wrapper_name": "RegisterMotionMode",
+    "cpp_wrapper_func": "chrmgrRegisterMotionMode",
     "param_signature": [
       "int"
     ],
@@ -1494,7 +1613,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrSetMotionRandomWeight",
+    "wrapper_name": "SetMotionRandomWeight",
+    "cpp_wrapper_func": "chrmgrSetMotionRandomWeight",
     "param_signature": [
       "int"
     ],
@@ -1507,7 +1627,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterNormalAttack",
+    "wrapper_name": "RegisterNormalAttack",
+    "cpp_wrapper_func": "chrmgrRegisterNormalAttack",
     "param_signature": [
       "int"
     ],
@@ -1520,7 +1641,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrReserveComboAttack",
+    "wrapper_name": "ReserveComboAttack",
+    "cpp_wrapper_func": "chrmgrReserveComboAttack",
     "param_signature": [
       "int"
     ],
@@ -1533,7 +1655,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterComboAttack",
+    "wrapper_name": "RegisterComboAttack",
+    "cpp_wrapper_func": "chrmgrRegisterComboAttack",
     "param_signature": [
       "int"
     ],
@@ -1546,7 +1669,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrReserveComboAttackNew",
+    "wrapper_name": "ReserveComboAttackNew",
+    "cpp_wrapper_func": "chrmgrReserveComboAttackNew",
     "param_signature": [
       "int"
     ],
@@ -1559,7 +1683,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterComboAttackNew",
+    "wrapper_name": "RegisterComboAttackNew",
+    "cpp_wrapper_func": "chrmgrRegisterComboAttackNew",
     "param_signature": [
       "int"
     ],
@@ -1572,7 +1697,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrLoadRaceData",
+    "wrapper_name": "LoadRaceData",
+    "cpp_wrapper_func": "chrmgrLoadRaceData",
     "param_signature": [
       "string"
     ],
@@ -1590,7 +1716,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrLoadLocalRaceData",
+    "wrapper_name": "LoadLocalRaceData",
+    "cpp_wrapper_func": "chrmgrLoadLocalRaceData",
     "param_signature": [
       "string"
     ],
@@ -1603,7 +1730,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterMotion",
+    "wrapper_name": "RegisterMotion",
+    "cpp_wrapper_func": "chrmgrRegisterMotion",
     "param_signature": [
       "int",
       "string"
@@ -1622,7 +1750,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterCacheMotionData",
+    "wrapper_name": "RegisterCacheMotionData",
+    "cpp_wrapper_func": "chrmgrRegisterCacheMotionData",
     "param_signature": [
       "int",
       "string"
@@ -1646,7 +1775,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterMotionData",
+    "wrapper_name": "RegisterMotionData",
+    "cpp_wrapper_func": "chrmgrRegisterMotionData",
     "param_signature": [
       "int",
       "string"
@@ -1665,7 +1795,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterRaceSrcName",
+    "wrapper_name": "RegisterRaceSrcName",
+    "cpp_wrapper_func": "chrmgrRegisterRaceSrcName",
     "param_signature": [
       "string"
     ],
@@ -1678,7 +1809,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterRaceName",
+    "wrapper_name": "RegisterRaceName",
+    "cpp_wrapper_func": "chrmgrRegisterRaceName",
     "param_signature": [
       "int",
       "string"
@@ -1692,7 +1824,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrSetShapeModel",
+    "wrapper_name": "SetShapeModel",
+    "cpp_wrapper_func": "chrmgrSetShapeModel",
     "param_signature": [
       "int",
       "string"
@@ -1706,7 +1839,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrAppendShapeSkin",
+    "wrapper_name": "AppendShapeSkin",
+    "cpp_wrapper_func": "chrmgrAppendShapeSkin",
     "param_signature": [
       "int",
       "string"
@@ -1720,7 +1854,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrSetMovingSpeed",
+    "wrapper_name": "SetMovingSpeed",
+    "cpp_wrapper_func": "chrmgrSetMovingSpeed",
     "param_signature": [
       "int"
     ],
@@ -1733,7 +1868,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrRegisterPointEffect",
+    "wrapper_name": "RegisterPointEffect",
+    "cpp_wrapper_func": "chrmgrRegisterPointEffect",
     "param_signature": [
       "int",
       "string"
@@ -1747,7 +1883,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrShowPointEffect",
+    "wrapper_name": "ShowPointEffect",
+    "cpp_wrapper_func": "chrmgrShowPointEffect",
     "param_signature": [
       "int"
     ],
@@ -1760,7 +1897,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrSetAffect",
+    "wrapper_name": "SetAffect",
+    "cpp_wrapper_func": "chrmgrSetAffect",
     "param_signature": [
       "int"
     ],
@@ -1773,7 +1911,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrSetEmoticon",
+    "wrapper_name": "SetEmoticon",
+    "cpp_wrapper_func": "chrmgrSetEmoticon",
     "param_signature": [
       "int"
     ],
@@ -1786,7 +1925,8 @@
     ]
   },
   {
-    "wrapper_name": "chrmgrIsPossibleEmoticon",
+    "wrapper_name": "IsPossibleEmoticon",
+    "cpp_wrapper_func": "chrmgrIsPossibleEmoticon",
     "param_signature": [
       "int"
     ],
@@ -1799,7 +1939,8 @@
     ]
   },
   {
-    "wrapper_name": "chrDestroy",
+    "wrapper_name": "Destroy",
+    "cpp_wrapper_func": "chrDestroy",
     "param_signature": [],
     "targets": [
       {
@@ -1810,7 +1951,8 @@
     ]
   },
   {
-    "wrapper_name": "chrUpdate",
+    "wrapper_name": "Update",
+    "cpp_wrapper_func": "chrUpdate",
     "param_signature": [],
     "targets": [
       {
@@ -1821,7 +1963,8 @@
     ]
   },
   {
-    "wrapper_name": "chrDeform",
+    "wrapper_name": "Deform",
+    "cpp_wrapper_func": "chrDeform",
     "param_signature": [],
     "targets": [
       {
@@ -1832,7 +1975,8 @@
     ]
   },
   {
-    "wrapper_name": "chrRender",
+    "wrapper_name": "Render",
+    "cpp_wrapper_func": "chrRender",
     "param_signature": [],
     "targets": [
       {
@@ -1843,7 +1987,8 @@
     ]
   },
   {
-    "wrapper_name": "chrRenderCollision",
+    "wrapper_name": "RenderCollision",
+    "cpp_wrapper_func": "chrRenderCollision",
     "param_signature": [],
     "targets": [
       {
@@ -1854,7 +1999,8 @@
     ]
   },
   {
-    "wrapper_name": "chrCreateInstance",
+    "wrapper_name": "CreateInstance",
+    "cpp_wrapper_func": "chrCreateInstance",
     "param_signature": [
       "int"
     ],
@@ -1872,7 +2018,8 @@
     ]
   },
   {
-    "wrapper_name": "chrDeleteInstance",
+    "wrapper_name": "DeleteInstance",
+    "cpp_wrapper_func": "chrDeleteInstance",
     "param_signature": [
       "int"
     ],
@@ -1885,7 +2032,8 @@
     ]
   },
   {
-    "wrapper_name": "chrDeleteInstanceByFade",
+    "wrapper_name": "DeleteInstanceByFade",
+    "cpp_wrapper_func": "chrDeleteInstanceByFade",
     "param_signature": [
       "int"
     ],
@@ -1898,7 +2046,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSelectInstance",
+    "wrapper_name": "SelectInstance",
+    "cpp_wrapper_func": "chrSelectInstance",
     "param_signature": [
       "int"
     ],
@@ -1911,7 +2060,8 @@
     ]
   },
   {
-    "wrapper_name": "chrHasInstance",
+    "wrapper_name": "HasInstance",
+    "cpp_wrapper_func": "chrHasInstance",
     "param_signature": [
       "int"
     ],
@@ -1924,7 +2074,8 @@
     ]
   },
   {
-    "wrapper_name": "chrIsEnemy",
+    "wrapper_name": "IsEnemy",
+    "cpp_wrapper_func": "chrIsEnemy",
     "param_signature": [
       "int"
     ],
@@ -1937,7 +2088,8 @@
     ]
   },
   {
-    "wrapper_name": "chrIsNPC",
+    "wrapper_name": "IsNPC",
+    "cpp_wrapper_func": "chrIsNPC",
     "param_signature": [
       "int"
     ],
@@ -1950,7 +2102,8 @@
     ]
   },
   {
-    "wrapper_name": "chrIsGameMaster",
+    "wrapper_name": "IsGameMaster",
+    "cpp_wrapper_func": "chrIsGameMaster",
     "param_signature": [
       "int"
     ],
@@ -1963,7 +2116,8 @@
     ]
   },
   {
-    "wrapper_name": "chrIsPartyMember",
+    "wrapper_name": "IsPartyMember",
+    "cpp_wrapper_func": "chrIsPartyMember",
     "param_signature": [
       "int"
     ],
@@ -1976,7 +2130,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSelect",
+    "wrapper_name": "Select",
+    "cpp_wrapper_func": "chrSelect",
     "param_signature": [
       "int"
     ],
@@ -1994,7 +2149,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetAddRenderMode",
+    "wrapper_name": "SetAddRenderMode",
+    "cpp_wrapper_func": "chrSetAddRenderMode",
     "param_signature": [
       "int",
       "float"
@@ -2008,7 +2164,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetBlendRenderMode",
+    "wrapper_name": "SetBlendRenderMode",
+    "cpp_wrapper_func": "chrSetBlendRenderMode",
     "param_signature": [
       "int",
       "float"
@@ -2022,7 +2179,8 @@
     ]
   },
   {
-    "wrapper_name": "chrUnselect",
+    "wrapper_name": "Unselect",
+    "cpp_wrapper_func": "chrUnselect",
     "param_signature": [
       "int"
     ],
@@ -2035,7 +2193,8 @@
     ]
   },
   {
-    "wrapper_name": "chrPick",
+    "wrapper_name": "Pick",
+    "cpp_wrapper_func": "chrPick",
     "param_signature": [],
     "targets": [
       {
@@ -2046,7 +2205,8 @@
     ]
   },
   {
-    "wrapper_name": "chrHide",
+    "wrapper_name": "Hide",
+    "cpp_wrapper_func": "chrHide",
     "param_signature": [],
     "targets": [
       {
@@ -2057,7 +2217,8 @@
     ]
   },
   {
-    "wrapper_name": "chrShow",
+    "wrapper_name": "Show",
+    "cpp_wrapper_func": "chrShow",
     "param_signature": [],
     "targets": [
       {
@@ -2068,7 +2229,8 @@
     ]
   },
   {
-    "wrapper_name": "chrPickAll",
+    "wrapper_name": "PickAll",
+    "cpp_wrapper_func": "chrPickAll",
     "param_signature": [],
     "targets": [
       {
@@ -2079,7 +2241,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetRace",
+    "wrapper_name": "SetRace",
+    "cpp_wrapper_func": "chrSetRace",
     "param_signature": [
       "int"
     ],
@@ -2092,7 +2255,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetHair",
+    "wrapper_name": "SetHair",
+    "cpp_wrapper_func": "chrSetHair",
     "param_signature": [
       "int"
     ],
@@ -2105,7 +2269,8 @@
     ]
   },
   {
-    "wrapper_name": "chrChangeHair",
+    "wrapper_name": "ChangeHair",
+    "cpp_wrapper_func": "chrChangeHair",
     "param_signature": [
       "int"
     ],
@@ -2118,7 +2283,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetArmor",
+    "wrapper_name": "SetArmor",
+    "cpp_wrapper_func": "chrSetArmor",
     "param_signature": [
       "int"
     ],
@@ -2131,7 +2297,8 @@
     ]
   },
   {
-    "wrapper_name": "chrChangeShape",
+    "wrapper_name": "ChangeShape",
+    "cpp_wrapper_func": "chrChangeShape",
     "param_signature": [
       "int"
     ],
@@ -2144,7 +2311,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetWeapon",
+    "wrapper_name": "SetWeapon",
+    "cpp_wrapper_func": "chrSetWeapon",
     "param_signature": [
       "int"
     ],
@@ -2157,7 +2325,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetVirtualID",
+    "wrapper_name": "SetVirtualID",
+    "cpp_wrapper_func": "chrSetVirtualID",
     "param_signature": [
       "int"
     ],
@@ -2170,7 +2339,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetNameString",
+    "wrapper_name": "SetNameString",
+    "cpp_wrapper_func": "chrSetNameString",
     "param_signature": [
       "string"
     ],
@@ -2183,7 +2353,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetInstanceType",
+    "wrapper_name": "SetInstanceType",
+    "cpp_wrapper_func": "chrSetInstanceType",
     "param_signature": [
       "int"
     ],
@@ -2196,7 +2367,8 @@
     ]
   },
   {
-    "wrapper_name": "chrAttachEffectByName",
+    "wrapper_name": "AttachEffectByName",
+    "cpp_wrapper_func": "chrAttachEffectByName",
     "param_signature": [
       "int",
       "string"
@@ -2210,7 +2382,8 @@
     ]
   },
   {
-    "wrapper_name": "chrAttachEffectByID",
+    "wrapper_name": "AttachEffectByID",
+    "cpp_wrapper_func": "chrAttachEffectByID",
     "param_signature": [
       "int",
       "string"
@@ -2224,7 +2397,8 @@
     ]
   },
   {
-    "wrapper_name": "chrRefresh",
+    "wrapper_name": "Refresh",
+    "cpp_wrapper_func": "chrRefresh",
     "param_signature": [],
     "targets": [
       {
@@ -2235,7 +2409,8 @@
     ]
   },
   {
-    "wrapper_name": "chrMountHorse",
+    "wrapper_name": "MountHorse",
+    "cpp_wrapper_func": "chrMountHorse",
     "param_signature": [],
     "targets": [
       {
@@ -2246,7 +2421,8 @@
     ]
   },
   {
-    "wrapper_name": "chrDismountHorse",
+    "wrapper_name": "DismountHorse",
+    "cpp_wrapper_func": "chrDismountHorse",
     "param_signature": [],
     "targets": [
       {
@@ -2257,7 +2433,8 @@
     ]
   },
   {
-    "wrapper_name": "chrRevive",
+    "wrapper_name": "Revive",
+    "cpp_wrapper_func": "chrRevive",
     "param_signature": [],
     "targets": [
       {
@@ -2268,7 +2445,8 @@
     ]
   },
   {
-    "wrapper_name": "chrDie",
+    "wrapper_name": "Die",
+    "cpp_wrapper_func": "chrDie",
     "param_signature": [],
     "targets": [
       {
@@ -2279,7 +2457,8 @@
     ]
   },
   {
-    "wrapper_name": "chrLookAt",
+    "wrapper_name": "LookAt",
+    "cpp_wrapper_func": "chrLookAt",
     "param_signature": [
       "int"
     ],
@@ -2292,7 +2471,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetMotionMode",
+    "wrapper_name": "SetMotionMode",
+    "cpp_wrapper_func": "chrSetMotionMode",
     "param_signature": [
       "int"
     ],
@@ -2305,7 +2485,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetLoopMotion",
+    "wrapper_name": "SetLoopMotion",
+    "cpp_wrapper_func": "chrSetLoopMotion",
     "param_signature": [
       "int"
     ],
@@ -2318,7 +2499,8 @@
     ]
   },
   {
-    "wrapper_name": "chrBlendLoopMotion",
+    "wrapper_name": "BlendLoopMotion",
+    "cpp_wrapper_func": "chrBlendLoopMotion",
     "param_signature": [
       "int",
       "float"
@@ -2332,7 +2514,8 @@
     ]
   },
   {
-    "wrapper_name": "chrPushOnceMotion",
+    "wrapper_name": "PushOnceMotion",
+    "cpp_wrapper_func": "chrPushOnceMotion",
     "param_signature": [
       "int",
       "float"
@@ -2346,7 +2529,8 @@
     ]
   },
   {
-    "wrapper_name": "chrPushLoopMotion",
+    "wrapper_name": "PushLoopMotion",
+    "cpp_wrapper_func": "chrPushLoopMotion",
     "param_signature": [
       "int",
       "float"
@@ -2360,7 +2544,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetPixelPosition",
+    "wrapper_name": "SetPixelPosition",
+    "cpp_wrapper_func": "chrSetPixelPosition",
     "param_signature": [
       "int"
     ],
@@ -2373,7 +2558,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetDirection",
+    "wrapper_name": "SetDirection",
+    "cpp_wrapper_func": "chrSetDirection",
     "param_signature": [
       "int"
     ],
@@ -2386,92 +2572,8 @@
     ]
   },
   {
-    "wrapper_name": "chrGetPixelPosition",
-    "param_signature": [
-      "int"
-    ],
-    "targets": [
-      {
-        "class_name": "CPythonCharacterManager",
-        "method_name": "GetInstancePtr",
-        "arg_count": 1
-      }
-    ]
-  },
-  {
-    "wrapper_name": "chrSetRotation",
-    "param_signature": [
-      "float"
-    ],
-    "targets": [
-      {
-        "class_name": "CPythonCharacterManager",
-        "method_name": "GetSelectedInstancePtr",
-        "arg_count": 0
-      }
-    ]
-  },
-  {
-    "wrapper_name": "chrSetRotationAll",
-    "param_signature": [
-      "float"
-    ],
-    "targets": [
-      {
-        "class_name": "CPythonCharacterManager",
-        "method_name": "GetSelectedInstancePtr",
-        "arg_count": 0
-      }
-    ]
-  },
-  {
-    "wrapper_name": "chrBlendRotation",
-    "param_signature": [
-      "float"
-    ],
-    "targets": [
-      {
-        "class_name": "CPythonCharacterManager",
-        "method_name": "GetSelectedInstancePtr",
-        "arg_count": 0
-      }
-    ]
-  },
-  {
-    "wrapper_name": "chrGetRotation",
-    "param_signature": [],
-    "targets": [
-      {
-        "class_name": "CPythonCharacterManager",
-        "method_name": "GetSelectedInstancePtr",
-        "arg_count": 0
-      }
-    ]
-  },
-  {
-    "wrapper_name": "chrGetRace",
-    "param_signature": [],
-    "targets": [
-      {
-        "class_name": "CPythonCharacterManager",
-        "method_name": "GetSelectedInstancePtr",
-        "arg_count": 0
-      }
-    ]
-  },
-  {
-    "wrapper_name": "chrGetName",
-    "param_signature": [],
-    "targets": [
-      {
-        "class_name": "CPythonCharacterManager",
-        "method_name": "GetSelectedInstancePtr",
-        "arg_count": 0
-      }
-    ]
-  },
-  {
-    "wrapper_name": "chrGetNameByVID",
+    "wrapper_name": "GetPixelPosition",
+    "cpp_wrapper_func": "chrGetPixelPosition",
     "param_signature": [
       "int"
     ],
@@ -2484,7 +2586,86 @@
     ]
   },
   {
-    "wrapper_name": "chrGetGuildID",
+    "wrapper_name": "SetRotation",
+    "cpp_wrapper_func": "chrSetRotation",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "SetRotationAll",
+    "cpp_wrapper_func": "chrSetRotationAll",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "BlendRotation",
+    "cpp_wrapper_func": "chrBlendRotation",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "GetRotation",
+    "cpp_wrapper_func": "chrGetRotation",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "GetRace",
+    "cpp_wrapper_func": "chrGetRace",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "GetName",
+    "cpp_wrapper_func": "chrGetName",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "GetNameByVID",
+    "cpp_wrapper_func": "chrGetNameByVID",
     "param_signature": [
       "int"
     ],
@@ -2497,7 +2678,22 @@
     ]
   },
   {
-    "wrapper_name": "chrGetProjectPosition",
+    "wrapper_name": "GetGuildID",
+    "cpp_wrapper_func": "chrGetGuildID",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "GetProjectPosition",
+    "cpp_wrapper_func": "chrGetProjectPosition",
     "param_signature": [
       "int"
     ],
@@ -2515,7 +2711,8 @@
     ]
   },
   {
-    "wrapper_name": "chrGetVirtualNumber",
+    "wrapper_name": "GetVirtualNumber",
+    "cpp_wrapper_func": "chrGetVirtualNumber",
     "param_signature": [
       "int"
     ],
@@ -2528,7 +2725,8 @@
     ]
   },
   {
-    "wrapper_name": "chrGetInstanceType",
+    "wrapper_name": "GetInstanceType",
+    "cpp_wrapper_func": "chrGetInstanceType",
     "param_signature": [
       "int"
     ],
@@ -2541,7 +2739,8 @@
     ]
   },
   {
-    "wrapper_name": "chrGetBoundBoxOnlyXY",
+    "wrapper_name": "GetBoundBoxOnlyXY",
+    "cpp_wrapper_func": "chrGetBoundBoxOnlyXY",
     "param_signature": [],
     "targets": [
       {
@@ -2552,7 +2751,8 @@
     ]
   },
   {
-    "wrapper_name": "chrtestGetPKData",
+    "wrapper_name": "testGetPKData",
+    "cpp_wrapper_func": "chrtestGetPKData",
     "param_signature": [],
     "targets": [
       {
@@ -2563,7 +2763,8 @@
     ]
   },
   {
-    "wrapper_name": "chrtestSetComboType",
+    "wrapper_name": "testSetComboType",
+    "cpp_wrapper_func": "chrtestSetComboType",
     "param_signature": [
       "int"
     ],
@@ -2576,7 +2777,8 @@
     ]
   },
   {
-    "wrapper_name": "chrtestSetAddRenderMode",
+    "wrapper_name": "testSetAddRenderMode",
+    "cpp_wrapper_func": "chrtestSetAddRenderMode",
     "param_signature": [
       "int"
     ],
@@ -2589,7 +2791,8 @@
     ]
   },
   {
-    "wrapper_name": "chrtestSetModulateRenderMode",
+    "wrapper_name": "testSetModulateRenderMode",
+    "cpp_wrapper_func": "chrtestSetModulateRenderMode",
     "param_signature": [
       "int"
     ],
@@ -2602,7 +2805,8 @@
     ]
   },
   {
-    "wrapper_name": "chrtestSetAddRenderModeRGB",
+    "wrapper_name": "testSetAddRenderModeRGB",
+    "cpp_wrapper_func": "chrtestSetAddRenderModeRGB",
     "param_signature": [
       "int",
       "float"
@@ -2616,7 +2820,8 @@
     ]
   },
   {
-    "wrapper_name": "chrtestSetModulateRenderModeRGB",
+    "wrapper_name": "testSetModulateRenderModeRGB",
+    "cpp_wrapper_func": "chrtestSetModulateRenderModeRGB",
     "param_signature": [
       "int",
       "float"
@@ -2630,7 +2835,8 @@
     ]
   },
   {
-    "wrapper_name": "chrtestSetSpecularRenderMode",
+    "wrapper_name": "testSetSpecularRenderMode",
+    "cpp_wrapper_func": "chrtestSetSpecularRenderMode",
     "param_signature": [
       "int",
       "float"
@@ -2644,7 +2850,8 @@
     ]
   },
   {
-    "wrapper_name": "chrtestSetSpecularRenderMode2",
+    "wrapper_name": "testSetSpecularRenderMode2",
+    "cpp_wrapper_func": "chrtestSetSpecularRenderMode2",
     "param_signature": [
       "int",
       "float"
@@ -2658,7 +2865,8 @@
     ]
   },
   {
-    "wrapper_name": "chrtestRestoreRenderMode",
+    "wrapper_name": "testRestoreRenderMode",
+    "cpp_wrapper_func": "chrtestRestoreRenderMode",
     "param_signature": [
       "int"
     ],
@@ -2671,7 +2879,8 @@
     ]
   },
   {
-    "wrapper_name": "chrFaintTest",
+    "wrapper_name": "FaintTest",
+    "cpp_wrapper_func": "chrFaintTest",
     "param_signature": [],
     "targets": [
       {
@@ -2682,7 +2891,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetMoveSpeed",
+    "wrapper_name": "SetMoveSpeed",
+    "cpp_wrapper_func": "chrSetMoveSpeed",
     "param_signature": [
       "int"
     ],
@@ -2695,7 +2905,8 @@
     ]
   },
   {
-    "wrapper_name": "chrSetAttackSpeed",
+    "wrapper_name": "SetAttackSpeed",
+    "cpp_wrapper_func": "chrSetAttackSpeed",
     "param_signature": [
       "int"
     ],
@@ -2708,7 +2919,8 @@
     ]
   },
   {
-    "wrapper_name": "chrWeaponTraceSetTexture",
+    "wrapper_name": "WeaponTraceSetTexture",
+    "cpp_wrapper_func": "chrWeaponTraceSetTexture",
     "param_signature": [
       "string"
     ],
@@ -2721,7 +2933,8 @@
     ]
   },
   {
-    "wrapper_name": "chrWeaponTraceUseTexture",
+    "wrapper_name": "WeaponTraceUseTexture",
+    "cpp_wrapper_func": "chrWeaponTraceUseTexture",
     "param_signature": [],
     "targets": [
       {
@@ -2732,7 +2945,8 @@
     ]
   },
   {
-    "wrapper_name": "chrWeaponTraceUseAlpha",
+    "wrapper_name": "WeaponTraceUseAlpha",
+    "cpp_wrapper_func": "chrWeaponTraceUseAlpha",
     "param_signature": [],
     "targets": [
       {
@@ -2743,7 +2957,8 @@
     ]
   },
   {
-    "wrapper_name": "chrMoveToDestPosition",
+    "wrapper_name": "MoveToDestPosition",
+    "cpp_wrapper_func": "chrMoveToDestPosition",
     "param_signature": [
       "int"
     ],
@@ -2756,7 +2971,8 @@
     ]
   },
   {
-    "wrapper_name": "chrtestSetRideMan",
+    "wrapper_name": "testSetRideMan",
+    "cpp_wrapper_func": "chrtestSetRideMan",
     "param_signature": [
       "int"
     ],
@@ -2769,7 +2985,8 @@
     ]
   },
   {
-    "wrapper_name": "chatSetChatColor",
+    "wrapper_name": "SetChatColor",
+    "cpp_wrapper_func": "chatSetChatColor",
     "param_signature": [
       "int"
     ],
@@ -2782,7 +2999,8 @@
     ]
   },
   {
-    "wrapper_name": "chatClear",
+    "wrapper_name": "Clear",
+    "cpp_wrapper_func": "chatClear",
     "param_signature": [],
     "targets": [
       {
@@ -2793,7 +3011,8 @@
     ]
   },
   {
-    "wrapper_name": "chatClose",
+    "wrapper_name": "Close",
+    "cpp_wrapper_func": "chatClose",
     "param_signature": [],
     "targets": [
       {
@@ -2804,7 +3023,8 @@
     ]
   },
   {
-    "wrapper_name": "chatCreateChatSet",
+    "wrapper_name": "CreateChatSet",
+    "cpp_wrapper_func": "chatCreateChatSet",
     "param_signature": [
       "int"
     ],
@@ -2817,7 +3037,8 @@
     ]
   },
   {
-    "wrapper_name": "chatUpdate",
+    "wrapper_name": "Update",
+    "cpp_wrapper_func": "chatUpdate",
     "param_signature": [
       "int"
     ],
@@ -2830,7 +3051,8 @@
     ]
   },
   {
-    "wrapper_name": "chatRender",
+    "wrapper_name": "Render",
+    "cpp_wrapper_func": "chatRender",
     "param_signature": [
       "int"
     ],
@@ -2843,7 +3065,8 @@
     ]
   },
   {
-    "wrapper_name": "chatSetBoardState",
+    "wrapper_name": "SetBoardState",
+    "cpp_wrapper_func": "chatSetBoardState",
     "param_signature": [
       "int"
     ],
@@ -2856,7 +3079,8 @@
     ]
   },
   {
-    "wrapper_name": "chatSetPosition",
+    "wrapper_name": "SetPosition",
+    "cpp_wrapper_func": "chatSetPosition",
     "param_signature": [
       "int"
     ],
@@ -2869,7 +3093,8 @@
     ]
   },
   {
-    "wrapper_name": "chatSetHeight",
+    "wrapper_name": "SetHeight",
+    "cpp_wrapper_func": "chatSetHeight",
     "param_signature": [
       "int"
     ],
@@ -2882,7 +3107,8 @@
     ]
   },
   {
-    "wrapper_name": "chatSetStep",
+    "wrapper_name": "SetStep",
+    "cpp_wrapper_func": "chatSetStep",
     "param_signature": [
       "int"
     ],
@@ -2895,7 +3121,8 @@
     ]
   },
   {
-    "wrapper_name": "chatToggleChatMode",
+    "wrapper_name": "ToggleChatMode",
+    "cpp_wrapper_func": "chatToggleChatMode",
     "param_signature": [
       "int"
     ],
@@ -2908,7 +3135,8 @@
     ]
   },
   {
-    "wrapper_name": "chatEnableChatMode",
+    "wrapper_name": "EnableChatMode",
+    "cpp_wrapper_func": "chatEnableChatMode",
     "param_signature": [
       "int"
     ],
@@ -2921,7 +3149,8 @@
     ]
   },
   {
-    "wrapper_name": "chatDisableChatMode",
+    "wrapper_name": "DisableChatMode",
+    "cpp_wrapper_func": "chatDisableChatMode",
     "param_signature": [
       "int"
     ],
@@ -2934,7 +3163,8 @@
     ]
   },
   {
-    "wrapper_name": "chatSetEndPos",
+    "wrapper_name": "SetEndPos",
+    "cpp_wrapper_func": "chatSetEndPos",
     "param_signature": [
       "int",
       "float"
@@ -2948,7 +3178,8 @@
     ]
   },
   {
-    "wrapper_name": "chatGetLineCount",
+    "wrapper_name": "GetLineCount",
+    "cpp_wrapper_func": "chatGetLineCount",
     "param_signature": [
       "int"
     ],
@@ -2961,7 +3192,8 @@
     ]
   },
   {
-    "wrapper_name": "chatGetVisibleLineCount",
+    "wrapper_name": "GetVisibleLineCount",
+    "cpp_wrapper_func": "chatGetVisibleLineCount",
     "param_signature": [
       "int"
     ],
@@ -2974,7 +3206,8 @@
     ]
   },
   {
-    "wrapper_name": "chatGetLineStep",
+    "wrapper_name": "GetLineStep",
+    "cpp_wrapper_func": "chatGetLineStep",
     "param_signature": [
       "int"
     ],
@@ -2987,7 +3220,8 @@
     ]
   },
   {
-    "wrapper_name": "chatAppendChat",
+    "wrapper_name": "AppendChat",
+    "cpp_wrapper_func": "chatAppendChat",
     "param_signature": [
       "int",
       "string"
@@ -3001,7 +3235,8 @@
     ]
   },
   {
-    "wrapper_name": "chatAppendChatWithDelay",
+    "wrapper_name": "AppendChatWithDelay",
+    "cpp_wrapper_func": "chatAppendChatWithDelay",
     "param_signature": [
       "int",
       "string"
@@ -3015,7 +3250,8 @@
     ]
   },
   {
-    "wrapper_name": "chatArrangeShowingChat",
+    "wrapper_name": "ArrangeShowingChat",
+    "cpp_wrapper_func": "chatArrangeShowingChat",
     "param_signature": [
       "int"
     ],
@@ -3028,7 +3264,8 @@
     ]
   },
   {
-    "wrapper_name": "chatIgnoreCharacter",
+    "wrapper_name": "IgnoreCharacter",
+    "cpp_wrapper_func": "chatIgnoreCharacter",
     "param_signature": [
       "string"
     ],
@@ -3041,7 +3278,8 @@
     ]
   },
   {
-    "wrapper_name": "chatIsIgnoreCharacter",
+    "wrapper_name": "IsIgnoreCharacter",
+    "cpp_wrapper_func": "chatIsIgnoreCharacter",
     "param_signature": [
       "string"
     ],
@@ -3054,7 +3292,8 @@
     ]
   },
   {
-    "wrapper_name": "chatCreateWhisper",
+    "wrapper_name": "CreateWhisper",
+    "cpp_wrapper_func": "chatCreateWhisper",
     "param_signature": [
       "string"
     ],
@@ -3067,7 +3306,8 @@
     ]
   },
   {
-    "wrapper_name": "chatAppendWhisper",
+    "wrapper_name": "AppendWhisper",
+    "cpp_wrapper_func": "chatAppendWhisper",
     "param_signature": [
       "int",
       "string"
@@ -3081,7 +3321,8 @@
     ]
   },
   {
-    "wrapper_name": "chatRenderWhisper",
+    "wrapper_name": "RenderWhisper",
+    "cpp_wrapper_func": "chatRenderWhisper",
     "param_signature": [
       "string",
       "float"
@@ -3095,7 +3336,8 @@
     ]
   },
   {
-    "wrapper_name": "chatSetWhisperBoxSize",
+    "wrapper_name": "SetWhisperBoxSize",
+    "cpp_wrapper_func": "chatSetWhisperBoxSize",
     "param_signature": [
       "string",
       "float"
@@ -3109,7 +3351,8 @@
     ]
   },
   {
-    "wrapper_name": "chatSetWhisperPosition",
+    "wrapper_name": "SetWhisperPosition",
+    "cpp_wrapper_func": "chatSetWhisperPosition",
     "param_signature": [
       "string",
       "float"
@@ -3123,7 +3366,8 @@
     ]
   },
   {
-    "wrapper_name": "chatClearWhisper",
+    "wrapper_name": "ClearWhisper",
+    "cpp_wrapper_func": "chatClearWhisper",
     "param_signature": [
       "string"
     ],
@@ -3136,7 +3380,8 @@
     ]
   },
   {
-    "wrapper_name": "chatInitWhisper",
+    "wrapper_name": "InitWhisper",
+    "cpp_wrapper_func": "chatInitWhisper",
     "param_signature": [],
     "targets": [
       {
@@ -3147,7 +3392,8 @@
     ]
   },
   {
-    "wrapper_name": "chatGetLinkFromHyperlink",
+    "wrapper_name": "GetLinkFromHyperlink",
+    "cpp_wrapper_func": "chatGetLinkFromHyperlink",
     "param_signature": [
       "string"
     ],
@@ -3160,7 +3406,8 @@
     ]
   },
   {
-    "wrapper_name": "effectRegisterEffect",
+    "wrapper_name": "RegisterEffect",
+    "cpp_wrapper_func": "effectRegisterEffect",
     "param_signature": [
       "string"
     ],
@@ -3173,7 +3420,8 @@
     ]
   },
   {
-    "wrapper_name": "effectUpdate",
+    "wrapper_name": "Update",
+    "cpp_wrapper_func": "effectUpdate",
     "param_signature": [],
     "targets": [
       {
@@ -3184,7 +3432,8 @@
     ]
   },
   {
-    "wrapper_name": "effectRender",
+    "wrapper_name": "Render",
+    "cpp_wrapper_func": "effectRender",
     "param_signature": [],
     "targets": [
       {
@@ -3195,7 +3444,8 @@
     ]
   },
   {
-    "wrapper_name": "effectCreateEffect",
+    "wrapper_name": "CreateEffect",
+    "cpp_wrapper_func": "effectCreateEffect",
     "param_signature": [
       "string"
     ],
@@ -3213,7 +3463,8 @@
     ]
   },
   {
-    "wrapper_name": "effectDeleteEffect",
+    "wrapper_name": "DeleteEffect",
+    "cpp_wrapper_func": "effectDeleteEffect",
     "param_signature": [
       "int"
     ],
@@ -3226,7 +3477,8 @@
     ]
   },
   {
-    "wrapper_name": "effectSetPosition",
+    "wrapper_name": "SetPosition",
+    "cpp_wrapper_func": "effectSetPosition",
     "param_signature": [
       "int",
       "float"
@@ -3245,7 +3497,8 @@
     ]
   },
   {
-    "wrapper_name": "effectRegisterIndexedFlyData",
+    "wrapper_name": "RegisterIndexedFlyData",
+    "cpp_wrapper_func": "effectRegisterIndexedFlyData",
     "param_signature": [
       "int",
       "string"
@@ -3259,7 +3512,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeInitTrading",
+    "wrapper_name": "InitTrading",
+    "cpp_wrapper_func": "exchangeInitTrading",
     "param_signature": [],
     "targets": [
       {
@@ -3270,7 +3524,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeisTrading",
+    "wrapper_name": "isTrading",
+    "cpp_wrapper_func": "exchangeisTrading",
     "param_signature": [],
     "targets": [
       {
@@ -3281,7 +3536,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetElkFromSelf",
+    "wrapper_name": "GetElkFromSelf",
+    "cpp_wrapper_func": "exchangeGetElkFromSelf",
     "param_signature": [],
     "targets": [
       {
@@ -3292,7 +3548,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetElkFromTarget",
+    "wrapper_name": "GetElkFromTarget",
+    "cpp_wrapper_func": "exchangeGetElkFromTarget",
     "param_signature": [],
     "targets": [
       {
@@ -3303,7 +3560,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetAcceptFromSelf",
+    "wrapper_name": "GetAcceptFromSelf",
+    "cpp_wrapper_func": "exchangeGetAcceptFromSelf",
     "param_signature": [],
     "targets": [
       {
@@ -3314,7 +3572,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetAcceptFromTarget",
+    "wrapper_name": "GetAcceptFromTarget",
+    "cpp_wrapper_func": "exchangeGetAcceptFromTarget",
     "param_signature": [],
     "targets": [
       {
@@ -3325,7 +3584,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetItemVnumFromSelf",
+    "wrapper_name": "GetItemVnumFromSelf",
+    "cpp_wrapper_func": "exchangeGetItemVnumFromSelf",
     "param_signature": [
       "int"
     ],
@@ -3338,7 +3598,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetItemVnumFromTarget",
+    "wrapper_name": "GetItemVnumFromTarget",
+    "cpp_wrapper_func": "exchangeGetItemVnumFromTarget",
     "param_signature": [
       "int"
     ],
@@ -3351,7 +3612,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetItemCountFromSelf",
+    "wrapper_name": "GetItemCountFromSelf",
+    "cpp_wrapper_func": "exchangeGetItemCountFromSelf",
     "param_signature": [
       "int"
     ],
@@ -3364,7 +3626,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetItemCountFromTarget",
+    "wrapper_name": "GetItemCountFromTarget",
+    "cpp_wrapper_func": "exchangeGetItemCountFromTarget",
     "param_signature": [
       "int"
     ],
@@ -3377,7 +3640,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetNameFromSelf",
+    "wrapper_name": "GetNameFromSelf",
+    "cpp_wrapper_func": "exchangeGetNameFromSelf",
     "param_signature": [],
     "targets": [
       {
@@ -3388,7 +3652,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetNameFromTarget",
+    "wrapper_name": "GetNameFromTarget",
+    "cpp_wrapper_func": "exchangeGetNameFromTarget",
     "param_signature": [],
     "targets": [
       {
@@ -3399,7 +3664,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetItemMetinSocketFromTarget",
+    "wrapper_name": "GetItemMetinSocketFromTarget",
+    "cpp_wrapper_func": "exchangeGetItemMetinSocketFromTarget",
     "param_signature": [
       "int"
     ],
@@ -3412,7 +3678,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetItemMetinSocketFromSelf",
+    "wrapper_name": "GetItemMetinSocketFromSelf",
+    "cpp_wrapper_func": "exchangeGetItemMetinSocketFromSelf",
     "param_signature": [
       "int"
     ],
@@ -3425,7 +3692,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetItemAttributeFromTarget",
+    "wrapper_name": "GetItemAttributeFromTarget",
+    "cpp_wrapper_func": "exchangeGetItemAttributeFromTarget",
     "param_signature": [
       "int"
     ],
@@ -3438,7 +3706,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetItemAttributeFromSelf",
+    "wrapper_name": "GetItemAttributeFromSelf",
+    "cpp_wrapper_func": "exchangeGetItemAttributeFromSelf",
     "param_signature": [
       "int"
     ],
@@ -3451,7 +3720,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeGetElkMode",
+    "wrapper_name": "GetElkMode",
+    "cpp_wrapper_func": "exchangeGetElkMode",
     "param_signature": [],
     "targets": [
       {
@@ -3462,7 +3732,8 @@
     ]
   },
   {
-    "wrapper_name": "exchangeSetElkMode",
+    "wrapper_name": "SetElkMode",
+    "cpp_wrapper_func": "exchangeSetElkMode",
     "param_signature": [
       "int"
     ],
@@ -3475,7 +3746,8 @@
     ]
   },
   {
-    "wrapper_name": "flyUpdate",
+    "wrapper_name": "Update",
+    "cpp_wrapper_func": "flyUpdate",
     "param_signature": [],
     "targets": [
       {
@@ -3486,7 +3758,8 @@
     ]
   },
   {
-    "wrapper_name": "flyRender",
+    "wrapper_name": "Render",
+    "cpp_wrapper_func": "flyRender",
     "param_signature": [],
     "targets": [
       {
@@ -3497,7 +3770,8 @@
     ]
   },
   {
-    "wrapper_name": "eventMgrUpdate",
+    "wrapper_name": "Update",
+    "cpp_wrapper_func": "eventMgrUpdate",
     "param_signature": [
       "float"
     ],
@@ -3515,7 +3789,8 @@
     ]
   },
   {
-    "wrapper_name": "imeEnable",
+    "wrapper_name": "Enable",
+    "cpp_wrapper_func": "imeEnable",
     "param_signature": [],
     "targets": [
       {
@@ -3526,7 +3801,8 @@
     ]
   },
   {
-    "wrapper_name": "imeDisable",
+    "wrapper_name": "Disable",
+    "cpp_wrapper_func": "imeDisable",
     "param_signature": [],
     "targets": [
       {
@@ -3537,7 +3813,8 @@
     ]
   },
   {
-    "wrapper_name": "imeEnableCaptureInput",
+    "wrapper_name": "EnableCaptureInput",
+    "cpp_wrapper_func": "imeEnableCaptureInput",
     "param_signature": [],
     "targets": [
       {
@@ -3548,7 +3825,8 @@
     ]
   },
   {
-    "wrapper_name": "imeDisableCaptureInput",
+    "wrapper_name": "DisableCaptureInput",
+    "cpp_wrapper_func": "imeDisableCaptureInput",
     "param_signature": [],
     "targets": [
       {
@@ -3559,7 +3837,8 @@
     ]
   },
   {
-    "wrapper_name": "imeSetMax",
+    "wrapper_name": "SetMax",
+    "cpp_wrapper_func": "imeSetMax",
     "param_signature": [
       "int"
     ],
@@ -3572,7 +3851,8 @@
     ]
   },
   {
-    "wrapper_name": "imeSetUserMax",
+    "wrapper_name": "SetUserMax",
+    "cpp_wrapper_func": "imeSetUserMax",
     "param_signature": [
       "int"
     ],
@@ -3585,7 +3865,8 @@
     ]
   },
   {
-    "wrapper_name": "imeSetText",
+    "wrapper_name": "SetText",
+    "cpp_wrapper_func": "imeSetText",
     "param_signature": [
       "string"
     ],
@@ -3598,7 +3879,8 @@
     ]
   },
   {
-    "wrapper_name": "imeGetText",
+    "wrapper_name": "GetText",
+    "cpp_wrapper_func": "imeGetText",
     "param_signature": [
       "int"
     ],
@@ -3611,7 +3893,8 @@
     ]
   },
   {
-    "wrapper_name": "imeGetCodePage",
+    "wrapper_name": "GetCodePage",
+    "cpp_wrapper_func": "imeGetCodePage",
     "param_signature": [],
     "targets": [
       {
@@ -3622,7 +3905,8 @@
     ]
   },
   {
-    "wrapper_name": "imeGetCandidateCount",
+    "wrapper_name": "GetCandidateCount",
+    "cpp_wrapper_func": "imeGetCandidateCount",
     "param_signature": [],
     "targets": [
       {
@@ -3633,7 +3917,8 @@
     ]
   },
   {
-    "wrapper_name": "imeGetCandidate",
+    "wrapper_name": "GetCandidate",
+    "cpp_wrapper_func": "imeGetCandidate",
     "param_signature": [
       "int"
     ],
@@ -3646,7 +3931,8 @@
     ]
   },
   {
-    "wrapper_name": "imeGetCandidateSelection",
+    "wrapper_name": "GetCandidateSelection",
+    "cpp_wrapper_func": "imeGetCandidateSelection",
     "param_signature": [],
     "targets": [
       {
@@ -3657,7 +3943,8 @@
     ]
   },
   {
-    "wrapper_name": "imeGetReading",
+    "wrapper_name": "GetReading",
+    "cpp_wrapper_func": "imeGetReading",
     "param_signature": [],
     "targets": [
       {
@@ -3668,7 +3955,8 @@
     ]
   },
   {
-    "wrapper_name": "imeGetReadingError",
+    "wrapper_name": "GetReadingError",
+    "cpp_wrapper_func": "imeGetReadingError",
     "param_signature": [],
     "targets": [
       {
@@ -3679,7 +3967,8 @@
     ]
   },
   {
-    "wrapper_name": "imeEnableIME",
+    "wrapper_name": "EnableIME",
+    "cpp_wrapper_func": "imeEnableIME",
     "param_signature": [],
     "targets": [
       {
@@ -3690,7 +3979,8 @@
     ]
   },
   {
-    "wrapper_name": "imeDisableIME",
+    "wrapper_name": "DisableIME",
+    "cpp_wrapper_func": "imeDisableIME",
     "param_signature": [],
     "targets": [
       {
@@ -3701,7 +3991,8 @@
     ]
   },
   {
-    "wrapper_name": "imeSetInputMode",
+    "wrapper_name": "SetInputMode",
+    "cpp_wrapper_func": "imeSetInputMode",
     "param_signature": [
       "int"
     ],
@@ -3714,7 +4005,8 @@
     ]
   },
   {
-    "wrapper_name": "imeSetNumberMode",
+    "wrapper_name": "SetNumberMode",
+    "cpp_wrapper_func": "imeSetNumberMode",
     "param_signature": [],
     "targets": [
       {
@@ -3725,7 +4017,8 @@
     ]
   },
   {
-    "wrapper_name": "imeAddExceptKey",
+    "wrapper_name": "AddExceptKey",
+    "cpp_wrapper_func": "imeAddExceptKey",
     "param_signature": [
       "int"
     ],
@@ -3738,7 +4031,8 @@
     ]
   },
   {
-    "wrapper_name": "imeClearExceptKey",
+    "wrapper_name": "ClearExceptKey",
+    "cpp_wrapper_func": "imeClearExceptKey",
     "param_signature": [],
     "targets": [
       {
@@ -3749,7 +4043,8 @@
     ]
   },
   {
-    "wrapper_name": "imeSetStringMode",
+    "wrapper_name": "SetStringMode",
+    "cpp_wrapper_func": "imeSetStringMode",
     "param_signature": [],
     "targets": [
       {
@@ -3760,7 +4055,8 @@
     ]
   },
   {
-    "wrapper_name": "imeGetInputMode",
+    "wrapper_name": "GetInputMode",
+    "cpp_wrapper_func": "imeGetInputMode",
     "param_signature": [],
     "targets": [
       {
@@ -3771,7 +4067,8 @@
     ]
   },
   {
-    "wrapper_name": "imeMoveLeft",
+    "wrapper_name": "MoveLeft",
+    "cpp_wrapper_func": "imeMoveLeft",
     "param_signature": [],
     "targets": [
       {
@@ -3782,7 +4079,8 @@
     ]
   },
   {
-    "wrapper_name": "imeMoveRight",
+    "wrapper_name": "MoveRight",
+    "cpp_wrapper_func": "imeMoveRight",
     "param_signature": [],
     "targets": [
       {
@@ -3793,7 +4091,8 @@
     ]
   },
   {
-    "wrapper_name": "imeMoveHome",
+    "wrapper_name": "MoveHome",
+    "cpp_wrapper_func": "imeMoveHome",
     "param_signature": [],
     "targets": [
       {
@@ -3804,7 +4103,8 @@
     ]
   },
   {
-    "wrapper_name": "imeMoveEnd",
+    "wrapper_name": "MoveEnd",
+    "cpp_wrapper_func": "imeMoveEnd",
     "param_signature": [],
     "targets": [
       {
@@ -3815,7 +4115,8 @@
     ]
   },
   {
-    "wrapper_name": "imeSetCursorPosition",
+    "wrapper_name": "SetCursorPosition",
+    "cpp_wrapper_func": "imeSetCursorPosition",
     "param_signature": [
       "int"
     ],
@@ -3828,7 +4129,8 @@
     ]
   },
   {
-    "wrapper_name": "imeDelete",
+    "wrapper_name": "Delete",
+    "cpp_wrapper_func": "imeDelete",
     "param_signature": [],
     "targets": [
       {
@@ -3839,7 +4141,8 @@
     ]
   },
   {
-    "wrapper_name": "imePasteTextFromClipBoard",
+    "wrapper_name": "PasteTextFromClipBoard",
+    "cpp_wrapper_func": "imePasteTextFromClipBoard",
     "param_signature": [],
     "targets": [
       {
@@ -3850,7 +4153,8 @@
     ]
   },
   {
-    "wrapper_name": "imeEnablePaste",
+    "wrapper_name": "EnablePaste",
+    "cpp_wrapper_func": "imeEnablePaste",
     "param_signature": [
       "int"
     ],
@@ -3863,7 +4167,8 @@
     ]
   },
   {
-    "wrapper_name": "imePasteString",
+    "wrapper_name": "PasteString",
+    "cpp_wrapper_func": "imePasteString",
     "param_signature": [
       "string"
     ],
@@ -3876,7 +4181,8 @@
     ]
   },
   {
-    "wrapper_name": "imePasteBackspace",
+    "wrapper_name": "PasteBackspace",
+    "cpp_wrapper_func": "imePasteBackspace",
     "param_signature": [],
     "targets": [
       {
@@ -3887,7 +4193,8 @@
     ]
   },
   {
-    "wrapper_name": "imePasteReturn",
+    "wrapper_name": "PasteReturn",
+    "cpp_wrapper_func": "imePasteReturn",
     "param_signature": [],
     "targets": [
       {
@@ -3898,7 +4205,8 @@
     ]
   },
   {
-    "wrapper_name": "itemSetUseSoundFileName",
+    "wrapper_name": "SetUseSoundFileName",
+    "cpp_wrapper_func": "itemSetUseSoundFileName",
     "param_signature": [
       "int",
       "string"
@@ -3912,7 +4220,8 @@
     ]
   },
   {
-    "wrapper_name": "itemSetDropSoundFileName",
+    "wrapper_name": "SetDropSoundFileName",
+    "cpp_wrapper_func": "itemSetDropSoundFileName",
     "param_signature": [
       "int",
       "string"
@@ -3926,7 +4235,8 @@
     ]
   },
   {
-    "wrapper_name": "itemSelectItem",
+    "wrapper_name": "SelectItem",
+    "cpp_wrapper_func": "itemSelectItem",
     "param_signature": [
       "int"
     ],
@@ -3944,7 +4254,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetItemName",
+    "wrapper_name": "GetItemName",
+    "cpp_wrapper_func": "itemGetItemName",
     "param_signature": [],
     "targets": [
       {
@@ -3955,7 +4266,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetItemDescription",
+    "wrapper_name": "GetItemDescription",
+    "cpp_wrapper_func": "itemGetItemDescription",
     "param_signature": [],
     "targets": [
       {
@@ -3966,7 +4278,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetItemSummary",
+    "wrapper_name": "GetItemSummary",
+    "cpp_wrapper_func": "itemGetItemSummary",
     "param_signature": [],
     "targets": [
       {
@@ -3977,7 +4290,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetIconImage",
+    "wrapper_name": "GetIconImage",
+    "cpp_wrapper_func": "itemGetIconImage",
     "param_signature": [],
     "targets": [
       {
@@ -3993,7 +4307,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetIconImageFileName",
+    "wrapper_name": "GetIconImageFileName",
+    "cpp_wrapper_func": "itemGetIconImageFileName",
     "param_signature": [],
     "targets": [
       {
@@ -4004,7 +4319,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetItemSize",
+    "wrapper_name": "GetItemSize",
+    "cpp_wrapper_func": "itemGetItemSize",
     "param_signature": [],
     "targets": [
       {
@@ -4015,7 +4331,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetItemType",
+    "wrapper_name": "GetItemType",
+    "cpp_wrapper_func": "itemGetItemType",
     "param_signature": [],
     "targets": [
       {
@@ -4026,7 +4343,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetItemSubType",
+    "wrapper_name": "GetItemSubType",
+    "cpp_wrapper_func": "itemGetItemSubType",
     "param_signature": [],
     "targets": [
       {
@@ -4037,7 +4355,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetIBuyItemPrice",
+    "wrapper_name": "GetIBuyItemPrice",
+    "cpp_wrapper_func": "itemGetIBuyItemPrice",
     "param_signature": [],
     "targets": [
       {
@@ -4048,7 +4367,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetISellItemPrice",
+    "wrapper_name": "GetISellItemPrice",
+    "cpp_wrapper_func": "itemGetISellItemPrice",
     "param_signature": [],
     "targets": [
       {
@@ -4059,7 +4379,8 @@
     ]
   },
   {
-    "wrapper_name": "itemIsAntiFlag",
+    "wrapper_name": "IsAntiFlag",
+    "cpp_wrapper_func": "itemIsAntiFlag",
     "param_signature": [
       "int"
     ],
@@ -4072,7 +4393,8 @@
     ]
   },
   {
-    "wrapper_name": "itemIsFlag",
+    "wrapper_name": "IsFlag",
+    "cpp_wrapper_func": "itemIsFlag",
     "param_signature": [
       "int"
     ],
@@ -4085,7 +4407,8 @@
     ]
   },
   {
-    "wrapper_name": "itemIsWearableFlag",
+    "wrapper_name": "IsWearableFlag",
+    "cpp_wrapper_func": "itemIsWearableFlag",
     "param_signature": [
       "int"
     ],
@@ -4098,7 +4421,8 @@
     ]
   },
   {
-    "wrapper_name": "itemIs1GoldItem",
+    "wrapper_name": "Is1GoldItem",
+    "cpp_wrapper_func": "itemIs1GoldItem",
     "param_signature": [],
     "targets": [
       {
@@ -4109,7 +4433,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetLimit",
+    "wrapper_name": "GetLimit",
+    "cpp_wrapper_func": "itemGetLimit",
     "param_signature": [
       "int"
     ],
@@ -4122,7 +4447,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetAffect",
+    "wrapper_name": "GetAffect",
+    "cpp_wrapper_func": "itemGetAffect",
     "param_signature": [
       "int"
     ],
@@ -4135,7 +4461,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetValue",
+    "wrapper_name": "GetValue",
+    "cpp_wrapper_func": "itemGetValue",
     "param_signature": [
       "int"
     ],
@@ -4148,7 +4475,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetSocket",
+    "wrapper_name": "GetSocket",
+    "cpp_wrapper_func": "itemGetSocket",
     "param_signature": [
       "int"
     ],
@@ -4161,7 +4489,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetIconInstance",
+    "wrapper_name": "GetIconInstance",
+    "cpp_wrapper_func": "itemGetIconInstance",
     "param_signature": [],
     "targets": [
       {
@@ -4172,7 +4501,8 @@
     ]
   },
   {
-    "wrapper_name": "itemIsEquipmentVID",
+    "wrapper_name": "IsEquipmentVID",
+    "cpp_wrapper_func": "itemIsEquipmentVID",
     "param_signature": [
       "int"
     ],
@@ -4190,7 +4520,8 @@
     ]
   },
   {
-    "wrapper_name": "itemGetUseType",
+    "wrapper_name": "GetUseType",
+    "cpp_wrapper_func": "itemGetUseType",
     "param_signature": [
       "int"
     ],
@@ -4208,7 +4539,8 @@
     ]
   },
   {
-    "wrapper_name": "itemIsRefineScroll",
+    "wrapper_name": "IsRefineScroll",
+    "cpp_wrapper_func": "itemIsRefineScroll",
     "param_signature": [
       "int"
     ],
@@ -4226,7 +4558,8 @@
     ]
   },
   {
-    "wrapper_name": "itemIsDetachScroll",
+    "wrapper_name": "IsDetachScroll",
+    "cpp_wrapper_func": "itemIsDetachScroll",
     "param_signature": [
       "int"
     ],
@@ -4244,7 +4577,8 @@
     ]
   },
   {
-    "wrapper_name": "itemCanAddToQuickSlotItem",
+    "wrapper_name": "CanAddToQuickSlotItem",
+    "cpp_wrapper_func": "itemCanAddToQuickSlotItem",
     "param_signature": [
       "int"
     ],
@@ -4262,7 +4596,8 @@
     ]
   },
   {
-    "wrapper_name": "itemIsKey",
+    "wrapper_name": "IsKey",
+    "cpp_wrapper_func": "itemIsKey",
     "param_signature": [
       "int"
     ],
@@ -4280,7 +4615,8 @@
     ]
   },
   {
-    "wrapper_name": "itemIsMetin",
+    "wrapper_name": "IsMetin",
+    "cpp_wrapper_func": "itemIsMetin",
     "param_signature": [
       "int"
     ],
@@ -4298,7 +4634,8 @@
     ]
   },
   {
-    "wrapper_name": "itemRender",
+    "wrapper_name": "Render",
+    "cpp_wrapper_func": "itemRender",
     "param_signature": [],
     "targets": [
       {
@@ -4309,7 +4646,8 @@
     ]
   },
   {
-    "wrapper_name": "itemUpdate",
+    "wrapper_name": "Update",
+    "cpp_wrapper_func": "itemUpdate",
     "param_signature": [],
     "targets": [
       {
@@ -4325,7 +4663,8 @@
     ]
   },
   {
-    "wrapper_name": "itemCreateItem",
+    "wrapper_name": "CreateItem",
+    "cpp_wrapper_func": "itemCreateItem",
     "param_signature": [
       "int",
       "float"
@@ -4339,7 +4678,8 @@
     ]
   },
   {
-    "wrapper_name": "itemDeleteItem",
+    "wrapper_name": "DeleteItem",
+    "cpp_wrapper_func": "itemDeleteItem",
     "param_signature": [
       "int"
     ],
@@ -4352,7 +4692,8 @@
     ]
   },
   {
-    "wrapper_name": "itemPick",
+    "wrapper_name": "Pick",
+    "cpp_wrapper_func": "itemPick",
     "param_signature": [],
     "targets": [
       {
@@ -4363,7 +4704,8 @@
     ]
   },
   {
-    "wrapper_name": "itemLoadItemTable",
+    "wrapper_name": "LoadItemTable",
+    "cpp_wrapper_func": "itemLoadItemTable",
     "param_signature": [
       "string"
     ],
@@ -4376,7 +4718,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapSetScale",
+    "wrapper_name": "SetScale",
+    "cpp_wrapper_func": "miniMapSetScale",
     "param_signature": [
       "float"
     ],
@@ -4389,7 +4732,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapSetCenterPosition",
+    "wrapper_name": "SetCenterPosition",
+    "cpp_wrapper_func": "miniMapSetCenterPosition",
     "param_signature": [
       "float"
     ],
@@ -4402,7 +4746,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapSetMiniMapSize",
+    "wrapper_name": "SetMiniMapSize",
+    "cpp_wrapper_func": "miniMapSetMiniMapSize",
     "param_signature": [
       "float"
     ],
@@ -4415,7 +4760,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapDestroy",
+    "wrapper_name": "Destroy",
+    "cpp_wrapper_func": "miniMapDestroy",
     "param_signature": [],
     "targets": [
       {
@@ -4426,7 +4772,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapCreate",
+    "wrapper_name": "Create",
+    "cpp_wrapper_func": "miniMapCreate",
     "param_signature": [],
     "targets": [
       {
@@ -4437,7 +4784,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapUpdate",
+    "wrapper_name": "Update",
+    "cpp_wrapper_func": "miniMapUpdate",
     "param_signature": [
       "float"
     ],
@@ -4450,7 +4798,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapRender",
+    "wrapper_name": "Render",
+    "cpp_wrapper_func": "miniMapRender",
     "param_signature": [
       "float"
     ],
@@ -4463,7 +4812,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapShow",
+    "wrapper_name": "Show",
+    "cpp_wrapper_func": "miniMapShow",
     "param_signature": [],
     "targets": [
       {
@@ -4474,7 +4824,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapHide",
+    "wrapper_name": "Hide",
+    "cpp_wrapper_func": "miniMapHide",
     "param_signature": [],
     "targets": [
       {
@@ -4485,7 +4836,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapisShow",
+    "wrapper_name": "isShow",
+    "cpp_wrapper_func": "miniMapisShow",
     "param_signature": [],
     "targets": [
       {
@@ -4496,7 +4848,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapScaleUp",
+    "wrapper_name": "ScaleUp",
+    "cpp_wrapper_func": "miniMapScaleUp",
     "param_signature": [],
     "targets": [
       {
@@ -4507,7 +4860,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapScaleDown",
+    "wrapper_name": "ScaleDown",
+    "cpp_wrapper_func": "miniMapScaleDown",
     "param_signature": [],
     "targets": [
       {
@@ -4518,7 +4872,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapGetInfo",
+    "wrapper_name": "GetInfo",
+    "cpp_wrapper_func": "miniMapGetInfo",
     "param_signature": [
       "float"
     ],
@@ -4531,7 +4886,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapLoadAtlas",
+    "wrapper_name": "LoadAtlas",
+    "cpp_wrapper_func": "miniMapLoadAtlas",
     "param_signature": [],
     "targets": [
       {
@@ -4547,7 +4903,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapUpdateAtlas",
+    "wrapper_name": "UpdateAtlas",
+    "cpp_wrapper_func": "miniMapUpdateAtlas",
     "param_signature": [],
     "targets": [
       {
@@ -4558,7 +4915,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapRenderAtlas",
+    "wrapper_name": "RenderAtlas",
+    "cpp_wrapper_func": "miniMapRenderAtlas",
     "param_signature": [
       "float"
     ],
@@ -4571,7 +4929,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapShowAtlas",
+    "wrapper_name": "ShowAtlas",
+    "cpp_wrapper_func": "miniMapShowAtlas",
     "param_signature": [],
     "targets": [
       {
@@ -4582,7 +4941,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapHideAtlas",
+    "wrapper_name": "HideAtlas",
+    "cpp_wrapper_func": "miniMapHideAtlas",
     "param_signature": [],
     "targets": [
       {
@@ -4593,7 +4953,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapisShowAtlas",
+    "wrapper_name": "isShowAtlas",
+    "cpp_wrapper_func": "miniMapisShowAtlas",
     "param_signature": [],
     "targets": [
       {
@@ -4604,7 +4965,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapIsAtlas",
+    "wrapper_name": "IsAtlas",
+    "cpp_wrapper_func": "miniMapIsAtlas",
     "param_signature": [],
     "targets": [
       {
@@ -4615,7 +4977,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapGetAtlasInfo",
+    "wrapper_name": "GetAtlasInfo",
+    "cpp_wrapper_func": "miniMapGetAtlasInfo",
     "param_signature": [
       "float"
     ],
@@ -4628,7 +4991,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapGetAtlasSize",
+    "wrapper_name": "GetAtlasSize",
+    "cpp_wrapper_func": "miniMapGetAtlasSize",
     "param_signature": [],
     "targets": [
       {
@@ -4639,7 +5003,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapAddWayPoint",
+    "wrapper_name": "AddWayPoint",
+    "cpp_wrapper_func": "miniMapAddWayPoint",
     "param_signature": [
       "int",
       "string",
@@ -4654,7 +5019,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapRemoveWayPoint",
+    "wrapper_name": "RemoveWayPoint",
+    "cpp_wrapper_func": "miniMapRemoveWayPoint",
     "param_signature": [
       "int"
     ],
@@ -4667,7 +5033,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapRegisterAtlasWindow",
+    "wrapper_name": "RegisterAtlasWindow",
+    "cpp_wrapper_func": "miniMapRegisterAtlasWindow",
     "param_signature": [],
     "targets": [
       {
@@ -4678,7 +5045,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapUnregisterAtlasWindow",
+    "wrapper_name": "UnregisterAtlasWindow",
+    "cpp_wrapper_func": "miniMapUnregisterAtlasWindow",
     "param_signature": [],
     "targets": [
       {
@@ -4689,7 +5057,8 @@
     ]
   },
   {
-    "wrapper_name": "miniMapGetGuildAreaID",
+    "wrapper_name": "GetGuildAreaID",
+    "cpp_wrapper_func": "miniMapGetGuildAreaID",
     "param_signature": [
       "float"
     ],
@@ -4702,7 +5071,8 @@
     ]
   },
   {
-    "wrapper_name": "udpEnable",
+    "wrapper_name": "Enable",
+    "cpp_wrapper_func": "udpEnable",
     "param_signature": [],
     "targets": [
       {
@@ -4713,7 +5083,8 @@
     ]
   },
   {
-    "wrapper_name": "udpDisable",
+    "wrapper_name": "Disable",
+    "cpp_wrapper_func": "udpDisable",
     "param_signature": [],
     "targets": [
       {
@@ -4724,7 +5095,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetBettingGuildWarValue",
+    "wrapper_name": "GetBettingGuildWarValue",
+    "cpp_wrapper_func": "netGetBettingGuildWarValue",
     "param_signature": [
       "string"
     ],
@@ -4737,7 +5109,8 @@
     ]
   },
   {
-    "wrapper_name": "netStartGame",
+    "wrapper_name": "StartGame",
+    "cpp_wrapper_func": "netStartGame",
     "param_signature": [],
     "targets": [
       {
@@ -4748,7 +5121,8 @@
     ]
   },
   {
-    "wrapper_name": "netWarp",
+    "wrapper_name": "Warp",
+    "cpp_wrapper_func": "netWarp",
     "param_signature": [
       "int"
     ],
@@ -4761,7 +5135,8 @@
     ]
   },
   {
-    "wrapper_name": "netLoadInsultList",
+    "wrapper_name": "LoadInsultList",
+    "cpp_wrapper_func": "netLoadInsultList",
     "param_signature": [
       "string"
     ],
@@ -4774,7 +5149,8 @@
     ]
   },
   {
-    "wrapper_name": "netUploadMark",
+    "wrapper_name": "UploadMark",
+    "cpp_wrapper_func": "netUploadMark",
     "param_signature": [
       "string"
     ],
@@ -4787,7 +5163,8 @@
     ]
   },
   {
-    "wrapper_name": "netUploadSymbol",
+    "wrapper_name": "UploadSymbol",
+    "cpp_wrapper_func": "netUploadSymbol",
     "param_signature": [
       "string"
     ],
@@ -4800,7 +5177,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetGuildID",
+    "wrapper_name": "GetGuildID",
+    "cpp_wrapper_func": "netGetGuildID",
     "param_signature": [],
     "targets": [
       {
@@ -4811,7 +5189,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetEmpireID",
+    "wrapper_name": "GetEmpireID",
+    "cpp_wrapper_func": "netGetEmpireID",
     "param_signature": [],
     "targets": [
       {
@@ -4822,7 +5201,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetMainActorVID",
+    "wrapper_name": "GetMainActorVID",
+    "cpp_wrapper_func": "netGetMainActorVID",
     "param_signature": [],
     "targets": [
       {
@@ -4833,7 +5213,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetMainActorRace",
+    "wrapper_name": "GetMainActorRace",
+    "cpp_wrapper_func": "netGetMainActorRace",
     "param_signature": [],
     "targets": [
       {
@@ -4844,7 +5225,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetMainActorEmpire",
+    "wrapper_name": "GetMainActorEmpire",
+    "cpp_wrapper_func": "netGetMainActorEmpire",
     "param_signature": [],
     "targets": [
       {
@@ -4855,7 +5237,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetMainActorSkillGroup",
+    "wrapper_name": "GetMainActorSkillGroup",
+    "cpp_wrapper_func": "netGetMainActorSkillGroup",
     "param_signature": [],
     "targets": [
       {
@@ -4867,6 +5250,7 @@
   },
   {
     "wrapper_name": "netIsSelectedEmpire",
+    "cpp_wrapper_func": "netIsSelectedEmpire",
     "param_signature": [],
     "targets": [
       {
@@ -4877,7 +5261,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetAccountCharacterSlotDataInteger",
+    "wrapper_name": "GetAccountCharacterSlotDataInteger",
+    "cpp_wrapper_func": "netGetAccountCharacterSlotDataInteger",
     "param_signature": [
       "int"
     ],
@@ -4890,7 +5275,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetAccountCharacterSlotDataString",
+    "wrapper_name": "GetAccountCharacterSlotDataString",
+    "cpp_wrapper_func": "netGetAccountCharacterSlotDataString",
     "param_signature": [
       "int"
     ],
@@ -4903,7 +5289,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetFieldMusicFileName",
+    "wrapper_name": "GetFieldMusicFileName",
+    "cpp_wrapper_func": "netGetFieldMusicFileName",
     "param_signature": [],
     "targets": [
       {
@@ -4914,7 +5301,8 @@
     ]
   },
   {
-    "wrapper_name": "netGetFieldMusicVolume",
+    "wrapper_name": "GetFieldMusicVolume",
+    "cpp_wrapper_func": "netGetFieldMusicVolume",
     "param_signature": [],
     "targets": [
       {
@@ -4925,7 +5313,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetPhaseWindow",
+    "wrapper_name": "SetPhaseWindow",
+    "cpp_wrapper_func": "netSetPhaseWindow",
     "param_signature": [
       "int"
     ],
@@ -4938,7 +5327,8 @@
     ]
   },
   {
-    "wrapper_name": "netClearPhaseWindow",
+    "wrapper_name": "ClearPhaseWindow",
+    "cpp_wrapper_func": "netClearPhaseWindow",
     "param_signature": [
       "int"
     ],
@@ -4951,7 +5341,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetServerCommandParserWindow",
+    "wrapper_name": "SetServerCommandParserWindow",
+    "cpp_wrapper_func": "netSetServerCommandParserWindow",
     "param_signature": [],
     "targets": [
       {
@@ -4962,7 +5353,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetAccountConnectorHandler",
+    "wrapper_name": "SetAccountConnectorHandler",
+    "cpp_wrapper_func": "netSetAccountConnectorHandler",
     "param_signature": [],
     "targets": [
       {
@@ -4973,7 +5365,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetHandler",
+    "wrapper_name": "SetHandler",
+    "cpp_wrapper_func": "netSetHandler",
     "param_signature": [],
     "targets": [
       {
@@ -4984,7 +5377,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetTCPRecvBufferSize",
+    "wrapper_name": "SetTCPRecvBufferSize",
+    "cpp_wrapper_func": "netSetTCPRecvBufferSize",
     "param_signature": [
       "int"
     ],
@@ -4997,7 +5391,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetTCPSendBufferSize",
+    "wrapper_name": "SetTCPSendBufferSize",
+    "cpp_wrapper_func": "netSetTCPSendBufferSize",
     "param_signature": [
       "int"
     ],
@@ -5010,7 +5405,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetUDPRecvBufferSize",
+    "wrapper_name": "SetUDPRecvBufferSize",
+    "cpp_wrapper_func": "netSetUDPRecvBufferSize",
     "param_signature": [
       "int"
     ],
@@ -5023,7 +5419,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetMarkServer",
+    "wrapper_name": "SetMarkServer",
+    "cpp_wrapper_func": "netSetMarkServer",
     "param_signature": [
       "int",
       "string"
@@ -5037,7 +5434,8 @@
     ]
   },
   {
-    "wrapper_name": "netConnectTCP",
+    "wrapper_name": "ConnectTCP",
+    "cpp_wrapper_func": "netConnectTCP",
     "param_signature": [
       "int",
       "string"
@@ -5051,7 +5449,8 @@
     ]
   },
   {
-    "wrapper_name": "netConnectUDP",
+    "wrapper_name": "ConnectUDP",
+    "cpp_wrapper_func": "netConnectUDP",
     "param_signature": [
       "int",
       "string"
@@ -5065,7 +5464,8 @@
     ]
   },
   {
-    "wrapper_name": "netConnectToAccountServer",
+    "wrapper_name": "ConnectToAccountServer",
+    "cpp_wrapper_func": "netConnectToAccountServer",
     "param_signature": [
       "int",
       "string"
@@ -5079,7 +5479,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetLoginInfo",
+    "wrapper_name": "SetLoginInfo",
+    "cpp_wrapper_func": "netSetLoginInfo",
     "param_signature": [
       "string"
     ],
@@ -5097,7 +5498,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetOfflinePhase",
+    "wrapper_name": "SetOfflinePhase",
+    "cpp_wrapper_func": "netSetOfflinePhase",
     "param_signature": [],
     "targets": [
       {
@@ -5108,7 +5510,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendSelectEmpirePacket",
+    "wrapper_name": "SendSelectEmpirePacket",
+    "cpp_wrapper_func": "netSendSelectEmpirePacket",
     "param_signature": [
       "int"
     ],
@@ -5121,7 +5524,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendLoginPacket",
+    "wrapper_name": "SendLoginPacket",
+    "cpp_wrapper_func": "netSendLoginPacket",
     "param_signature": [
       "string"
     ],
@@ -5134,7 +5538,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendChinaMatrixCardPacket",
+    "wrapper_name": "SendChinaMatrixCardPacket",
+    "cpp_wrapper_func": "netSendChinaMatrixCardPacket",
     "param_signature": [
       "string"
     ],
@@ -5147,7 +5552,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendRunupMatrixCardPacket",
+    "wrapper_name": "SendRunupMatrixCardPacket",
+    "cpp_wrapper_func": "netSendRunupMatrixCardPacket",
     "param_signature": [
       "string"
     ],
@@ -5160,7 +5566,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendNEWCIBNPasspodAnswerPacket",
+    "wrapper_name": "SendNEWCIBNPasspodAnswerPacket",
+    "cpp_wrapper_func": "netSendNEWCIBNPasspodAnswerPacket",
     "param_signature": [
       "string"
     ],
@@ -5173,7 +5580,8 @@
     ]
   },
   {
-    "wrapper_name": "netDirectEnter",
+    "wrapper_name": "DirectEnter",
+    "cpp_wrapper_func": "netDirectEnter",
     "param_signature": [
       "int"
     ],
@@ -5186,7 +5594,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendSelectCharacterPacket",
+    "wrapper_name": "SendSelectCharacterPacket",
+    "cpp_wrapper_func": "netSendSelectCharacterPacket",
     "param_signature": [
       "int"
     ],
@@ -5199,7 +5608,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendChangeNamePacket",
+    "wrapper_name": "SendChangeNamePacket",
+    "cpp_wrapper_func": "netSendChangeNamePacket",
     "param_signature": [
       "int",
       "string"
@@ -5213,7 +5623,8 @@
     ]
   },
   {
-    "wrapper_name": "netEnableChatInsultFilter",
+    "wrapper_name": "EnableChatInsultFilter",
+    "cpp_wrapper_func": "netEnableChatInsultFilter",
     "param_signature": [
       "int"
     ],
@@ -5226,7 +5637,8 @@
     ]
   },
   {
-    "wrapper_name": "netIsChatInsultIn",
+    "wrapper_name": "IsChatInsultIn",
+    "cpp_wrapper_func": "netIsChatInsultIn",
     "param_signature": [
       "string"
     ],
@@ -5239,7 +5651,8 @@
     ]
   },
   {
-    "wrapper_name": "netIsInsultIn",
+    "wrapper_name": "IsInsultIn",
+    "cpp_wrapper_func": "netIsInsultIn",
     "param_signature": [
       "string"
     ],
@@ -5252,7 +5665,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendWhisperPacket",
+    "wrapper_name": "SendWhisperPacket",
+    "cpp_wrapper_func": "netSendWhisperPacket",
     "param_signature": [
       "string"
     ],
@@ -5265,7 +5679,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendMobileMessagePacket",
+    "wrapper_name": "SendMobileMessagePacket",
+    "cpp_wrapper_func": "netSendMobileMessagePacket",
     "param_signature": [
       "string"
     ],
@@ -5278,7 +5693,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendCharacterPositionPacket",
+    "wrapper_name": "SendCharacterPositionPacket",
+    "cpp_wrapper_func": "netSendCharacterPositionPacket",
     "param_signature": [
       "int"
     ],
@@ -5291,7 +5707,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendChatPacket",
+    "wrapper_name": "SendChatPacket",
+    "cpp_wrapper_func": "netSendChatPacket",
     "param_signature": [
       "int",
       "string"
@@ -5305,7 +5722,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendEmoticon",
+    "wrapper_name": "SendEmoticon",
+    "cpp_wrapper_func": "netSendEmoticon",
     "param_signature": [
       "int"
     ],
@@ -5318,7 +5736,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendCreateCharacterPacket",
+    "wrapper_name": "SendCreateCharacterPacket",
+    "cpp_wrapper_func": "netSendCreateCharacterPacket",
     "param_signature": [
       "int",
       "string"
@@ -5332,7 +5751,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendDestroyCharacterPacket",
+    "wrapper_name": "SendDestroyCharacterPacket",
+    "cpp_wrapper_func": "netSendDestroyCharacterPacket",
     "param_signature": [
       "int",
       "string"
@@ -5346,7 +5766,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendEnterGamePacket",
+    "wrapper_name": "SendEnterGamePacket",
+    "cpp_wrapper_func": "netSendEnterGamePacket",
     "param_signature": [],
     "targets": [
       {
@@ -5357,7 +5778,8 @@
     ]
   },
   {
-    "wrapper_name": "netOnClickPacket",
+    "wrapper_name": "SendOnClickPacket",
+    "cpp_wrapper_func": "netOnClickPacket",
     "param_signature": [
       "int"
     ],
@@ -5370,7 +5792,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendItemUsePacket",
+    "wrapper_name": "SendItemUsePacket",
+    "cpp_wrapper_func": "netSendItemUsePacket",
     "param_signature": [
       "int"
     ],
@@ -5383,7 +5806,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendItemUseToItemPacket",
+    "wrapper_name": "SendItemUseToItemPacket",
+    "cpp_wrapper_func": "netSendItemUseToItemPacket",
     "param_signature": [
       "int"
     ],
@@ -5396,7 +5820,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendItemDropPacket",
+    "wrapper_name": "SendItemDropPacket",
+    "cpp_wrapper_func": "netSendItemDropPacket",
     "param_signature": [
       "int"
     ],
@@ -5409,7 +5834,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendItemDropPacketNew",
+    "wrapper_name": "SendItemDropPacketNew",
+    "cpp_wrapper_func": "netSendItemDropPacketNew",
     "param_signature": [
       "int"
     ],
@@ -5422,7 +5848,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendElkDropPacket",
+    "wrapper_name": "SendElkDropPacket",
+    "cpp_wrapper_func": "netSendElkDropPacket",
     "param_signature": [
       "int"
     ],
@@ -5435,7 +5862,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGoldDropPacketNew",
+    "wrapper_name": "SendGoldDropPacketNew",
+    "cpp_wrapper_func": "netSendGoldDropPacketNew",
     "param_signature": [
       "int"
     ],
@@ -5448,7 +5876,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendItemMovePacket",
+    "wrapper_name": "SendItemMovePacket",
+    "cpp_wrapper_func": "netSendItemMovePacket",
     "param_signature": [
       "int"
     ],
@@ -5461,7 +5890,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendItemPickUpPacket",
+    "wrapper_name": "SendItemPickUpPacket",
+    "cpp_wrapper_func": "netSendItemPickUpPacket",
     "param_signature": [
       "int"
     ],
@@ -5474,7 +5904,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGiveItemPacket",
+    "wrapper_name": "SendGiveItemPacket",
+    "cpp_wrapper_func": "netSendGiveItemPacket",
     "param_signature": [
       "int"
     ],
@@ -5487,7 +5918,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendShopEndPacket",
+    "wrapper_name": "SendShopEndPacket",
+    "cpp_wrapper_func": "netSendShopEndPacket",
     "param_signature": [],
     "targets": [
       {
@@ -5498,7 +5930,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendShopBuyPacket",
+    "wrapper_name": "SendShopBuyPacket",
+    "cpp_wrapper_func": "netSendShopBuyPacket",
     "param_signature": [
       "int"
     ],
@@ -5511,7 +5944,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendShopSellPacket",
+    "wrapper_name": "SendShopSellPacket",
+    "cpp_wrapper_func": "netSendShopSellPacket",
     "param_signature": [
       "int"
     ],
@@ -5524,7 +5958,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendShopSellPacketNew",
+    "wrapper_name": "SendShopSellPacketNew",
+    "cpp_wrapper_func": "netSendShopSellPacketNew",
     "param_signature": [
       "int"
     ],
@@ -5537,7 +5972,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendExchangeStartPacket",
+    "wrapper_name": "SendExchangeStartPacket",
+    "cpp_wrapper_func": "netSendExchangeStartPacket",
     "param_signature": [
       "int"
     ],
@@ -5550,7 +5986,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendExchangeElkAddPacket",
+    "wrapper_name": "SendExchangeElkAddPacket",
+    "cpp_wrapper_func": "netSendExchangeElkAddPacket",
     "param_signature": [
       "int"
     ],
@@ -5563,7 +6000,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendExchangeItemAddPacket",
+    "wrapper_name": "SendExchangeItemAddPacket",
+    "cpp_wrapper_func": "netSendExchangeItemAddPacket",
     "param_signature": [
       "int"
     ],
@@ -5576,7 +6014,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendExchangeItemDelPacket",
+    "wrapper_name": "SendExchangeItemDelPacket",
+    "cpp_wrapper_func": "netSendExchangeItemDelPacket",
     "param_signature": [
       "int"
     ],
@@ -5589,7 +6028,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendExchangeAcceptPacket",
+    "wrapper_name": "SendExchangeAcceptPacket",
+    "cpp_wrapper_func": "netSendExchangeAcceptPacket",
     "param_signature": [],
     "targets": [
       {
@@ -5600,7 +6040,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendExchangeExitPacket",
+    "wrapper_name": "SendExchangeExitPacket",
+    "cpp_wrapper_func": "netSendExchangeExitPacket",
     "param_signature": [],
     "targets": [
       {
@@ -5611,7 +6052,8 @@
     ]
   },
   {
-    "wrapper_name": "netExitApplication",
+    "wrapper_name": "ExitApplication",
+    "cpp_wrapper_func": "netExitApplication",
     "param_signature": [],
     "targets": [
       {
@@ -5622,7 +6064,8 @@
     ]
   },
   {
-    "wrapper_name": "netExitGame",
+    "wrapper_name": "ExitGame",
+    "cpp_wrapper_func": "netExitGame",
     "param_signature": [],
     "targets": [
       {
@@ -5633,7 +6076,8 @@
     ]
   },
   {
-    "wrapper_name": "netLogOutGame",
+    "wrapper_name": "LogOutGame",
+    "cpp_wrapper_func": "netLogOutGame",
     "param_signature": [],
     "targets": [
       {
@@ -5644,7 +6088,8 @@
     ]
   },
   {
-    "wrapper_name": "netDisconnect",
+    "wrapper_name": "Disconnect",
+    "cpp_wrapper_func": "netDisconnect",
     "param_signature": [],
     "targets": [
       {
@@ -5660,7 +6105,8 @@
     ]
   },
   {
-    "wrapper_name": "netIsConnect",
+    "wrapper_name": "IsConnect",
+    "cpp_wrapper_func": "netIsConnect",
     "param_signature": [],
     "targets": [
       {
@@ -5671,7 +6117,8 @@
     ]
   },
   {
-    "wrapper_name": "netToggleGameDebugInfo",
+    "wrapper_name": "ToggleGameDebugInfo",
+    "cpp_wrapper_func": "netToggleGameDebugInfo",
     "param_signature": [],
     "targets": [
       {
@@ -5682,7 +6129,8 @@
     ]
   },
   {
-    "wrapper_name": "netRegisterEmoticonString",
+    "wrapper_name": "RegisterEmoticonString",
+    "cpp_wrapper_func": "netRegisterEmoticonString",
     "param_signature": [
       "string"
     ],
@@ -5695,7 +6143,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendMessengerAddByVIDPacket",
+    "wrapper_name": "SendMessengerAddByVIDPacket",
+    "cpp_wrapper_func": "netSendMessengerAddByVIDPacket",
     "param_signature": [
       "int"
     ],
@@ -5708,7 +6157,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendMessengerAddByNamePacket",
+    "wrapper_name": "SendMessengerAddByNamePacket",
+    "cpp_wrapper_func": "netSendMessengerAddByNamePacket",
     "param_signature": [
       "string"
     ],
@@ -5721,7 +6171,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendMessengerRemovePacket",
+    "wrapper_name": "SendMessengerRemovePacket",
+    "cpp_wrapper_func": "netSendMessengerRemovePacket",
     "param_signature": [
       "string"
     ],
@@ -5734,7 +6185,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendPartyInvitePacket",
+    "wrapper_name": "SendPartyInvitePacket",
+    "cpp_wrapper_func": "netSendPartyInvitePacket",
     "param_signature": [
       "int"
     ],
@@ -5747,7 +6199,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendPartyInviteAnswerPacket",
+    "wrapper_name": "SendPartyInviteAnswerPacket",
+    "cpp_wrapper_func": "netSendPartyInviteAnswerPacket",
     "param_signature": [
       "int"
     ],
@@ -5760,7 +6213,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendPartyExitPacket",
+    "wrapper_name": "SendPartyExitPacket",
+    "cpp_wrapper_func": "netSendPartyExitPacket",
     "param_signature": [],
     "targets": [
       {
@@ -5781,7 +6235,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendPartyRemovePacket",
+    "wrapper_name": "SendPartyRemovePacket",
+    "cpp_wrapper_func": "netSendPartyRemovePacket",
     "param_signature": [
       "int"
     ],
@@ -5794,7 +6249,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendPartySetStatePacket",
+    "wrapper_name": "SendPartySetStatePacket",
+    "cpp_wrapper_func": "netSendPartySetStatePacket",
     "param_signature": [
       "int"
     ],
@@ -5807,7 +6263,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendPartyUseSkillPacket",
+    "wrapper_name": "SendPartyUseSkillPacket",
+    "cpp_wrapper_func": "netSendPartyUseSkillPacket",
     "param_signature": [
       "int"
     ],
@@ -5820,7 +6277,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendPartyParameterPacket",
+    "wrapper_name": "SendPartyParameterPacket",
+    "cpp_wrapper_func": "netSendPartyParameterPacket",
     "param_signature": [
       "int"
     ],
@@ -5833,7 +6291,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendSafeboxSaveMoneyPacket",
+    "wrapper_name": "SendSafeboxSaveMoneyPacket",
+    "cpp_wrapper_func": "netSendSafeboxSaveMoneyPacket",
     "param_signature": [
       "int"
     ],
@@ -5846,7 +6305,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendSafeboxWithdrawMoneyPacket",
+    "wrapper_name": "SendSafeboxWithdrawMoneyPacket",
+    "cpp_wrapper_func": "netSendSafeboxWithdrawMoneyPacket",
     "param_signature": [
       "int"
     ],
@@ -5859,7 +6319,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendSafeboxCheckinPacket",
+    "wrapper_name": "SendSafeboxCheckinPacket",
+    "cpp_wrapper_func": "netSendSafeboxCheckinPacket",
     "param_signature": [
       "int"
     ],
@@ -5872,7 +6333,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendSafeboxCheckoutPacket",
+    "wrapper_name": "SendSafeboxCheckoutPacket",
+    "cpp_wrapper_func": "netSendSafeboxCheckoutPacket",
     "param_signature": [
       "int"
     ],
@@ -5885,7 +6347,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendSafeboxItemMovePacket",
+    "wrapper_name": "SendSafeboxItemMovePacket",
+    "cpp_wrapper_func": "netSendSafeboxItemMovePacket",
     "param_signature": [
       "int"
     ],
@@ -5898,7 +6361,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendMallCheckoutPacket",
+    "wrapper_name": "SendMallCheckoutPacket",
+    "cpp_wrapper_func": "netSendMallCheckoutPacket",
     "param_signature": [
       "int"
     ],
@@ -5911,7 +6375,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendAnswerMakeGuildPacket",
+    "wrapper_name": "SendAnswerMakeGuildPacket",
+    "cpp_wrapper_func": "netSendAnswerMakeGuildPacket",
     "param_signature": [
       "string"
     ],
@@ -5924,7 +6389,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendQuestInputStringPacket",
+    "wrapper_name": "SendQuestInputStringPacket",
+    "cpp_wrapper_func": "netSendQuestInputStringPacket",
     "param_signature": [
       "string"
     ],
@@ -5937,7 +6403,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendQuestConfirmPacket",
+    "wrapper_name": "SendQuestConfirmPacket",
+    "cpp_wrapper_func": "netSendQuestConfirmPacket",
     "param_signature": [
       "int"
     ],
@@ -5950,7 +6417,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildAddMemberPacket",
+    "wrapper_name": "SendGuildAddMemberPacket",
+    "cpp_wrapper_func": "netSendGuildAddMemberPacket",
     "param_signature": [
       "int"
     ],
@@ -5963,7 +6431,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildRemoveMemberPacket",
+    "wrapper_name": "SendGuildRemoveMemberPacket",
+    "cpp_wrapper_func": "netSendGuildRemoveMemberPacket",
     "param_signature": [
       "string"
     ],
@@ -5981,7 +6450,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildChangeGradeNamePacket",
+    "wrapper_name": "SendGuildChangeGradeNamePacket",
+    "cpp_wrapper_func": "netSendGuildChangeGradeNamePacket",
     "param_signature": [
       "int",
       "string"
@@ -5995,7 +6465,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildChangeGradeAuthorityPacket",
+    "wrapper_name": "SendGuildChangeGradeAuthorityPacket",
+    "cpp_wrapper_func": "netSendGuildChangeGradeAuthorityPacket",
     "param_signature": [
       "int"
     ],
@@ -6008,7 +6479,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildOfferPacket",
+    "wrapper_name": "SendGuildOfferPacket",
+    "cpp_wrapper_func": "netSendGuildOfferPacket",
     "param_signature": [
       "int"
     ],
@@ -6021,7 +6493,8 @@
     ]
   },
   {
-    "wrapper_name": "netSnedGuildPostCommentPacket",
+    "wrapper_name": "SendGuildPostCommentPacket",
+    "cpp_wrapper_func": "netSnedGuildPostCommentPacket",
     "param_signature": [
       "string"
     ],
@@ -6034,7 +6507,8 @@
     ]
   },
   {
-    "wrapper_name": "netSnedGuildDeleteCommentPacket",
+    "wrapper_name": "SendGuildDeleteCommentPacket",
+    "cpp_wrapper_func": "netSnedGuildDeleteCommentPacket",
     "param_signature": [
       "int"
     ],
@@ -6047,7 +6521,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildRefreshCommentsPacket",
+    "wrapper_name": "SendGuildRefreshCommentsPacket",
+    "cpp_wrapper_func": "netSendGuildRefreshCommentsPacket",
     "param_signature": [
       "int"
     ],
@@ -6060,7 +6535,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildChangeMemberGradePacket",
+    "wrapper_name": "SendGuildChangeMemberGradePacket",
+    "cpp_wrapper_func": "netSendGuildChangeMemberGradePacket",
     "param_signature": [
       "int"
     ],
@@ -6073,7 +6549,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildUseSkillPacket",
+    "wrapper_name": "SendGuildUseSkillPacket",
+    "cpp_wrapper_func": "netSendGuildUseSkillPacket",
     "param_signature": [
       "int"
     ],
@@ -6086,7 +6563,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildChangeMemberGeneralPacket",
+    "wrapper_name": "SendGuildChangeMemberGeneralPacket",
+    "cpp_wrapper_func": "netSendGuildChangeMemberGeneralPacket",
     "param_signature": [
       "int"
     ],
@@ -6099,7 +6577,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildInviteAnswerPacket",
+    "wrapper_name": "SendGuildInviteAnswerPacket",
+    "cpp_wrapper_func": "netSendGuildInviteAnswerPacket",
     "param_signature": [
       "int"
     ],
@@ -6112,7 +6591,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildChargeGSPPacket",
+    "wrapper_name": "SendGuildChargeGSPPacket",
+    "cpp_wrapper_func": "netSendGuildChargeGSPPacket",
     "param_signature": [
       "int"
     ],
@@ -6125,7 +6605,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildDepositMoneyPacket",
+    "wrapper_name": "SendGuildDepositMoneyPacket",
+    "cpp_wrapper_func": "netSendGuildDepositMoneyPacket",
     "param_signature": [
       "int"
     ],
@@ -6138,7 +6619,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildWithdrawMoneyPacket",
+    "wrapper_name": "SendGuildWithdrawMoneyPacket",
+    "cpp_wrapper_func": "netSendGuildWithdrawMoneyPacket",
     "param_signature": [
       "int"
     ],
@@ -6151,7 +6633,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendRequestRefineInfoPacket",
+    "wrapper_name": "SendRequestRefineInfoPacket",
+    "cpp_wrapper_func": "netSendRequestRefineInfoPacket",
     "param_signature": [
       "int"
     ],
@@ -6164,7 +6647,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendRefinePacket",
+    "wrapper_name": "SendRefinePacket",
+    "cpp_wrapper_func": "netSendRefinePacket",
     "param_signature": [
       "int"
     ],
@@ -6177,7 +6661,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendSelectItemPacket",
+    "wrapper_name": "SendSelectItemPacket",
+    "cpp_wrapper_func": "netSendSelectItemPacket",
     "param_signature": [
       "int"
     ],
@@ -6190,7 +6675,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetPacketSequenceMode",
+    "wrapper_name": "SetPacketSequenceMode",
+    "cpp_wrapper_func": "netSetPacketSequenceMode",
     "param_signature": [],
     "targets": [
       {
@@ -6206,7 +6692,8 @@
     ]
   },
   {
-    "wrapper_name": "netSetSkillGroupFake",
+    "wrapper_name": "SetSkillGroupFake",
+    "cpp_wrapper_func": "netSetSkillGroupFake",
     "param_signature": [
       "int"
     ],
@@ -6219,7 +6706,8 @@
     ]
   },
   {
-    "wrapper_name": "netSendGuildSymbol",
+    "wrapper_name": "SendGuildSymbol",
+    "cpp_wrapper_func": "netSendGuildSymbol",
     "param_signature": [
       "int",
       "string"
@@ -6233,7 +6721,8 @@
     ]
   },
   {
-    "wrapper_name": "netDisconnectUploader",
+    "wrapper_name": "DisconnectUploader",
+    "cpp_wrapper_func": "netDisconnectUploader",
     "param_signature": [],
     "targets": [
       {
@@ -6244,7 +6733,8 @@
     ]
   },
   {
-    "wrapper_name": "netRecvGuildSymbol",
+    "wrapper_name": "RecvGuildSymbol",
+    "cpp_wrapper_func": "netRecvGuildSymbol",
     "param_signature": [
       "int",
       "string"
@@ -6258,7 +6748,8 @@
     ]
   },
   {
-    "wrapper_name": "nonplayerGetEventType",
+    "wrapper_name": "GetEventType",
+    "cpp_wrapper_func": "nonplayerGetEventType",
     "param_signature": [
       "int"
     ],
@@ -6271,7 +6762,8 @@
     ]
   },
   {
-    "wrapper_name": "nonplayerGetEventTypeByVID",
+    "wrapper_name": "GetEventTypeByVID",
+    "cpp_wrapper_func": "nonplayerGetEventTypeByVID",
     "param_signature": [
       "int"
     ],
@@ -6284,7 +6776,8 @@
     ]
   },
   {
-    "wrapper_name": "nonplayerGetLevelByVID",
+    "wrapper_name": "GetLevelByVID",
+    "cpp_wrapper_func": "nonplayerGetLevelByVID",
     "param_signature": [
       "int"
     ],
@@ -6302,7 +6795,8 @@
     ]
   },
   {
-    "wrapper_name": "nonplayerGetGradeByVID",
+    "wrapper_name": "GetGradeByVID",
+    "cpp_wrapper_func": "nonplayerGetGradeByVID",
     "param_signature": [
       "int"
     ],
@@ -6320,7 +6814,8 @@
     ]
   },
   {
-    "wrapper_name": "nonplayerGetMonsterName",
+    "wrapper_name": "GetMonsterName",
+    "cpp_wrapper_func": "nonplayerGetMonsterName",
     "param_signature": [
       "int"
     ],
@@ -6333,7 +6828,8 @@
     ]
   },
   {
-    "wrapper_name": "nonplayerLoadNonPlayerData",
+    "wrapper_name": "LoadNonPlayerData",
+    "cpp_wrapper_func": "nonplayerLoadNonPlayerData",
     "param_signature": [
       "string"
     ],
@@ -6346,7 +6842,8 @@
     ]
   },
   {
-    "wrapper_name": "packExist",
+    "wrapper_name": "Exist",
+    "cpp_wrapper_func": "packExist",
     "param_signature": [
       "string"
     ],
@@ -6359,7 +6856,8 @@
     ]
   },
   {
-    "wrapper_name": "packGet",
+    "wrapper_name": "Get",
+    "cpp_wrapper_func": "packGet",
     "param_signature": [
       "string"
     ],
@@ -6372,7 +6870,8 @@
     ]
   },
   {
-    "wrapper_name": "playerPickCloseItem",
+    "wrapper_name": "PickCloseItem",
+    "cpp_wrapper_func": "playerPickCloseItem",
     "param_signature": [],
     "targets": [
       {
@@ -6383,7 +6882,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetGameWindow",
+    "wrapper_name": "SetGameWindow",
+    "cpp_wrapper_func": "playerSetGameWindow",
     "param_signature": [],
     "targets": [
       {
@@ -6394,7 +6894,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetQuickCameraMode",
+    "wrapper_name": "SetQuickCameraMode",
+    "cpp_wrapper_func": "playerSetQuickCameraMode",
     "param_signature": [
       "int"
     ],
@@ -6407,7 +6908,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetMainCharacterIndex",
+    "wrapper_name": "SetMainCharacterIndex",
+    "cpp_wrapper_func": "playerSetMainCharacterIndex",
     "param_signature": [
       "int"
     ],
@@ -6425,7 +6927,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetMainCharacterIndex",
+    "wrapper_name": "GetMainCharacterIndex",
+    "cpp_wrapper_func": "playerGetMainCharacterIndex",
     "param_signature": [],
     "targets": [
       {
@@ -6436,7 +6939,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetMainCharacterName",
+    "wrapper_name": "GetMainCharacterName",
+    "cpp_wrapper_func": "playerGetMainCharacterName",
     "param_signature": [],
     "targets": [
       {
@@ -6447,7 +6951,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetMainCharacterPosition",
+    "wrapper_name": "GetMainCharacterPosition",
+    "cpp_wrapper_func": "playerGetMainCharacterPosition",
     "param_signature": [],
     "targets": [
       {
@@ -6458,7 +6963,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsMainCharacterIndex",
+    "wrapper_name": "IsMainCharacterIndex",
+    "cpp_wrapper_func": "playerIsMainCharacterIndex",
     "param_signature": [
       "int"
     ],
@@ -6471,7 +6977,8 @@
     ]
   },
   {
-    "wrapper_name": "playerCanAttackInstance",
+    "wrapper_name": "CanAttackInstance",
+    "cpp_wrapper_func": "playerCanAttackInstance",
     "param_signature": [
       "int"
     ],
@@ -6489,7 +6996,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsActingEmotion",
+    "wrapper_name": "IsActingEmotion",
+    "cpp_wrapper_func": "playerIsActingEmotion",
     "param_signature": [],
     "targets": [
       {
@@ -6500,7 +7008,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsPVPInstance",
+    "wrapper_name": "IsPVPInstance",
+    "cpp_wrapper_func": "playerIsPVPInstance",
     "param_signature": [
       "int"
     ],
@@ -6518,7 +7027,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsSameEmpire",
+    "wrapper_name": "IsSameEmpire",
+    "cpp_wrapper_func": "playerIsSameEmpire",
     "param_signature": [
       "int"
     ],
@@ -6536,7 +7046,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsChallengeInstance",
+    "wrapper_name": "IsChallengeInstance",
+    "cpp_wrapper_func": "playerIsChallengeInstance",
     "param_signature": [
       "int"
     ],
@@ -6549,7 +7060,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsRevengeInstance",
+    "wrapper_name": "IsRevengeInstance",
+    "cpp_wrapper_func": "playerIsRevengeInstance",
     "param_signature": [
       "int"
     ],
@@ -6562,7 +7074,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsCantFightInstance",
+    "wrapper_name": "IsCantFightInstance",
+    "cpp_wrapper_func": "playerIsCantFightInstance",
     "param_signature": [
       "int"
     ],
@@ -6575,7 +7088,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetCharacterDistance",
+    "wrapper_name": "GetCharacterDistance",
+    "cpp_wrapper_func": "playerGetCharacterDistance",
     "param_signature": [
       "int"
     ],
@@ -6593,7 +7107,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsInSafeArea",
+    "wrapper_name": "IsInSafeArea",
+    "cpp_wrapper_func": "playerIsInSafeArea",
     "param_signature": [],
     "targets": [
       {
@@ -6604,7 +7119,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsMountingHorse",
+    "wrapper_name": "IsMountingHorse",
+    "cpp_wrapper_func": "playerIsMountingHorse",
     "param_signature": [],
     "targets": [
       {
@@ -6615,7 +7131,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsObserverMode",
+    "wrapper_name": "IsObserverMode",
+    "cpp_wrapper_func": "playerIsObserverMode",
     "param_signature": [],
     "targets": [
       {
@@ -6626,7 +7143,8 @@
     ]
   },
   {
-    "wrapper_name": "playerActEmotion",
+    "wrapper_name": "ActEmotion",
+    "cpp_wrapper_func": "playerActEmotion",
     "param_signature": [
       "int"
     ],
@@ -6639,7 +7157,8 @@
     ]
   },
   {
-    "wrapper_name": "playerShowPlayer",
+    "wrapper_name": "ShowPlayer",
+    "cpp_wrapper_func": "playerShowPlayer",
     "param_signature": [],
     "targets": [
       {
@@ -6650,7 +7169,8 @@
     ]
   },
   {
-    "wrapper_name": "playerHidePlayer",
+    "wrapper_name": "HidePlayer",
+    "cpp_wrapper_func": "playerHidePlayer",
     "param_signature": [],
     "targets": [
       {
@@ -6661,7 +7181,8 @@
     ]
   },
   {
-    "wrapper_name": "playerComboAttack",
+    "wrapper_name": "ComboAttack",
+    "cpp_wrapper_func": "playerComboAttack",
     "param_signature": [],
     "targets": [
       {
@@ -6672,7 +7193,8 @@
     ]
   },
   {
-    "wrapper_name": "playerRegisterEffect",
+    "wrapper_name": "RegisterEffect",
+    "cpp_wrapper_func": "playerRegisterEffect",
     "param_signature": [
       "int",
       "string"
@@ -6686,7 +7208,8 @@
     ]
   },
   {
-    "wrapper_name": "playerRegisterCacheEffect",
+    "wrapper_name": "RegisterCacheEffect",
+    "cpp_wrapper_func": "playerRegisterCacheEffect",
     "param_signature": [
       "int",
       "string"
@@ -6700,7 +7223,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetAttackKeyState",
+    "wrapper_name": "SetAttackKeyState",
+    "cpp_wrapper_func": "playerSetAttackKeyState",
     "param_signature": [
       "int"
     ],
@@ -6713,7 +7237,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetSingleDIKKeyState",
+    "wrapper_name": "SetSingleDIKKeyState",
+    "cpp_wrapper_func": "playerSetSingleDIKKeyState",
     "param_signature": [
       "int"
     ],
@@ -6726,7 +7251,8 @@
     ]
   },
   {
-    "wrapper_name": "playerEndKeyWalkingImmediately",
+    "wrapper_name": "EndKeyWalkingImmediately",
+    "cpp_wrapper_func": "playerEndKeyWalkingImmediately",
     "param_signature": [],
     "targets": [
       {
@@ -6737,7 +7263,8 @@
     ]
   },
   {
-    "wrapper_name": "playerResetCameraRotation",
+    "wrapper_name": "ResetCameraRotation",
+    "cpp_wrapper_func": "playerResetCameraRotation",
     "param_signature": [],
     "targets": [
       {
@@ -6748,7 +7275,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetAutoCameraRotationSpeed",
+    "wrapper_name": "SetAutoCameraRotationSpeed",
+    "cpp_wrapper_func": "playerSetAutoCameraRotationSpeed",
     "param_signature": [
       "float"
     ],
@@ -6761,7 +7289,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetMouseState",
+    "wrapper_name": "SetMouseState",
+    "cpp_wrapper_func": "playerSetMouseState",
     "param_signature": [
       "int"
     ],
@@ -6774,7 +7303,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetMouseFunc",
+    "wrapper_name": "SetMouseFunc",
+    "cpp_wrapper_func": "playerSetMouseFunc",
     "param_signature": [
       "int"
     ],
@@ -6787,7 +7317,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetMouseFunc",
+    "wrapper_name": "GetMouseFunc",
+    "cpp_wrapper_func": "playerGetMouseFunc",
     "param_signature": [
       "int"
     ],
@@ -6800,7 +7331,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetMouseMiddleButtonState",
+    "wrapper_name": "SetMouseMiddleButtonState",
+    "cpp_wrapper_func": "playerSetMouseMiddleButtonState",
     "param_signature": [
       "int"
     ],
@@ -6813,7 +7345,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetName",
+    "wrapper_name": "GetName",
+    "cpp_wrapper_func": "playerGetName",
     "param_signature": [],
     "targets": [
       {
@@ -6824,7 +7357,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetRace",
+    "wrapper_name": "GetRace",
+    "cpp_wrapper_func": "playerGetRace",
     "param_signature": [],
     "targets": [
       {
@@ -6835,7 +7369,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetJob",
+    "wrapper_name": "GetJob",
+    "cpp_wrapper_func": "playerGetJob",
     "param_signature": [],
     "targets": [
       {
@@ -6846,7 +7381,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetPlayTime",
+    "wrapper_name": "GetPlayTime",
+    "cpp_wrapper_func": "playerGetPlayTime",
     "param_signature": [],
     "targets": [
       {
@@ -6857,7 +7393,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetPlayTime",
+    "wrapper_name": "SetPlayTime",
+    "cpp_wrapper_func": "playerSetPlayTime",
     "param_signature": [
       "int"
     ],
@@ -6870,7 +7407,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsSkillCoolTime",
+    "wrapper_name": "IsSkillCoolTime",
+    "cpp_wrapper_func": "playerIsSkillCoolTime",
     "param_signature": [
       "int"
     ],
@@ -6883,7 +7421,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetSkillCoolTime",
+    "wrapper_name": "GetSkillCoolTime",
+    "cpp_wrapper_func": "playerGetSkillCoolTime",
     "param_signature": [
       "int"
     ],
@@ -6901,7 +7440,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsSkillActive",
+    "wrapper_name": "IsSkillActive",
+    "cpp_wrapper_func": "playerIsSkillActive",
     "param_signature": [
       "int"
     ],
@@ -6914,7 +7454,8 @@
     ]
   },
   {
-    "wrapper_name": "playerUseGuildSkill",
+    "wrapper_name": "UseGuildSkill",
+    "cpp_wrapper_func": "playerUseGuildSkill",
     "param_signature": [
       "int"
     ],
@@ -6927,7 +7468,8 @@
     ]
   },
   {
-    "wrapper_name": "playerAffectIndexToSkillIndex",
+    "wrapper_name": "AffectIndexToSkillIndex",
+    "cpp_wrapper_func": "playerAffectIndexToSkillIndex",
     "param_signature": [
       "int"
     ],
@@ -6940,7 +7482,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetEXP",
+    "wrapper_name": "GetEXP",
+    "cpp_wrapper_func": "playerGetEXP",
     "param_signature": [],
     "targets": [
       {
@@ -6951,7 +7494,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetStatus",
+    "wrapper_name": "GetStatus",
+    "cpp_wrapper_func": "playerGetStatus",
     "param_signature": [
       "int"
     ],
@@ -6969,7 +7513,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetStatus",
+    "wrapper_name": "SetStatus",
+    "cpp_wrapper_func": "playerSetStatus",
     "param_signature": [
       "int"
     ],
@@ -6982,7 +7527,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetElk",
+    "wrapper_name": "GetMoney",
+    "cpp_wrapper_func": "playerGetElk",
     "param_signature": [],
     "targets": [
       {
@@ -6993,7 +7539,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetGuildID",
+    "wrapper_name": "GetGuildID",
+    "cpp_wrapper_func": "playerGetGuildID",
     "param_signature": [],
     "targets": [
       {
@@ -7004,7 +7551,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetGuildName",
+    "wrapper_name": "GetGuildName",
+    "cpp_wrapper_func": "playerGetGuildName",
     "param_signature": [],
     "targets": [
       {
@@ -7020,7 +7568,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetAlignmentData",
+    "wrapper_name": "GetAlignmentData",
+    "cpp_wrapper_func": "playerGetAlignmentData",
     "param_signature": [],
     "targets": [
       {
@@ -7031,7 +7580,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetSkill",
+    "wrapper_name": "SetSkill",
+    "cpp_wrapper_func": "playerSetSkill",
     "param_signature": [
       "int"
     ],
@@ -7044,7 +7594,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetSkillIndex",
+    "wrapper_name": "GetSkillIndex",
+    "cpp_wrapper_func": "playerGetSkillIndex",
     "param_signature": [
       "int"
     ],
@@ -7057,7 +7608,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetSkillSlotIndex",
+    "wrapper_name": "GetSkillSlotIndex",
+    "cpp_wrapper_func": "playerGetSkillSlotIndex",
     "param_signature": [
       "int"
     ],
@@ -7070,7 +7622,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetSkillGrade",
+    "wrapper_name": "GetSkillGrade",
+    "cpp_wrapper_func": "playerGetSkillGrade",
     "param_signature": [
       "int"
     ],
@@ -7083,7 +7636,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetSkillLevel",
+    "wrapper_name": "GetSkillLevel",
+    "cpp_wrapper_func": "playerGetSkillLevel",
     "param_signature": [
       "int"
     ],
@@ -7096,7 +7650,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetSkillCurrentEfficientPercentage",
+    "wrapper_name": "GetSkillCurrentEfficientPercentage",
+    "cpp_wrapper_func": "playerGetSkillCurrentEfficientPercentage",
     "param_signature": [
       "int"
     ],
@@ -7109,7 +7664,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetSkillNextEfficientPercentage",
+    "wrapper_name": "GetSkillNextEfficientPercentage",
+    "cpp_wrapper_func": "playerGetSkillNextEfficientPercentage",
     "param_signature": [
       "int"
     ],
@@ -7122,7 +7678,8 @@
     ]
   },
   {
-    "wrapper_name": "playerClickSkillSlot",
+    "wrapper_name": "ClickSkillSlot",
+    "cpp_wrapper_func": "playerClickSkillSlot",
     "param_signature": [
       "int"
     ],
@@ -7135,7 +7692,8 @@
     ]
   },
   {
-    "wrapper_name": "playerChangeCurrentSkillNumberOnly",
+    "wrapper_name": "ChangeCurrentSkillNumberOnly",
+    "cpp_wrapper_func": "playerChangeCurrentSkillNumberOnly",
     "param_signature": [
       "int"
     ],
@@ -7148,7 +7706,8 @@
     ]
   },
   {
-    "wrapper_name": "playerClearSkillDict",
+    "wrapper_name": "ClearSkillDict",
+    "cpp_wrapper_func": "playerClearSkillDict",
     "param_signature": [],
     "targets": [
       {
@@ -7159,7 +7718,8 @@
     ]
   },
   {
-    "wrapper_name": "playerMoveItem",
+    "wrapper_name": "MoveItem",
+    "cpp_wrapper_func": "playerMoveItem",
     "param_signature": [
       "int"
     ],
@@ -7172,7 +7732,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSendClickItemPacket",
+    "wrapper_name": "SendClickItemPacket",
+    "cpp_wrapper_func": "playerSendClickItemPacket",
     "param_signature": [
       "int"
     ],
@@ -7185,7 +7746,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetItemIndex",
+    "wrapper_name": "GetItemIndex",
+    "cpp_wrapper_func": "playerGetItemIndex",
     "param_signature": [
       "int"
     ],
@@ -7203,7 +7765,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetItemFlags",
+    "wrapper_name": "GetItemFlags",
+    "cpp_wrapper_func": "playerGetItemFlags",
     "param_signature": [
       "int"
     ],
@@ -7221,7 +7784,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetItemCount",
+    "wrapper_name": "GetItemCount",
+    "cpp_wrapper_func": "playerGetItemCount",
     "param_signature": [
       "int"
     ],
@@ -7239,7 +7803,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetItemCount",
+    "wrapper_name": "SetItemCount",
+    "cpp_wrapper_func": "playerSetItemCount",
     "param_signature": [
       "int"
     ],
@@ -7257,7 +7822,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetItemCountByVnum",
+    "wrapper_name": "GetItemCountByVnum",
+    "cpp_wrapper_func": "playerGetItemCountByVnum",
     "param_signature": [
       "int"
     ],
@@ -7270,7 +7836,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetItemMetinSocket",
+    "wrapper_name": "GetItemMetinSocket",
+    "cpp_wrapper_func": "playerGetItemMetinSocket",
     "param_signature": [
       "int"
     ],
@@ -7283,7 +7850,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetItemAttribute",
+    "wrapper_name": "GetItemAttribute",
+    "cpp_wrapper_func": "playerGetItemAttribute",
     "param_signature": [
       "int"
     ],
@@ -7296,7 +7864,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetItemLink",
+    "wrapper_name": "GetItemLink",
+    "cpp_wrapper_func": "playerGetItemLink",
     "param_signature": [
       "int"
     ],
@@ -7314,7 +7883,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetISellItemPrice",
+    "wrapper_name": "GetISellItemPrice",
+    "cpp_wrapper_func": "playerGetISellItemPrice",
     "param_signature": [
       "int"
     ],
@@ -7337,7 +7907,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetQuickPage",
+    "wrapper_name": "GetQuickPage",
+    "cpp_wrapper_func": "playerGetQuickPage",
     "param_signature": [],
     "targets": [
       {
@@ -7348,7 +7919,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetQuickPage",
+    "wrapper_name": "SetQuickPage",
+    "cpp_wrapper_func": "playerSetQuickPage",
     "param_signature": [
       "int"
     ],
@@ -7361,7 +7933,8 @@
     ]
   },
   {
-    "wrapper_name": "playerLocalQuickSlotIndexToGlobalQuickSlotIndex",
+    "wrapper_name": "LocalQuickSlotIndexToGlobalQuickSlotIndex",
+    "cpp_wrapper_func": "playerLocalQuickSlotIndexToGlobalQuickSlotIndex",
     "param_signature": [
       "int"
     ],
@@ -7374,7 +7947,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetLocalQuickSlot",
+    "wrapper_name": "GetLocalQuickSlot",
+    "cpp_wrapper_func": "playerGetLocalQuickSlot",
     "param_signature": [
       "int"
     ],
@@ -7387,7 +7961,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetGlobalQuickSlot",
+    "wrapper_name": "GetGlobalQuickSlot",
+    "cpp_wrapper_func": "playerGetGlobalQuickSlot",
     "param_signature": [
       "int"
     ],
@@ -7400,7 +7975,8 @@
     ]
   },
   {
-    "wrapper_name": "playerRequestAddLocalQuickSlot",
+    "wrapper_name": "RequestAddLocalQuickSlot",
+    "cpp_wrapper_func": "playerRequestAddLocalQuickSlot",
     "param_signature": [
       "int"
     ],
@@ -7413,7 +7989,8 @@
     ]
   },
   {
-    "wrapper_name": "playerRequestAddToEmptyLocalQuickSlot",
+    "wrapper_name": "RequestAddToEmptyLocalQuickSlot",
+    "cpp_wrapper_func": "playerRequestAddToEmptyLocalQuickSlot",
     "param_signature": [
       "int"
     ],
@@ -7426,7 +8003,8 @@
     ]
   },
   {
-    "wrapper_name": "playerRequestDeleteGlobalQuickSlot",
+    "wrapper_name": "RequestDeleteGlobalQuickSlot",
+    "cpp_wrapper_func": "playerRequestDeleteGlobalQuickSlot",
     "param_signature": [
       "int"
     ],
@@ -7439,7 +8017,8 @@
     ]
   },
   {
-    "wrapper_name": "playerRequestMoveGlobalQuickSlotToLocalQuickSlot",
+    "wrapper_name": "RequestMoveGlobalQuickSlotToLocalQuickSlot",
+    "cpp_wrapper_func": "playerRequestMoveGlobalQuickSlotToLocalQuickSlot",
     "param_signature": [
       "int"
     ],
@@ -7452,7 +8031,8 @@
     ]
   },
   {
-    "wrapper_name": "playerRequestUseLocalQuickSlot",
+    "wrapper_name": "RequestUseLocalQuickSlot",
+    "cpp_wrapper_func": "playerRequestUseLocalQuickSlot",
     "param_signature": [
       "int"
     ],
@@ -7465,7 +8045,8 @@
     ]
   },
   {
-    "wrapper_name": "playerRemoveQuickSlotByValue",
+    "wrapper_name": "RemoveQuickSlotByValue",
+    "cpp_wrapper_func": "playerRemoveQuickSlotByValue",
     "param_signature": [
       "int"
     ],
@@ -7478,7 +8059,8 @@
     ]
   },
   {
-    "wrapper_name": "playerisItem",
+    "wrapper_name": "isItem",
+    "cpp_wrapper_func": "playerisItem",
     "param_signature": [
       "int"
     ],
@@ -7491,7 +8073,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsBeltInventorySlot",
+    "wrapper_name": "IsBeltInventorySlot",
+    "cpp_wrapper_func": "playerIsBeltInventorySlot",
     "param_signature": [
       "int"
     ],
@@ -7504,7 +8087,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsOpenPrivateShop",
+    "wrapper_name": "IsOpenPrivateShop",
+    "cpp_wrapper_func": "playerIsOpenPrivateShop",
     "param_signature": [],
     "targets": [
       {
@@ -7515,7 +8099,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsValuableItem",
+    "wrapper_name": "IsValuableItem",
+    "cpp_wrapper_func": "playerIsValuableItem",
     "param_signature": [
       "int"
     ],
@@ -7543,7 +8128,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetItemGrade",
+    "wrapper_name": "GetItemGrade",
+    "cpp_wrapper_func": "playerGetItemGrade",
     "param_signature": [
       "int"
     ],
@@ -7566,7 +8152,8 @@
     ]
   },
   {
-    "wrapper_name": "playerCanRefine",
+    "wrapper_name": "CanRefine",
+    "cpp_wrapper_func": "playerCanRefine",
     "param_signature": [
       "int"
     ],
@@ -7604,7 +8191,8 @@
     ]
   },
   {
-    "wrapper_name": "playerCanAttachMetin",
+    "wrapper_name": "CanAttachMetin",
+    "cpp_wrapper_func": "playerCanAttachMetin",
     "param_signature": [
       "int"
     ],
@@ -7637,7 +8225,8 @@
     ]
   },
   {
-    "wrapper_name": "playerCanDetach",
+    "wrapper_name": "CanDetach",
+    "cpp_wrapper_func": "playerCanDetach",
     "param_signature": [
       "int"
     ],
@@ -7675,7 +8264,8 @@
     ]
   },
   {
-    "wrapper_name": "playerCanUnlock",
+    "wrapper_name": "CanUnlock",
+    "cpp_wrapper_func": "playerCanUnlock",
     "param_signature": [
       "int"
     ],
@@ -7708,7 +8298,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsRefineGradeScroll",
+    "wrapper_name": "IsRefineGradeScroll",
+    "cpp_wrapper_func": "playerIsRefineGradeScroll",
     "param_signature": [
       "int"
     ],
@@ -7731,7 +8322,8 @@
     ]
   },
   {
-    "wrapper_name": "playerUpdate",
+    "wrapper_name": "Update",
+    "cpp_wrapper_func": "playerUpdate",
     "param_signature": [],
     "targets": [
       {
@@ -7742,7 +8334,8 @@
     ]
   },
   {
-    "wrapper_name": "playerClear",
+    "wrapper_name": "Clear",
+    "cpp_wrapper_func": "playerClear",
     "param_signature": [],
     "targets": [
       {
@@ -7753,7 +8346,8 @@
     ]
   },
   {
-    "wrapper_name": "playerClearTarget",
+    "wrapper_name": "ClearTarget",
+    "cpp_wrapper_func": "playerClearTarget",
     "param_signature": [],
     "targets": [
       {
@@ -7764,7 +8358,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetTarget",
+    "wrapper_name": "SetTarget",
+    "cpp_wrapper_func": "playerSetTarget",
     "param_signature": [
       "int"
     ],
@@ -7777,7 +8372,8 @@
     ]
   },
   {
-    "wrapper_name": "playerOpenCharacterMenu",
+    "wrapper_name": "OpenCharacterMenu",
+    "cpp_wrapper_func": "playerOpenCharacterMenu",
     "param_signature": [
       "int"
     ],
@@ -7790,7 +8386,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsPartyMember",
+    "wrapper_name": "IsPartyMember",
+    "cpp_wrapper_func": "playerIsPartyMember",
     "param_signature": [
       "int"
     ],
@@ -7803,7 +8400,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsPartyLeader",
+    "wrapper_name": "IsPartyLeader",
+    "cpp_wrapper_func": "playerIsPartyLeader",
     "param_signature": [
       "int"
     ],
@@ -7821,7 +8419,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsPartyLeaderByPID",
+    "wrapper_name": "IsPartyLeaderByPID",
+    "cpp_wrapper_func": "playerIsPartyLeaderByPID",
     "param_signature": [
       "int"
     ],
@@ -7834,7 +8433,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetPartyMemberHPPercentage",
+    "wrapper_name": "GetPartyMemberHPPercentage",
+    "cpp_wrapper_func": "playerGetPartyMemberHPPercentage",
     "param_signature": [
       "int"
     ],
@@ -7847,7 +8447,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetPartyMemberState",
+    "wrapper_name": "GetPartyMemberState",
+    "cpp_wrapper_func": "playerGetPartyMemberState",
     "param_signature": [
       "int"
     ],
@@ -7860,7 +8461,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetPartyMemberAffects",
+    "wrapper_name": "GetPartyMemberAffects",
+    "cpp_wrapper_func": "playerGetPartyMemberAffects",
     "param_signature": [
       "int"
     ],
@@ -7873,7 +8475,8 @@
     ]
   },
   {
-    "wrapper_name": "playerRemovePartyMember",
+    "wrapper_name": "RemovePartyMember",
+    "cpp_wrapper_func": "playerRemovePartyMember",
     "param_signature": [
       "int"
     ],
@@ -7886,7 +8489,8 @@
     ]
   },
   {
-    "wrapper_name": "playerExitParty",
+    "wrapper_name": "ExitParty",
+    "cpp_wrapper_func": "playerExitParty",
     "param_signature": [],
     "targets": [
       {
@@ -7897,7 +8501,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetPKMode",
+    "wrapper_name": "GetPKMode",
+    "cpp_wrapper_func": "playerGetPKMode",
     "param_signature": [],
     "targets": [
       {
@@ -7908,7 +8513,8 @@
     ]
   },
   {
-    "wrapper_name": "playerHasMobilePhoneNumber",
+    "wrapper_name": "HasMobilePhoneNumber",
+    "cpp_wrapper_func": "playerHasMobilePhoneNumber",
     "param_signature": [],
     "targets": [
       {
@@ -7919,7 +8525,8 @@
     ]
   },
   {
-    "wrapper_name": "playerToggleCoolTime",
+    "wrapper_name": "ToggleCoolTime",
+    "cpp_wrapper_func": "playerToggleCoolTime",
     "param_signature": [],
     "targets": [
       {
@@ -7930,7 +8537,8 @@
     ]
   },
   {
-    "wrapper_name": "playerToggleLevelLimit",
+    "wrapper_name": "ToggleLevelLimit",
+    "cpp_wrapper_func": "playerToggleLevelLimit",
     "param_signature": [],
     "targets": [
       {
@@ -7941,7 +8549,8 @@
     ]
   },
   {
-    "wrapper_name": "playerGetTargetVID",
+    "wrapper_name": "GetTargetVID",
+    "cpp_wrapper_func": "playerGetTargetVID",
     "param_signature": [],
     "targets": [
       {
@@ -7952,7 +8561,8 @@
     ]
   },
   {
-    "wrapper_name": "playerRegisterEmotionIcon",
+    "wrapper_name": "RegisterEmotionIcon",
+    "cpp_wrapper_func": "playerRegisterEmotionIcon",
     "param_signature": [
       "int",
       "string"
@@ -7966,7 +8576,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetItemData",
+    "wrapper_name": "SetItemData",
+    "cpp_wrapper_func": "playerSetItemData",
     "param_signature": [
       "int"
     ],
@@ -7979,7 +8590,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetItemMetinSocket",
+    "wrapper_name": "SetItemMetinSocket",
+    "cpp_wrapper_func": "playerSetItemMetinSocket",
     "param_signature": [
       "int"
     ],
@@ -7992,7 +8604,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSetItemAttribute",
+    "wrapper_name": "SetItemAttribute",
+    "cpp_wrapper_func": "playerSetItemAttribute",
     "param_signature": [
       "int"
     ],
@@ -8005,7 +8618,8 @@
     ]
   },
   {
-    "wrapper_name": "playerIsAvailableBeltInventoryCell",
+    "wrapper_name": "IsAvailableBeltInventoryCell",
+    "cpp_wrapper_func": "playerIsAvailableBeltInventoryCell",
     "param_signature": [
       "int"
     ],
@@ -8023,7 +8637,8 @@
     ]
   },
   {
-    "wrapper_name": "playerSendDragonSoulRefine",
+    "wrapper_name": "SendDragonSoulRefine",
+    "cpp_wrapper_func": "playerSendDragonSoulRefine",
     "param_signature": [
       "int"
     ],
@@ -8036,7 +8651,8 @@
     ]
   },
   {
-    "wrapper_name": "sndPlaySound",
+    "wrapper_name": "PlaySound",
+    "cpp_wrapper_func": "sndPlaySound",
     "param_signature": [
       "string"
     ],
@@ -8049,7 +8665,8 @@
     ]
   },
   {
-    "wrapper_name": "sndPlaySound3D",
+    "wrapper_name": "PlaySound3D",
+    "cpp_wrapper_func": "sndPlaySound3D",
     "param_signature": [
       "string",
       "float"
@@ -8063,7 +8680,8 @@
     ]
   },
   {
-    "wrapper_name": "sndPlayMusic",
+    "wrapper_name": "PlayMusic",
+    "cpp_wrapper_func": "sndPlayMusic",
     "param_signature": [
       "string"
     ],
@@ -8076,7 +8694,8 @@
     ]
   },
   {
-    "wrapper_name": "sndFadeInMusic",
+    "wrapper_name": "FadeInMusic",
+    "cpp_wrapper_func": "sndFadeInMusic",
     "param_signature": [
       "string"
     ],
@@ -8089,7 +8708,8 @@
     ]
   },
   {
-    "wrapper_name": "sndFadeOutMusic",
+    "wrapper_name": "FadeOutMusic",
+    "cpp_wrapper_func": "sndFadeOutMusic",
     "param_signature": [
       "string"
     ],
@@ -8102,7 +8722,8 @@
     ]
   },
   {
-    "wrapper_name": "sndFadeOutAllMusic",
+    "wrapper_name": "FadeOutAllMusic",
+    "cpp_wrapper_func": "sndFadeOutAllMusic",
     "param_signature": [],
     "targets": [
       {
@@ -8113,7 +8734,8 @@
     ]
   },
   {
-    "wrapper_name": "sndFadeLimitOutMusic",
+    "wrapper_name": "FadeLimitOutMusic",
+    "cpp_wrapper_func": "sndFadeLimitOutMusic",
     "param_signature": [
       "string",
       "float"
@@ -8127,7 +8749,8 @@
     ]
   },
   {
-    "wrapper_name": "sndStopAllSound",
+    "wrapper_name": "StopAllSound",
+    "cpp_wrapper_func": "sndStopAllSound",
     "param_signature": [],
     "targets": [
       {
@@ -8138,7 +8761,8 @@
     ]
   },
   {
-    "wrapper_name": "sndSetMusicVolume",
+    "wrapper_name": "SetMusicVolume",
+    "cpp_wrapper_func": "sndSetMusicVolume",
     "param_signature": [
       "float"
     ],
@@ -8151,7 +8775,8 @@
     ]
   },
   {
-    "wrapper_name": "sndSetSoundVolumef",
+    "wrapper_name": "SetSoundVolumef",
+    "cpp_wrapper_func": "sndSetSoundVolumef",
     "param_signature": [
       "float"
     ],
@@ -8164,7 +8789,8 @@
     ]
   },
   {
-    "wrapper_name": "sndSetSoundVolume",
+    "wrapper_name": "SetSoundVolume",
+    "cpp_wrapper_func": "sndSetSoundVolume",
     "param_signature": [
       "int"
     ],
@@ -8177,7 +8803,8 @@
     ]
   },
   {
-    "wrapper_name": "sndSetSoundScale",
+    "wrapper_name": "SetSoundScale",
+    "cpp_wrapper_func": "sndSetSoundScale",
     "param_signature": [
       "float"
     ],
@@ -8190,7 +8817,8 @@
     ]
   },
   {
-    "wrapper_name": "sndSetAmbienceSoundScale",
+    "wrapper_name": "SetAmbienceSoundScale",
+    "cpp_wrapper_func": "sndSetAmbienceSoundScale",
     "param_signature": [
       "float"
     ],
@@ -8203,7 +8831,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetWidth",
+    "wrapper_name": "GetWidth",
+    "cpp_wrapper_func": "systemGetWidth",
     "param_signature": [],
     "targets": [
       {
@@ -8214,7 +8843,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetHeight",
+    "wrapper_name": "GetHeight",
+    "cpp_wrapper_func": "systemGetHeight",
     "param_signature": [],
     "targets": [
       {
@@ -8225,7 +8855,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSetInterfaceHandler",
+    "wrapper_name": "SetInterfaceHandler",
+    "cpp_wrapper_func": "systemSetInterfaceHandler",
     "param_signature": [],
     "targets": [
       {
@@ -8236,7 +8867,8 @@
     ]
   },
   {
-    "wrapper_name": "systemDestroyInterfaceHandler",
+    "wrapper_name": "DestroyInterfaceHandler",
+    "cpp_wrapper_func": "systemDestroyInterfaceHandler",
     "param_signature": [],
     "targets": [
       {
@@ -8247,7 +8879,8 @@
     ]
   },
   {
-    "wrapper_name": "systemReserveResource",
+    "wrapper_name": "ReserveResource",
+    "cpp_wrapper_func": "systemReserveResource",
     "param_signature": [],
     "targets": [
       {
@@ -8258,7 +8891,8 @@
     ]
   },
   {
-    "wrapper_name": "systemisInterfaceConfig",
+    "wrapper_name": "isInterfaceConfig",
+    "cpp_wrapper_func": "systemisInterfaceConfig",
     "param_signature": [],
     "targets": [
       {
@@ -8269,7 +8903,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSaveWindowStatus",
+    "wrapper_name": "SaveWindowStatus",
+    "cpp_wrapper_func": "systemSaveWindowStatus",
     "param_signature": [
       "int"
     ],
@@ -8282,7 +8917,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetWindowStatus",
+    "wrapper_name": "GetWindowStatus",
+    "cpp_wrapper_func": "systemGetWindowStatus",
     "param_signature": [
       "int"
     ],
@@ -8295,7 +8931,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetConfig",
+    "wrapper_name": "GetConfig",
+    "cpp_wrapper_func": "systemGetConfig",
     "param_signature": [],
     "targets": [
       {
@@ -8316,7 +8953,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSetSaveID",
+    "wrapper_name": "SetSaveID",
+    "cpp_wrapper_func": "systemSetSaveID",
     "param_signature": [
       "int",
       "string"
@@ -8330,7 +8968,8 @@
     ]
   },
   {
-    "wrapper_name": "systemisSaveID",
+    "wrapper_name": "isSaveID",
+    "cpp_wrapper_func": "systemisSaveID",
     "param_signature": [],
     "targets": [
       {
@@ -8341,7 +8980,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetSaveID",
+    "wrapper_name": "GetSaveID",
+    "cpp_wrapper_func": "systemGetSaveID",
     "param_signature": [],
     "targets": [
       {
@@ -8352,7 +8992,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetMusicVolume",
+    "wrapper_name": "GetMusicVolume",
+    "cpp_wrapper_func": "systemGetMusicVolume",
     "param_signature": [],
     "targets": [
       {
@@ -8363,7 +9004,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetSoundVolume",
+    "wrapper_name": "GetSoundVolume",
+    "cpp_wrapper_func": "systemGetSoundVolume",
     "param_signature": [],
     "targets": [
       {
@@ -8374,7 +9016,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSetMusicVolume",
+    "wrapper_name": "SetMusicVolume",
+    "cpp_wrapper_func": "systemSetMusicVolume",
     "param_signature": [
       "float"
     ],
@@ -8387,7 +9030,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSetSoundVolumef",
+    "wrapper_name": "SetSoundVolumef",
+    "cpp_wrapper_func": "systemSetSoundVolumef",
     "param_signature": [
       "float"
     ],
@@ -8400,7 +9044,8 @@
     ]
   },
   {
-    "wrapper_name": "systemIsSoftwareCursor",
+    "wrapper_name": "IsSoftwareCursor",
+    "cpp_wrapper_func": "systemIsSoftwareCursor",
     "param_signature": [],
     "targets": [
       {
@@ -8411,7 +9056,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSetViewChatFlag",
+    "wrapper_name": "SetViewChatFlag",
+    "cpp_wrapper_func": "systemSetViewChatFlag",
     "param_signature": [
       "int"
     ],
@@ -8424,7 +9070,8 @@
     ]
   },
   {
-    "wrapper_name": "systemIsViewChat",
+    "wrapper_name": "IsViewChat",
+    "cpp_wrapper_func": "systemIsViewChat",
     "param_signature": [],
     "targets": [
       {
@@ -8435,7 +9082,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSetAlwaysShowNameFlag",
+    "wrapper_name": "SetAlwaysShowNameFlag",
+    "cpp_wrapper_func": "systemSetAlwaysShowNameFlag",
     "param_signature": [
       "int"
     ],
@@ -8448,7 +9096,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSetShowDamageFlag",
+    "wrapper_name": "SetShowDamageFlag",
+    "cpp_wrapper_func": "systemSetShowDamageFlag",
     "param_signature": [
       "int"
     ],
@@ -8461,7 +9110,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSetShowSalesTextFlag",
+    "wrapper_name": "SetShowSalesTextFlag",
+    "cpp_wrapper_func": "systemSetShowSalesTextFlag",
     "param_signature": [
       "int"
     ],
@@ -8474,7 +9124,8 @@
     ]
   },
   {
-    "wrapper_name": "systemIsAlwaysShowName",
+    "wrapper_name": "IsAlwaysShowName",
+    "cpp_wrapper_func": "systemIsAlwaysShowName",
     "param_signature": [],
     "targets": [
       {
@@ -8485,7 +9136,8 @@
     ]
   },
   {
-    "wrapper_name": "systemIsShowDamage",
+    "wrapper_name": "IsShowDamage",
+    "cpp_wrapper_func": "systemIsShowDamage",
     "param_signature": [],
     "targets": [
       {
@@ -8496,7 +9148,8 @@
     ]
   },
   {
-    "wrapper_name": "systemIsShowSalesText",
+    "wrapper_name": "IsShowSalesText",
+    "cpp_wrapper_func": "systemIsShowSalesText",
     "param_signature": [],
     "targets": [
       {
@@ -8507,7 +9160,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSetConfig",
+    "wrapper_name": "SetConfig",
+    "cpp_wrapper_func": "systemSetConfig",
     "param_signature": [
       "int"
     ],
@@ -8535,7 +9189,8 @@
     ]
   },
   {
-    "wrapper_name": "systemApplyConfig",
+    "wrapper_name": "ApplyConfig",
+    "cpp_wrapper_func": "systemApplyConfig",
     "param_signature": [],
     "targets": [
       {
@@ -8546,7 +9201,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSaveConfig",
+    "wrapper_name": "SaveConfig",
+    "cpp_wrapper_func": "systemSaveConfig",
     "param_signature": [],
     "targets": [
       {
@@ -8557,7 +9213,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetResolutionCount",
+    "wrapper_name": "GetResolutionCount",
+    "cpp_wrapper_func": "systemGetResolutionCount",
     "param_signature": [],
     "targets": [
       {
@@ -8568,7 +9225,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetFrequencyCount",
+    "wrapper_name": "GetFrequencyCount",
+    "cpp_wrapper_func": "systemGetFrequencyCount",
     "param_signature": [
       "int"
     ],
@@ -8581,7 +9239,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetResolution",
+    "wrapper_name": "GetResolution",
+    "cpp_wrapper_func": "systemGetResolution",
     "param_signature": [
       "int"
     ],
@@ -8594,7 +9253,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetCurrentResolution",
+    "wrapper_name": "GetCurrentResolution",
+    "cpp_wrapper_func": "systemGetCurrentResolution",
     "param_signature": [],
     "targets": [
       {
@@ -8605,7 +9265,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetFrequency",
+    "wrapper_name": "GetFrequency",
+    "cpp_wrapper_func": "systemGetFrequency",
     "param_signature": [
       "int"
     ],
@@ -8618,7 +9279,8 @@
     ]
   },
   {
-    "wrapper_name": "systemGetShadowLevel",
+    "wrapper_name": "GetShadowLevel",
+    "cpp_wrapper_func": "systemGetShadowLevel",
     "param_signature": [],
     "targets": [
       {
@@ -8629,7 +9291,8 @@
     ]
   },
   {
-    "wrapper_name": "systemSetShadowLevel",
+    "wrapper_name": "SetShadowLevel",
+    "cpp_wrapper_func": "systemSetShadowLevel",
     "param_signature": [
       "int"
     ],
@@ -8642,7 +9305,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailClear",
+    "wrapper_name": "Clear",
+    "cpp_wrapper_func": "textTailClear",
     "param_signature": [],
     "targets": [
       {
@@ -8653,7 +9317,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailUpdateAllTextTail",
+    "wrapper_name": "UpdateAllTextTail",
+    "cpp_wrapper_func": "textTailUpdateAllTextTail",
     "param_signature": [],
     "targets": [
       {
@@ -8664,7 +9329,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailUpdateShowingTextTail",
+    "wrapper_name": "UpdateShowingTextTail",
+    "cpp_wrapper_func": "textTailUpdateShowingTextTail",
     "param_signature": [],
     "targets": [
       {
@@ -8675,7 +9341,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailRender",
+    "wrapper_name": "Render",
+    "cpp_wrapper_func": "textTailRender",
     "param_signature": [],
     "targets": [
       {
@@ -8686,7 +9353,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailRegisterCharacterTextTail",
+    "wrapper_name": "RegisterCharacterTextTail",
+    "cpp_wrapper_func": "textTailRegisterCharacterTextTail",
     "param_signature": [
       "int"
     ],
@@ -8699,7 +9367,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailGetPosition",
+    "wrapper_name": "GetPosition",
+    "cpp_wrapper_func": "textTailGetPosition",
     "param_signature": [
       "int"
     ],
@@ -8722,7 +9391,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailIsChat",
+    "wrapper_name": "IsChat",
+    "cpp_wrapper_func": "textTailIsChat",
     "param_signature": [
       "int"
     ],
@@ -8735,7 +9405,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailRegisterChatTail",
+    "wrapper_name": "RegisterChatTail",
+    "cpp_wrapper_func": "textTailRegisterChatTail",
     "param_signature": [
       "int",
       "string"
@@ -8749,7 +9420,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailRegisterInfoTail",
+    "wrapper_name": "RegisterInfoTail",
+    "cpp_wrapper_func": "textTailRegisterInfoTail",
     "param_signature": [
       "int",
       "string"
@@ -8763,7 +9435,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailAttachTitle",
+    "wrapper_name": "AttachTitle",
+    "cpp_wrapper_func": "textTailAttachTitle",
     "param_signature": [
       "int",
       "string",
@@ -8778,7 +9451,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailShowCharacterTextTail",
+    "wrapper_name": "ShowCharacterTextTail",
+    "cpp_wrapper_func": "textTailShowCharacterTextTail",
     "param_signature": [
       "int"
     ],
@@ -8791,7 +9465,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailShowItemTextTail",
+    "wrapper_name": "ShowItemTextTail",
+    "cpp_wrapper_func": "textTailShowItemTextTail",
     "param_signature": [
       "int"
     ],
@@ -8804,7 +9479,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailArrangeTextTail",
+    "wrapper_name": "ArrangeTextTail",
+    "cpp_wrapper_func": "textTailArrangeTextTail",
     "param_signature": [],
     "targets": [
       {
@@ -8815,7 +9491,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailHideAllTextTail",
+    "wrapper_name": "HideAllTextTail",
+    "cpp_wrapper_func": "textTailHideAllTextTail",
     "param_signature": [],
     "targets": [
       {
@@ -8826,7 +9503,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailShowAllTextTail",
+    "wrapper_name": "ShowAllTextTail",
+    "cpp_wrapper_func": "textTailShowAllTextTail",
     "param_signature": [],
     "targets": [
       {
@@ -8837,7 +9515,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailPick",
+    "wrapper_name": "Pick",
+    "cpp_wrapper_func": "textTailPick",
     "param_signature": [
       "int"
     ],
@@ -8850,7 +9529,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailSelectItemName",
+    "wrapper_name": "SelectItemName",
+    "cpp_wrapper_func": "textTailSelectItemName",
     "param_signature": [
       "int"
     ],
@@ -8863,7 +9543,8 @@
     ]
   },
   {
-    "wrapper_name": "textTailEnablePKTitle",
+    "wrapper_name": "EnablePKTitle",
+    "cpp_wrapper_func": "textTailEnablePKTitle",
     "param_signature": [
       "int"
     ],
@@ -8876,7 +9557,8 @@
     ]
   },
   {
-    "wrapper_name": "ServerStateCheckerCreate",
+    "wrapper_name": "Create",
+    "cpp_wrapper_func": "ServerStateCheckerCreate",
     "param_signature": [],
     "targets": [
       {
@@ -8887,7 +9569,8 @@
     ]
   },
   {
-    "wrapper_name": "ServerStateCheckerUpdate",
+    "wrapper_name": "Update",
+    "cpp_wrapper_func": "ServerStateCheckerUpdate",
     "param_signature": [],
     "targets": [
       {
@@ -8898,7 +9581,8 @@
     ]
   },
   {
-    "wrapper_name": "ServerStateCheckerRequest",
+    "wrapper_name": "Request",
+    "cpp_wrapper_func": "ServerStateCheckerRequest",
     "param_signature": [],
     "targets": [
       {
@@ -8909,7 +9593,8 @@
     ]
   },
   {
-    "wrapper_name": "ServerStateCheckerAddChannel",
+    "wrapper_name": "AddChannel",
+    "cpp_wrapper_func": "ServerStateCheckerAddChannel",
     "param_signature": [
       "int",
       "string"
@@ -8923,7 +9608,8 @@
     ]
   },
   {
-    "wrapper_name": "ServerStateCheckerInitialize",
+    "wrapper_name": "Initialize",
+    "cpp_wrapper_func": "ServerStateCheckerInitialize",
     "param_signature": [],
     "targets": [
       {

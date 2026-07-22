@@ -7,6 +7,13 @@ def parse_cpp_file(file_path):
     with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
         content = f.read()
 
+    method_def_pattern = re.compile(r'\{\s*"([^"]+)"\s*,\s*(\w+)\s*,', re.MULTILINE)
+    py_method_map = {}
+    for match in method_def_pattern.finditer(content):
+        py_name = match.group(1)
+        wrapper_name = match.group(2)
+        py_method_map[wrapper_name] = py_name
+
     wrapper_pattern = re.compile(r'PyObject\s*\*\s*(\w+)\s*\([^)]*\)\s*\{([\s\S]*?)\n\}', re.MULTILINE)
     
     param_int_pattern = re.compile(r'PyTuple_GetInteger|PyTuple_GetUnsignedLong|PyTuple_GetLong|PyTuple_GetUnsignedInteger|PyTuple_GetByte')
@@ -21,6 +28,8 @@ def parse_cpp_file(file_path):
     for match in wrapper_pattern.finditer(content):
         wrapper_name = match.group(1)
         body = match.group(2)
+
+        py_string_name = py_method_map.get(wrapper_name, wrapper_name)
 
         param_types = []
         if param_int_pattern.search(body):
@@ -65,7 +74,8 @@ def parse_cpp_file(file_path):
 
         if calls:
             rule = {
-                "wrapper_name": wrapper_name,
+                "wrapper_name": py_string_name,
+                "cpp_wrapper_func": wrapper_name,
                 "param_signature": param_types,
                 "targets": calls
             }

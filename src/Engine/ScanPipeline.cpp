@@ -7,8 +7,8 @@
 namespace KargaTarayici::Engine {
 
 ScanPipeline::ScanPipeline() {
-    RegisterStrategy(Rules::RuleType::InstanceRegister, std::make_unique<Strategies::RegisterDataFlowStrategy>());
-    RegisterStrategy(Rules::RuleType::MethodCall, std::make_unique<Strategies::RegisterDataFlowStrategy>());
+    RegisterStrategy(Rules::RuleType::InstanceRegister, std::make_unique<Strategies::StringXrefStrategy>());
+    RegisterStrategy(Rules::RuleType::MethodCall, std::make_unique<Strategies::StringXrefStrategy>());
 }
 
 void ScanPipeline::RegisterStrategy(Rules::RuleType type, std::unique_ptr<Strategies::IScanStrategy> strategy) {
