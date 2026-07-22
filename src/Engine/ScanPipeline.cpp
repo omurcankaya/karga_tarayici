@@ -1,12 +1,14 @@
 #include "KargaTarayici/Engine/ScanPipeline.h"
 #include "KargaTarayici/Strategies/InstanceRegisterStrategy.h"
 #include "KargaTarayici/Strategies/MethodCallStrategy.h"
+#include "KargaTarayici/Strategies/RegisterDataFlowStrategy.h"
+#include "KargaTarayici/Strategies/StringXrefStrategy.h"
 
 namespace KargaTarayici::Engine {
 
 ScanPipeline::ScanPipeline() {
-    RegisterStrategy(Rules::RuleType::InstanceRegister, std::make_unique<Strategies::InstanceRegisterStrategy>());
-    RegisterStrategy(Rules::RuleType::MethodCall, std::make_unique<Strategies::MethodCallStrategy>());
+    RegisterStrategy(Rules::RuleType::InstanceRegister, std::make_unique<Strategies::RegisterDataFlowStrategy>());
+    RegisterStrategy(Rules::RuleType::MethodCall, std::make_unique<Strategies::RegisterDataFlowStrategy>());
 }
 
 void ScanPipeline::RegisterStrategy(Rules::RuleType type, std::unique_ptr<Strategies::IScanStrategy> strategy) {
@@ -16,8 +18,8 @@ void ScanPipeline::RegisterStrategy(Rules::RuleType type, std::unique_ptr<Strate
 }
 
 std::vector<Strategies::ScanResult> ScanPipeline::Run(Core::Address baseAddress, 
-                                                      const Core::IMemoryReader& reader, 
-                                                      const std::vector<Rules::RuleModel>& rules) const {
+                                                       const Core::IMemoryReader& reader, 
+                                                       const std::vector<Rules::RuleModel>& rules) const {
     std::vector<Strategies::ScanResult> results;
     results.reserve(rules.size());
 

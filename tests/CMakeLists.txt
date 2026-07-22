@@ -2,6 +2,7 @@ set(TEST_SOURCES
     Core/TestMemoryReader.cpp
     Engine/TestDisassemblerEngine.cpp
     Rules/TestJsonRuleParser.cpp
+    Strategies/TestScanStrategies.cpp
 )
 
 add_executable(KargaScannerTests ${TEST_SOURCES})

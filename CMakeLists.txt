@@ -28,6 +28,8 @@ set(CORE_SOURCES
     src/Engine/ScanPipeline.cpp
     src/Strategies/InstanceRegisterStrategy.cpp
     src/Strategies/MethodCallStrategy.cpp
+    src/Strategies/RegisterDataFlowStrategy.cpp
+    src/Strategies/StringXrefStrategy.cpp
     src/Rules/JsonRuleParser.cpp
     src/UI/RenderEngineD3D11.cpp
     src/UI/UIContext.cpp
