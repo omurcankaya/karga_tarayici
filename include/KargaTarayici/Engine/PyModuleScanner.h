@@ -3,6 +3,7 @@
 #include "KargaTarayici/Core/Types.h"
 #include "KargaTarayici/Core/IMemoryReader.h"
 #include "KargaTarayici/Strategies/RegisterDataFlowStrategy.h"
+#include "KargaTarayici/Engine/PyInitModuleResolver.h"
 #include <string>
 #include <vector>
 
@@ -18,12 +19,14 @@ struct PyMethodInfo {
 struct PyModuleInfo {
     std::string moduleName;
     Core::Address tableAddress{0};
+    Core::Address pyInitModule4Address{0};
     std::vector<PyMethodInfo> methods{};
 };
 
 class PyModuleScanner {
 private:
     Strategies::RegisterDataFlowStrategy dataFlowStrategy_{};
+    PyInitModuleResolver resolver_{};
 
 public:
     PyModuleScanner() = default;

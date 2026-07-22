@@ -80,47 +80,15 @@ std::vector<PyModuleInfo> PyModuleScanner::ScanPythonModules(Core::Address modul
                                                              Core::Size moduleSize, 
                                                              const Core::IMemoryReader& reader) const {
     std::vector<PyModuleInfo> modules;
-    auto moduleBytes = reader.ReadBytes(moduleBase, moduleSize);
-    if (moduleBytes.empty()) {
-        return modules;
-    }
 
-    const std::vector<std::string> targetModules = { "net", "player", "item", "chr", "app", "guild", "chat" };
-
-    for (const auto& modName : targetModules) {
-        Core::Address stringAddr = 0;
-        for (Core::Size i = 0; i <= moduleBytes.size() - modName.length(); ++i) {
-            if (std::memcmp(moduleBytes.data() + i, modName.data(), modName.length()) == 0 && moduleBytes[i + modName.length()] == '\0') {
-                stringAddr = moduleBase + i;
-                break;
-            }
-        }
-
-        if (stringAddr == 0) {
-            continue;
-        }
-
-        for (Core::Size i = 0; i <= moduleBytes.size() - 10; ++i) {
-            if (moduleBytes[i] == 0x68) { // PUSH imm32 string
-                uint32_t pushedStr = *reinterpret_cast<const uint32_t*>(moduleBytes.data() + i + 1);
-                if (pushedStr == stringAddr) {
-                    for (Core::Size j = i; j < i + 30 && j < moduleBytes.size() - 5; ++j) {
-                        if (moduleBytes[j] == 0x68) { // PUSH imm32 table
-                            uint32_t tableAddr = *reinterpret_cast<const uint32_t*>(moduleBytes.data() + j + 1);
-                            if (tableAddr > moduleBase && tableAddr < moduleBase + moduleSize) {
-                                PyModuleInfo modInfo{};
-                                modInfo.moduleName = modName;
-                                modInfo.tableAddress = tableAddr;
-                                modInfo.methods = ParsePyMethodTable(tableAddr, reader);
-                                modules.push_back(modInfo);
-                                break;
-                            }
-                        }
-                    }
-                    break;
-                }
-            }
-        }
+    auto callSites = resolver_.DiscoverPyInitModule4Calls(moduleBase, moduleSize, reader);
+    for (const auto& site : callSites) {
+        PyModuleInfo modInfo{};
+        modInfo.moduleName = site.moduleName;
+        modInfo.tableAddress = site.tableAddress;
+        modInfo.pyInitModule4Address = site.pyInitModule4Address;
+        modInfo.methods = ParsePyMethodTable(site.tableAddress, reader);
+        modules.push_back(modInfo);
     }
 
     return modules;

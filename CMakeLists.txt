@@ -27,6 +27,7 @@ set(CORE_SOURCES
     src/Engine/PatternScanner.cpp
     src/Engine/ScanPipeline.cpp
     src/Engine/PyModuleScanner.cpp
+    src/Engine/PyInitModuleResolver.cpp
     src/Strategies/InstanceRegisterStrategy.cpp
     src/Strategies/MethodCallStrategy.cpp
     src/Strategies/RegisterDataFlowStrategy.cpp

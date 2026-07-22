@@ -14,8 +14,11 @@ void UIContext::ExecuteScan() {
 
     std::vector<Strategies::ScanResult> scanResults;
     for (const auto& mod : pyModules) {
-        logWindow_.AddLog(LogLevel::Info, std::format("Found Python Module: '{}' at Table: 0x{:08X} ({} methods)", 
-                          mod.moduleName, mod.tableAddress, mod.methods.size()));
+        logWindow_.AddLog(LogLevel::Info, std::format("Found Py_InitModule4 Address: 0x{:08X} via module '{}'", 
+                          mod.pyInitModule4Address, mod.moduleName));
+        
+        Strategies::ScanResult pyInitRes{true, mod.pyInitModule4Address, std::format("Py_InitModule4_{}", mod.moduleName)};
+        scanResults.push_back(pyInitRes);
 
         for (const auto& method : mod.methods) {
             Strategies::ScanResult wrapperRes{true, method.wrapperAddress, std::format("PyWrapper_{}_{}", mod.moduleName, method.methodName)};
