@@ -1,6 +1,7 @@
 #pragma once
 
 #include "KargaTarayici/Core/Types.h"
+#include <windows.h>
 
 namespace KargaTarayici::Core {
 
