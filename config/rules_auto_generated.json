@@ -1,0 +1,8936 @@
+[
+  {
+    "wrapper_name": "appShowWebPage",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "ShowWebPage",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appMoveWebPage",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "MoveWebPage",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appHideWebPage",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "HideWebPage",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appIsWebPageMode",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "IsWebPageMode",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetMinFog",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetMinFog",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetFrameSkip",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetFrameSkip",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appIsExistFile",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CEterPackManager",
+        "method_name": "isExist",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appUpdateGame",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "UpdateGame",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appRenderGame",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "RenderGame",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetMouseHandler",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetMouseHandler",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appCreate",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "Create",
+        "arg_count": 5
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appLoop",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "Loop",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetInfo",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetInfo",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appProcess",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "Process",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appAbort",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "Abort",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appExit",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "Exit",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetCamera",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetCamera",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetCamera",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetCamera",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetCameraPitch",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetPitch",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetCameraRotation",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetRotation",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetTime",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetGlobalTime",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetGlobalTime",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetServerTime",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetGlobalTimeStamp",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetServerTimeStamp",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetUpdateFPS",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetUpdateFPS",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetRenderFPS",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetRenderFPS",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appRotateCamera",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "RotateCamera",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appPitchCamera",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "PitchCamera",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appZoomCamera",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "ZoomCamera",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appMovieRotateCamera",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "MovieRotateCamera",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appMoviePitchCamera",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "MoviePitchCamera",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appMovieZoomCamera",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "MovieZoomCamera",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appMovieResetCamera",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "MovieResetCamera",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetFaceSpeed",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetFaceSpeed",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetRenderTime",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetAveRenderTime",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetCurRenderTime",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetUpdateTime",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetCurUpdateTime",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetLoad",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetLoad",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetFaceCount",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetFaceCount",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetFPS",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetFPS",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetGlobalCenterPosition",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetGlobalCenterPosition",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetCenterPosition",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetCenterPosition",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appRunPythonFile",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonLauncher",
+        "method_name": "RunFile",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appIsPressed",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "IsPressed",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetCursor",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetHardwareCursor",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetCursorNum",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetCursor",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetCursorNum",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appShowCursor",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetCursorVisible",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appHideCursor",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetCursorVisible",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appIsShowCursor",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetCursorVisible",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appIsLiarCursorOn",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetLiarCursorOn",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetSoftwareCursor",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetCursorMode",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetHardwareCursor",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetCursorMode",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetConnectData",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetConnectData",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appGetConnectData",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "GetConnectData",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appEnableSpecialCameraMode",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "EnableSpecialCameraMode",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetCameraSpeed",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetCameraSpeed",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CCameraManager",
+        "method_name": "GetCurrentCamera",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetCameraSetting",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetEventCamera",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSaveCameraSetting",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SaveCameraSetting",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appLoadCameraSetting",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "LoadCameraSetting",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetDefaultCamera",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetDefaultCamera",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetSightRange",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "SetForceSightRange",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appSetGuildMarkPath",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CGuildMarkManager",
+        "method_name": "SetMarkPathPrefix",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appLogoOpen",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "OnLogoOpen",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CMovieMan",
+        "method_name": "PlayLogo",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appLogoUpdate",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "OnLogoUpdate",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appLogoRender",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "OnLogoRender",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "appLogoClose",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonApplication",
+        "method_name": "OnLogoClose",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundIsSoftwareTiling",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "IsSoftwareTilingEnable",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundEnableSoftwareTiling",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "ReserveSoftwareTilingEnable",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetSoftwareTiling",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundEnableSnow",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "EnableSnowEnvironment",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "DisableSnowEnvironment",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundLoadMap",
+    "param_signature": [
+      "string",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "LoadMap",
+        "arg_count": 4
+      },
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetMapOutdoorRef",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "EnableTerrainOnlyForHeight",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundDestroy",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SetShadowLevel",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "Destroy",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRegisterEnvironmentData",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RegisterEnvironmentData",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetEnvironmentData",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetEnvironmentData",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "ResetEnvironmentDataPtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGetCurrentMapName",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetWarpMapName",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGetPickingPoint",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetPickingPoint",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundBeginEnvironment",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "BeginEnvironment",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundEndEnvironemt",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "EndEnvironment",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetCharacterDirLight",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SetCharacterDirLight",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetBackgroundDirLight",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SetBackgroundDirLight",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundInitialize",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "Create",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundUpdate",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "Update",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRender",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "Render",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRenderPCBlocker",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RenderPCBlocker",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRenderCollision",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RenderCollision",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRenderSky",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RenderSky",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRenderCloud",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RenderCloud",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRenderWater",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RenderWater",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRenderEffect",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RenderEffect",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRenderBeforeLensFlare",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RenderBeforeLensFlare",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRenderAfterLensFlare",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RenderAfterLensFlare",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRenderCharacterShadowToTexture",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RenderCharacterShadowToTexture",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGetHeight",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetHeight",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGetRenderedSplatNum",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetRenderedSplatNum",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGetRenderedGTINum",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetRenderedGraphicThingInstanceNum",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGetRenderShadowTime",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetRenderShadowTime",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGetShadowMapcolor",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetShadowMapColor",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetShadowLevel",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SetShadowLevel",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetVisiblePart",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SetVisiblePart",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetSpaltLimit",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SetSplatLimit",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSelectViewDistanceNum",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SelectViewDistanceNum",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetViewDistanceSet",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SetViewDistanceSet",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGetFarClip",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetFarClip",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGetDistanceSetInfo",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GetDistanceSetInfo",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetBGLoading",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "BGLoadingEnable",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetRenderSort",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SetTerrainRenderSort",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetTransparentTree",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SetTransparentTree",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGlobalPositionToLocalPosition",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GlobalPositionToLocalPosition",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundGlobalPositionToMapInfo",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "GlobalPositionToMapInfo",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundWarpTest",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "Warp",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundSetXMasTree",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "SetXMaxTree",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundRegisterDungeonMapName",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "RegisterDungeonMapName",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundVisibleGuildArea",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "VisibleGuildArea",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "backgroundDisableGuildArea",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "DisableGuildArea",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrSetEmpireNameMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "RefreshAllPCTextTail",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrGetPickedVID",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "OLD_GetPickedInstanceVID",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrGetVIDInfo",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "IsRegisteredVID",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "IsAliveVID",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "IsDeadVID",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonBackground",
+        "method_name": "LocalPositionToGlobalPosition",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrSetPathName",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "SetPathName",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrCreateRace",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "CreateRace",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrSelectRace",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "SelectRace",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterAttachingBoneName",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterMotionMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrSetMotionRandomWeight",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterNormalAttack",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrReserveComboAttack",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterComboAttack",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrReserveComboAttackNew",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterComboAttackNew",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrLoadRaceData",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetFullPathFileName",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrLoadLocalRaceData",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterMotion",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetFullPathFileName",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterCacheMotionData",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetFullPathFileName",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CResourceManager",
+        "method_name": "LoadStaticCache",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterMotionData",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetFullPathFileName",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterRaceSrcName",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "RegisterRaceSrcName",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterRaceName",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "RegisterRaceName",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrSetShapeModel",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrAppendShapeSkin",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CRaceManager",
+        "method_name": "GetSelectedRaceDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrSetMovingSpeed",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrRegisterPointEffect",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "RegisterPointEffect",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrShowPointEffect",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "ShowPointEffect",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrSetAffect",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "SCRIPT_SetAffect",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrSetEmoticon",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "SetEmoticon",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrmgrIsPossibleEmoticon",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "IsPossibleEmoticon",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrDestroy",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "Destroy",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrUpdate",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "Update",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrDeform",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "Deform",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrRender",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "Render",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrRenderCollision",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "RenderCollision",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrCreateInstance",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "CreateInstance",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "RegisterInstance",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrDeleteInstance",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "DeleteInstance",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrDeleteInstanceByFade",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "DeleteInstanceByFade",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSelectInstance",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "SelectInstance",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrHasInstance",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrIsEnemy",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrIsNPC",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrIsGameMaster",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrIsPartyMember",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSelect",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonNonPlayer",
+        "method_name": "GetEventType",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetAddRenderMode",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetBlendRenderMode",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrUnselect",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrPick",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "OLD_GetPickedInstanceVID",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrHide",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrShow",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrPickAll",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "PickAll",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetRace",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetHair",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrChangeHair",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetArmor",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrChangeShape",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetWeapon",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetVirtualID",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetNameString",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetInstanceType",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrAttachEffectByName",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrAttachEffectByID",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrRefresh",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrMountHorse",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrDismountHorse",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrRevive",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrDie",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrLookAt",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetMotionMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetLoopMotion",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrBlendLoopMotion",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrPushOnceMotion",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrPushLoopMotion",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetPixelPosition",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetDirection",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrGetPixelPosition",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetRotation",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetRotationAll",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrBlendRotation",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrGetRotation",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrGetRace",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrGetName",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrGetNameByVID",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrGetGuildID",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrGetProjectPosition",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonGraphic",
+        "method_name": "ProjectPosition",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrGetVirtualNumber",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrGetInstanceType",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrGetBoundBoxOnlyXY",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrtestGetPKData",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrtestSetComboType",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrtestSetAddRenderMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrtestSetModulateRenderMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrtestSetAddRenderModeRGB",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrtestSetModulateRenderModeRGB",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrtestSetSpecularRenderMode",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrtestSetSpecularRenderMode2",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrtestRestoreRenderMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrFaintTest",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetMoveSpeed",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrSetAttackSpeed",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrWeaponTraceSetTexture",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetMainInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrWeaponTraceUseTexture",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetMainInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrWeaponTraceUseAlpha",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetMainInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrMoveToDestPosition",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chrtestSetRideMan",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "RegisterInstance",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatSetChatColor",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "SetChatColor",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatClear",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "Destroy",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatClose",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "Close",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatCreateChatSet",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "CreateChatSet",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatUpdate",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "Update",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatRender",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "Render",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatSetBoardState",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "SetBoardState",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatSetPosition",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "SetPosition",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatSetHeight",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "SetHeight",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatSetStep",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "SetStep",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatToggleChatMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "ToggleChatMode",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatEnableChatMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "EnableChatMode",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatDisableChatMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "DisableChatMode",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatSetEndPos",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "SetEndPos",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatGetLineCount",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "GetLineCount",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatGetVisibleLineCount",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "GetVisibleLineCount",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatGetLineStep",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "GetLineStep",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatAppendChat",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "AppendChat",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatAppendChatWithDelay",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "AppendChatWithDelay",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatArrangeShowingChat",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "ArrangeShowingChat",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatIgnoreCharacter",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "IgnoreCharacter",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatIsIgnoreCharacter",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "IsIgnoreCharacter",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatCreateWhisper",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "CreateWhisper",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatAppendWhisper",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "AppendWhisper",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatRenderWhisper",
+    "param_signature": [
+      "string",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "GetWhisper",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatSetWhisperBoxSize",
+    "param_signature": [
+      "string",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "GetWhisper",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatSetWhisperPosition",
+    "param_signature": [
+      "string",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "GetWhisper",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatClearWhisper",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "ClearWhisper",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatInitWhisper",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonChat",
+        "method_name": "InitWhisper",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "chatGetLinkFromHyperlink",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetItemDataPointer",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "effectRegisterEffect",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CEffectManager",
+        "method_name": "RegisterEffect",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "effectUpdate",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CEffectManager",
+        "method_name": "Update",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "effectRender",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CEffectManager",
+        "method_name": "Render",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "effectCreateEffect",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetSelectedInstancePtr",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CEffectManager",
+        "method_name": "CreateEffect",
+        "arg_count": 5
+      }
+    ]
+  },
+  {
+    "wrapper_name": "effectDeleteEffect",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CEffectManager",
+        "method_name": "DestroyEffectInstance",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "effectSetPosition",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CEffectManager",
+        "method_name": "SelectEffectInstance",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CEffectManager",
+        "method_name": "SetEffectInstancePosition",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "effectRegisterIndexedFlyData",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CFlyingManager",
+        "method_name": "RegisterIndexedFlyData",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeInitTrading",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "End",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeisTrading",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "isTrading",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetElkFromSelf",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetElkFromSelf",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetElkFromTarget",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetElkFromTarget",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetAcceptFromSelf",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetAcceptFromSelf",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetAcceptFromTarget",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetAcceptFromTarget",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetItemVnumFromSelf",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetItemVnumFromSelf",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetItemVnumFromTarget",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetItemVnumFromTarget",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetItemCountFromSelf",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetItemCountFromSelf",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetItemCountFromTarget",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetItemCountFromTarget",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetNameFromSelf",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetNameFromSelf",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetNameFromTarget",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetNameFromTarget",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetItemMetinSocketFromTarget",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetItemMetinSocketFromTarget",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetItemMetinSocketFromSelf",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetItemMetinSocketFromSelf",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetItemAttributeFromTarget",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetItemAttributeFromTarget",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetItemAttributeFromSelf",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetItemAttributeFromSelf",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeGetElkMode",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "GetElkMode",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "exchangeSetElkMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonExchange",
+        "method_name": "SetElkMode",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "flyUpdate",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CFlyingManager",
+        "method_name": "Update",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "flyRender",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CFlyingManager",
+        "method_name": "Render",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "eventMgrUpdate",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CGameEventManager",
+        "method_name": "SetCenterPosition",
+        "arg_count": 3
+      },
+      {
+        "class_name": "CGameEventManager",
+        "method_name": "Update",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeEnable",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "Initialize",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeDisable",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "Uninitialize",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeEnableCaptureInput",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "EnableCaptureInput",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeDisableCaptureInput",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "DisableCaptureInput",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeSetMax",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "SetMax",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeSetUserMax",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "SetUserMax",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeSetText",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "SetText",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeGetText",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "GetText",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeGetCodePage",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "GetCodePage",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeGetCandidateCount",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "GetCandidatePageCount",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeGetCandidate",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "GetCandidate",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeGetCandidateSelection",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "GetCandidateSelection",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeGetReading",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "GetReading",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeGetReadingError",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "GetReadingError",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeEnableIME",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "EnableIME",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeDisableIME",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "DisableIME",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeSetInputMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "SetInputMode",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeSetNumberMode",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "SetNumberMode",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeAddExceptKey",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "AddExceptKey",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeClearExceptKey",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "ClearExceptKey",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeSetStringMode",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "SetStringMode",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeGetInputMode",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "GetInputMode",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeMoveLeft",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "MoveLeft",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeMoveRight",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "MoveRight",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeMoveHome",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "MoveHome",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeMoveEnd",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "MoveEnd",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeSetCursorPosition",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "SetCursorPosition",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeDelete",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "Delete",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imePasteTextFromClipBoard",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "PasteTextFromClipBoard",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imeEnablePaste",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "EnablePaste",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imePasteString",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "PasteString",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imePasteBackspace",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "WMChar",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "imePasteReturn",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonIME",
+        "method_name": "WMChar",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemSetUseSoundFileName",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonItem",
+        "method_name": "SetUseSoundFileName",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemSetDropSoundFileName",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonItem",
+        "method_name": "SetDropSoundFileName",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemSelectItem",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetItemName",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetItemDescription",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetItemSummary",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetIconImage",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CResourceManager",
+        "method_name": "GetResourcePointer",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetIconImageFileName",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetItemSize",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetItemType",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetItemSubType",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetIBuyItemPrice",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetISellItemPrice",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemIsAntiFlag",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemIsFlag",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemIsWearableFlag",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemIs1GoldItem",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetLimit",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetAffect",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetValue",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetSocket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetIconInstance",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemIsEquipmentVID",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemGetUseType",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemIsRefineScroll",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemIsDetachScroll",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemCanAddToQuickSlotItem",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemIsKey",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemIsMetin",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemRender",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonItem",
+        "method_name": "Render",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemUpdate",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonItem",
+        "method_name": "Update",
+        "arg_count": 1
+      },
+      {
+        "class_name": "IAbstractApplication",
+        "method_name": "GetMousePosition",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemCreateItem",
+    "param_signature": [
+      "int",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonItem",
+        "method_name": "CreateItem",
+        "arg_count": 6
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemDeleteItem",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonItem",
+        "method_name": "DeleteItem",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemPick",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonItem",
+        "method_name": "GetPickedItemID",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "itemLoadItemTable",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "LoadItemTable",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapSetScale",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "SetScale",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapSetCenterPosition",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "SetCenterPosition",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapSetMiniMapSize",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "SetMiniMapSize",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapDestroy",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "Destroy",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapCreate",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "Create",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapUpdate",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "Update",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapRender",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "Render",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapShow",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "Show",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapHide",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "Hide",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapisShow",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "CanShow",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapScaleUp",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "ScaleUp",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapScaleDown",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "ScaleDown",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapGetInfo",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "GetPickedInstanceInfo",
+        "arg_count": 6
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapLoadAtlas",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "LoadAtlas",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "LoadAtlas",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapUpdateAtlas",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "UpdateAtlas",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapRenderAtlas",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "RenderAtlas",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapShowAtlas",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "ShowAtlas",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapHideAtlas",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "HideAtlas",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapisShowAtlas",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "CanShowAtlas",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapIsAtlas",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "IsAtlas",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapGetAtlasInfo",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "GetAtlasInfo",
+        "arg_count": 7
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapGetAtlasSize",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "GetAtlasSize",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapAddWayPoint",
+    "param_signature": [
+      "int",
+      "string",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "AddWayPoint",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapRemoveWayPoint",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "RemoveWayPoint",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapRegisterAtlasWindow",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "RegisterAtlasWindow",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapUnregisterAtlasWindow",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "UnregisterAtlasWindow",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "miniMapGetGuildAreaID",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonMiniMap",
+        "method_name": "GetGuildAreaID",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "udpEnable",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkDatagram",
+        "method_name": "Enable",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "udpDisable",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkDatagram",
+        "method_name": "Disable",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetBettingGuildWarValue",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "EXPORT_GetBettingGuildWarValue",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netStartGame",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "StartGame",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netWarp",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "Warp",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netLoadInsultList",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "LoadInsultList",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netUploadMark",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "UploadMark",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netUploadSymbol",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "UploadSymbol",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetGuildID",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "GetGuildID",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetEmpireID",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "GetEmpireID",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetMainActorVID",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "GetMainActorVID",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetMainActorRace",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "GetMainActorRace",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetMainActorEmpire",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "GetMainActorEmpire",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetMainActorSkillGroup",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "GetMainActorSkillGroup",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netIsSelectedEmpire",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "IsSelectedEmpire",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetAccountCharacterSlotDataInteger",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "GetAccountCharacterSlotDatau",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetAccountCharacterSlotDataString",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "GetAccountCharacterSlotDataz",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetFieldMusicFileName",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "GetFieldMusicFileName",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netGetFieldMusicVolume",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "GetFieldMusicVolume",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetPhaseWindow",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SetPhaseWindow",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netClearPhaseWindow",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "ClearPhaseWindow",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetServerCommandParserWindow",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SetServerCommandParserWindow",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetAccountConnectorHandler",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CAccountConnector",
+        "method_name": "SetHandler",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetHandler",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SetHandler",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetTCPRecvBufferSize",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SetRecvBufferSize",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetTCPSendBufferSize",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SetSendBufferSize",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetUDPRecvBufferSize",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkDatagram",
+        "method_name": "SetRecvBufferSize",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetMarkServer",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SetMarkServer",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netConnectTCP",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "ConnectLoginServer",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netConnectUDP",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkDatagram",
+        "method_name": "SetConnection",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netConnectToAccountServer",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CAccountConnector",
+        "method_name": "Connect",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetLoginInfo",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SetLoginInfo",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CAccountConnector",
+        "method_name": "SetLoginInfo",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetOfflinePhase",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SetOffLinePhase",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendSelectEmpirePacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendSelectEmpirePacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendLoginPacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendLoginPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendChinaMatrixCardPacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CAccountConnector",
+        "method_name": "SendChinaMatrixCardPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendRunupMatrixCardPacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CAccountConnector",
+        "method_name": "SendRunupMatrixCardPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendNEWCIBNPasspodAnswerPacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CAccountConnector",
+        "method_name": "SendNEWCIBNPasspodAnswerPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netDirectEnter",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "ConnectGameServer",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendSelectCharacterPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendSelectCharacterPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendChangeNamePacket",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendChangeNamePacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netEnableChatInsultFilter",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "EnableChatInsultFilter",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netIsChatInsultIn",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "IsChatInsultIn",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netIsInsultIn",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "IsInsultIn",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendWhisperPacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendWhisperPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendMobileMessagePacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendMobileMessagePacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendCharacterPositionPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendCharacterPositionPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendChatPacket",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendChatPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendEmoticon",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendEmoticon",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendCreateCharacterPacket",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendCreateCharacterPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendDestroyCharacterPacket",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendDestroyCharacterPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendEnterGamePacket",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendEnterGame",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netOnClickPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendOnClickPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendItemUsePacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendItemUsePacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendItemUseToItemPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendItemUseToItemPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendItemDropPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendItemDropPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendItemDropPacketNew",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendItemDropPacketNew",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendElkDropPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendItemDropPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGoldDropPacketNew",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendItemDropPacketNew",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendItemMovePacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendItemMovePacket",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendItemPickUpPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendItemPickUpPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGiveItemPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGiveItemPacket",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendShopEndPacket",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendShopEndPacket",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendShopBuyPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendShopBuyPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendShopSellPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendShopSellPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendShopSellPacketNew",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendShopSellPacketNew",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendExchangeStartPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendExchangeStartPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendExchangeElkAddPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendExchangeElkAddPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendExchangeItemAddPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendExchangeItemAddPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendExchangeItemDelPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendExchangeItemDelPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendExchangeAcceptPacket",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendExchangeAcceptPacket",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendExchangeExitPacket",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendExchangeExitPacket",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netExitApplication",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "ExitApplication",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netExitGame",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "ExitGame",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netLogOutGame",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "LogOutGame",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netDisconnect",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SetOffLinePhase",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "Disconnect",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netIsConnect",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "IsOnline",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netToggleGameDebugInfo",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "ToggleGameDebugInfo",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netRegisterEmoticonString",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "RegisterEmoticonString",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendMessengerAddByVIDPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendMessengerAddByVIDPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendMessengerAddByNamePacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendMessengerAddByNamePacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendMessengerRemovePacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendMessengerRemovePacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendPartyInvitePacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendPartyInvitePacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendPartyInviteAnswerPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendPartyInviteAnswerPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendPartyExitPacket",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "IAbstractPlayer",
+        "method_name": "GetMainCharacterIndex",
+        "arg_count": 0
+      },
+      {
+        "class_name": "IAbstractPlayer",
+        "method_name": "PartyMemberVIDToPID",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendPartyRemovePacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendPartyRemovePacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendPartyRemovePacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendPartySetStatePacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendPartySetStatePacket",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendPartyUseSkillPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendPartyUseSkillPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendPartyParameterPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendPartyParameterPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendSafeboxSaveMoneyPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendSafeBoxMoneyPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendSafeboxWithdrawMoneyPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendSafeBoxMoneyPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendSafeboxCheckinPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendSafeBoxCheckinPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendSafeboxCheckoutPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendSafeBoxCheckoutPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendSafeboxItemMovePacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendSafeBoxItemMovePacket",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendMallCheckoutPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendMallCheckoutPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendAnswerMakeGuildPacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendAnswerMakeGuildPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendQuestInputStringPacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendQuestInputStringPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendQuestConfirmPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendQuestConfirmPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildAddMemberPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildAddMemberPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildRemoveMemberPacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonGuild",
+        "method_name": "GetMemberDataPtrByName",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildRemoveMemberPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildChangeGradeNamePacket",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildChangeGradeNamePacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildChangeGradeAuthorityPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildChangeGradeAuthorityPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildOfferPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildOfferPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSnedGuildPostCommentPacket",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildPostCommentPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSnedGuildDeleteCommentPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildDeleteCommentPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildRefreshCommentsPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildRefreshCommentsPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildChangeMemberGradePacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildChangeMemberGradePacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildUseSkillPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildUseSkillPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildChangeMemberGeneralPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildChangeMemberGeneralPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildInviteAnswerPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildInviteAnswerPacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildChargeGSPPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildChargeGSPPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildDepositMoneyPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildDepositMoneyPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildWithdrawMoneyPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendGuildWithdrawMoneyPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendRequestRefineInfoPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendRequestRefineInfoPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendRefinePacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendRefinePacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendSelectItemPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendSelectItemPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetPacketSequenceMode",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SetPacketSequenceMode",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CAccountConnector",
+        "method_name": "SetPacketSequenceMode",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSetSkillGroupFake",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "__TEST_SetSkillGroupFake",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netSendGuildSymbol",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CGuildMarkUploader",
+        "method_name": "ConnectToSendSymbol",
+        "arg_count": 6
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netDisconnectUploader",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CGuildMarkUploader",
+        "method_name": "Disconnect",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "netRecvGuildSymbol",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CGuildMarkDownloader",
+        "method_name": "ConnectToRecvSymbol",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "nonplayerGetEventType",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNonPlayer",
+        "method_name": "GetEventType",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "nonplayerGetEventTypeByVID",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNonPlayer",
+        "method_name": "GetEventTypeByVID",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "nonplayerGetLevelByVID",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonNonPlayer",
+        "method_name": "GetTable",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "nonplayerGetGradeByVID",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonNonPlayer",
+        "method_name": "GetTable",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "nonplayerGetMonsterName",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNonPlayer",
+        "method_name": "GetMonsterName",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "nonplayerLoadNonPlayerData",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNonPlayer",
+        "method_name": "LoadNonPlayerData",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "packExist",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CEterPackManager",
+        "method_name": "isExist",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "packGet",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CEterPackManager",
+        "method_name": "Get",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerPickCloseItem",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "PickCloseItem",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetGameWindow",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetGameWindow",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetQuickCameraMode",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetQuickCameraMode",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetMainCharacterIndex",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetMainCharacterIndex",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "SetMainInstance",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetMainCharacterIndex",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetMainCharacterIndex",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetMainCharacterName",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetName",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetMainCharacterPosition",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPosition",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsMainCharacterIndex",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsMainCharacterIndex",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerCanAttackInstance",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsActingEmotion",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsPVPInstance",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsSameEmpire",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsChallengeInstance",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsChallengeInstance",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsRevengeInstance",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsRevengeInstance",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsCantFightInstance",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsCantFightInstance",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetCharacterDistance",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetInstancePtr",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsInSafeArea",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsMountingHorse",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsObserverMode",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsObserverMode",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerActEmotion",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "ActEmotion",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerShowPlayer",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerHidePlayer",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerComboAttack",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_Attack",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerRegisterEffect",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "RegisterEffect",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerRegisterCacheEffect",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "RegisterEffect",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetAttackKeyState",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetAttackKeyState",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetSingleDIKKeyState",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_SetSingleDIKKeyState",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerEndKeyWalkingImmediately",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_Stop",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerResetCameraRotation",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_ResetCameraRotation",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetAutoCameraRotationSpeed",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_SetAutoCameraRotationSpeed",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetMouseState",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_SetMouseState",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetMouseFunc",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_SetMouseFunc",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetMouseFunc",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMouseFunc",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetMouseMiddleButtonState",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_SetMouseMiddleButtonState",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetName",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetName",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetRace",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetRace",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetJob",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetRace",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetPlayTime",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetPlayTime",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetPlayTime",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetPlayTime",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsSkillCoolTime",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsSkillCoolTime",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetSkillCoolTime",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetSkillCoolTime",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetSkillElapsedCoolTime",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsSkillActive",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsSkillActive",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerUseGuildSkill",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "UseGuildSkill",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerAffectIndexToSkillIndex",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "AffectIndexToSkillIndex",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetEXP",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetStatus",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetStatus",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetStatus",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetStatus",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetStatus",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetElk",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetStatus",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetGuildID",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetGuildName",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonGuild",
+        "method_name": "GetGuildName",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetAlignmentData",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "NEW_GetMainActorPtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetSkill",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetSkill",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetSkillIndex",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetSkillIndex",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetSkillSlotIndex",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetSkillSlotIndex",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetSkillGrade",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetSkillGrade",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetSkillLevel",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetSkillLevel",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetSkillCurrentEfficientPercentage",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetSkillCurrentEfficientPercentage",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetSkillNextEfficientPercentage",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetSkillNextEfficientPercentage",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerClickSkillSlot",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "ClickSkillSlot",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerChangeCurrentSkillNumberOnly",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "ChangeCurrentSkillNumberOnly",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerClearSkillDict",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "ClearSkillDict",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerMoveItem",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "MoveItemData",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSendClickItemPacket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SendClickItemPacket",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetItemIndex",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemIndex",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemIndex",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetItemFlags",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemFlags",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemFlags",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetItemCount",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemCount",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemCount",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetItemCount",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetItemCount",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetItemCount",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetItemCountByVnum",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemCountByVnum",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetItemMetinSocket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemMetinSocket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetItemAttribute",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemAttribute",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetItemLink",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetItemDataPointer",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetISellItemPrice",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetItemDataPointer",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemCount",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemCount",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetQuickPage",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetQuickPage",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetQuickPage",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetQuickPage",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerLocalQuickSlotIndexToGlobalQuickSlotIndex",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "LocalQuickSlotIndexToGlobalQuickSlotIndex",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetLocalQuickSlot",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetLocalQuickSlotData",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetGlobalQuickSlot",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetGlobalQuickSlotData",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerRequestAddLocalQuickSlot",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "RequestAddLocalQuickSlot",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerRequestAddToEmptyLocalQuickSlot",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "RequestAddToEmptyLocalQuickSlot",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerRequestDeleteGlobalQuickSlot",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "RequestDeleteGlobalQuickSlot",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerRequestMoveGlobalQuickSlotToLocalQuickSlot",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "RequestMoveGlobalQuickSlotToLocalQuickSlot",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerRequestUseLocalQuickSlot",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "RequestUseLocalQuickSlot",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerRemoveQuickSlotByValue",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "RemoveQuickSlotByValue",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerisItem",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsItem",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsBeltInventorySlot",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsBeltInventorySlot",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsOpenPrivateShop",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsOpenPrivateShop",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsValuableItem",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemIndex",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemMetinSocket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetItemGrade",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemIndex",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerCanRefine",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsEquipmentSlot",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemIndex",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerCanAttachMetin",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsEquipmentSlot",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetItemDataPointer",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemIndex",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetItemDataPointer",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemMetinSocket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerCanDetach",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemIndex",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemMetinSocket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerCanUnlock",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemIndex",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsRefineGradeScroll",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetItemIndex",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerUpdate",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "Update",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerClear",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "Clear",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerClearTarget",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetTarget",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetTarget",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetTarget",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerOpenCharacterMenu",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "OpenCharacterMenu",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsPartyMember",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "IsPartyMemberByVID",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsPartyLeader",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "PartyMemberVIDToPID",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetPartyMemberPtr",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsPartyLeaderByPID",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetPartyMemberPtr",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetPartyMemberHPPercentage",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetPartyMemberPtr",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetPartyMemberState",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetPartyMemberPtr",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetPartyMemberAffects",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetPartyMemberPtr",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerRemovePartyMember",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "RemovePartyMember",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerExitParty",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "ExitParty",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetPKMode",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetPKMode",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerHasMobilePhoneNumber",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "HasMobilePhoneNumber",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerToggleCoolTime",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "__ToggleCoolTime",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerToggleLevelLimit",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "__ToggleLevelLimit",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerGetTargetVID",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "GetTargetVID",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerRegisterEmotionIcon",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CResourceManager",
+        "method_name": "GetResourcePointer",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetItemData",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetItemData",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetItemMetinSocket",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetItemMetinSocket",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSetItemAttribute",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonPlayer",
+        "method_name": "SetItemAttribute",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerIsAvailableBeltInventoryCell",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CItemManager",
+        "method_name": "SelectItemData",
+        "arg_count": 1
+      },
+      {
+        "class_name": "CItemManager",
+        "method_name": "GetSelectedItemDataPointer",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "playerSendDragonSoulRefine",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonNetworkStream",
+        "method_name": "SendDragonSoulRefinePacket",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndPlaySound",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "PlaySound2D",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndPlaySound3D",
+    "param_signature": [
+      "string",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "PlaySound3D",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndPlayMusic",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "PlayMusic",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndFadeInMusic",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "FadeInMusic",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndFadeOutMusic",
+    "param_signature": [
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "FadeOutMusic",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndFadeOutAllMusic",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "FadeOutAllMusic",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndFadeLimitOutMusic",
+    "param_signature": [
+      "string",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "FadeLimitOutMusic",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndStopAllSound",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "StopAllSound3D",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndSetMusicVolume",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "SetMusicVolume",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndSetSoundVolumef",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "SetSoundVolumeRatio",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndSetSoundVolume",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "SetSoundVolumeGrade",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndSetSoundScale",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "SetSoundScale",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "sndSetAmbienceSoundScale",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CSoundManager",
+        "method_name": "SetAmbienceSoundScale",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetWidth",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetWidth",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetHeight",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetHeight",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSetInterfaceHandler",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetInterfaceHandler",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemDestroyInterfaceHandler",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "DestroyInterfaceHandler",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemReserveResource",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CResourceManager",
+        "method_name": "PushBackgroundLoadingSet",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemisInterfaceConfig",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "isInterfaceConfig",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSaveWindowStatus",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SaveWindowStatus",
+        "arg_count": 6
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetWindowStatus",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetWindowStatusReference",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetConfig",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetConfig",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetResolutionIndex",
+        "arg_count": 3
+      },
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetFrequencyIndex",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSetSaveID",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetSaveID",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemisSaveID",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "IsSaveID",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetSaveID",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetSaveID",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetMusicVolume",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetMusicVolume",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetSoundVolume",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetSoundVolume",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSetMusicVolume",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetMusicVolume",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSetSoundVolumef",
+    "param_signature": [
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetSoundVolumef",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemIsSoftwareCursor",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "IsSoftwareCursor",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSetViewChatFlag",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetViewChatFlag",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemIsViewChat",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "IsViewChat",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSetAlwaysShowNameFlag",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetAlwaysShowNameFlag",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSetShowDamageFlag",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetShowDamageFlag",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSetShowSalesTextFlag",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetShowSalesTextFlag",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemIsAlwaysShowName",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "IsAlwaysShowName",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemIsShowDamage",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "IsShowDamage",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemIsShowSalesText",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "IsShowSalesText",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSetConfig",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetResolution",
+        "arg_count": 2
+      },
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetFrequency",
+        "arg_count": 3
+      },
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetConfig",
+        "arg_count": 0
+      },
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetConfig",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemApplyConfig",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "ApplyConfig",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSaveConfig",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SaveConfig",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetResolutionCount",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetResolutionCount",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetFrequencyCount",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetFrequencyCount",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetResolution",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetResolution",
+        "arg_count": 4
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetCurrentResolution",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetConfig",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetFrequency",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetFrequency",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemGetShadowLevel",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "GetShadowLevel",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "systemSetShadowLevel",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonSystem",
+        "method_name": "SetShadowLevel",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailClear",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "Clear",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailUpdateAllTextTail",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "UpdateAllTextTail",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailUpdateShowingTextTail",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "UpdateShowingTextTail",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailRender",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "Render",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailRegisterCharacterTextTail",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "RegisterCharacterTextTail",
+        "arg_count": 6
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailGetPosition",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "GetTextTailPosition",
+        "arg_count": 4
+      },
+      {
+        "class_name": "CPythonGraphic",
+        "method_name": "ProjectPosition",
+        "arg_count": 5
+      },
+      {
+        "class_name": "CPythonCharacterManager",
+        "method_name": "GetMainInstancePtr",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailIsChat",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "IsChatTextTail",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailRegisterChatTail",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "RegisterChatTail",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailRegisterInfoTail",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "RegisterInfoTail",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailAttachTitle",
+    "param_signature": [
+      "int",
+      "string",
+      "float"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "AttachTitle",
+        "arg_count": 6
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailShowCharacterTextTail",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "ShowCharacterTextTail",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailShowItemTextTail",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "ShowItemTextTail",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailArrangeTextTail",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "ArrangeTextTail",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailHideAllTextTail",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "HideAllTextTail",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailShowAllTextTail",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "ShowAllTextTail",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailPick",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "Pick",
+        "arg_count": 2
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailSelectItemName",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "SelectItemName",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "textTailEnablePKTitle",
+    "param_signature": [
+      "int"
+    ],
+    "targets": [
+      {
+        "class_name": "CPythonTextTail",
+        "method_name": "EnablePKTitle",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "ServerStateCheckerCreate",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CServerStateChecker",
+        "method_name": "Create",
+        "arg_count": 1
+      }
+    ]
+  },
+  {
+    "wrapper_name": "ServerStateCheckerUpdate",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CServerStateChecker",
+        "method_name": "Update",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "ServerStateCheckerRequest",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CServerStateChecker",
+        "method_name": "Request",
+        "arg_count": 0
+      }
+    ]
+  },
+  {
+    "wrapper_name": "ServerStateCheckerAddChannel",
+    "param_signature": [
+      "int",
+      "string"
+    ],
+    "targets": [
+      {
+        "class_name": "CServerStateChecker",
+        "method_name": "AddChannel",
+        "arg_count": 3
+      }
+    ]
+  },
+  {
+    "wrapper_name": "ServerStateCheckerInitialize",
+    "param_signature": [],
+    "targets": [
+      {
+        "class_name": "CServerStateChecker",
+        "method_name": "Initialize",
+        "arg_count": 0
+      }
+    ]
+  }
+]
