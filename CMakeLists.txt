@@ -35,10 +35,11 @@ set(CORE_SOURCES
     src/UI/LogWindow.cpp
     src/UI/AssemblyInspectorWindow.cpp
     src/UI/OverlayWindow.cpp
+    src/Utils/Logger.cpp
 )
 
 add_library(KargaScannerCore STATIC ${CORE_SOURCES})
-target_link_libraries(KargaScannerCore PRIVATE zydis nlohmann_json::nlohmann_json imgui::imgui d3d11.lib dxgi.lib)
+target_link_libraries(KargaScannerCore PUBLIC Zydis nlohmann_json::nlohmann_json imgui::imgui d3d11.lib dxgi.lib)
 
 add_executable(KargaScannerApp src/AppMain.cpp)
 target_link_libraries(KargaScannerApp PRIVATE KargaScannerCore imgui::imgui d3d11.lib dxgi.lib)

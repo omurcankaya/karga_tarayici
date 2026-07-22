@@ -25,6 +25,7 @@ public:
 
     [[nodiscard]] bool IsRunning() const noexcept { return running_; }
     [[nodiscard]] UIContext& GetUIContext() noexcept { return uiContext_; }
+    [[nodiscard]] RenderEngineD3D11& GetRenderEngine() noexcept { return renderEngine_; }
 };
 
 }

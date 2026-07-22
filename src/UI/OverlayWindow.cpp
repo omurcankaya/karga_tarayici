@@ -1,4 +1,5 @@
 #include "KargaTarayici/UI/OverlayWindow.h"
+#include "KargaTarayici/Utils/Logger.h"
 #include <imgui.h>
 #include <imgui_impl_win32.h>
 #include <imgui_impl_dx11.h>
@@ -9,6 +10,8 @@ namespace KargaTarayici::UI {
 
 namespace {
 
+OverlayWindow* g_overlayInstance = nullptr;
+
 LRESULT CALLBACK OverlayWndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
     if (ImGui_ImplWin32_WndProcHandler(hwnd, msg, wParam, lParam)) {
         return true;
@@ -16,6 +19,11 @@ LRESULT CALLBACK OverlayWndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lPara
 
     switch (msg) {
     case WM_SIZE:
+        if (g_overlayInstance != nullptr && wParam != SIZE_MINIMIZED) {
+            UINT width = static_cast<UINT>(LOWORD(lParam));
+            UINT height = static_cast<UINT>(HIWORD(lParam));
+            g_overlayInstance->GetRenderEngine().ResizeBuffers(width, height);
+        }
         return 0;
     case WM_DESTROY:
         PostQuitMessage(0);
@@ -33,30 +41,26 @@ OverlayWindow::~OverlayWindow() {
 
 bool OverlayWindow::Create(HWND targetHwnd) {
     targetHwnd_ = targetHwnd;
+    g_overlayInstance = this;
 
     WNDCLASSEXW wc{};
     wc.cbSize = sizeof(WNDCLASSEXW);
     wc.style = CS_HREDRAW | CS_VREDRAW;
     wc.lpfnWndProc = OverlayWndProc;
     wc.hInstance = GetModuleHandleW(nullptr);
-    wc.lpszClassName = L"KargaOverlayClass";
+    wc.lpszClassName = L"KargaWindowInterfaceClass";
 
     RegisterClassExW(&wc);
 
-    RECT targetRect{0, 0, 1280, 720};
-    if (targetHwnd_ != nullptr && IsWindow(targetHwnd_)) {
-        GetWindowRect(targetHwnd_, &targetRect);
-    }
-
-    int width = targetRect.right - targetRect.left;
-    int height = targetRect.bottom - targetRect.top;
+    int width = 1100;
+    int height = 700;
 
     hwnd_ = CreateWindowExW(
-        WS_EX_TOPMOST | WS_EX_TRANSPARENT | WS_EX_LAYERED,
-        L"KargaOverlayClass",
-        L"Karga Scanner Overlay",
-        WS_POPUP,
-        targetRect.left, targetRect.top, width, height,
+        0,
+        L"KargaWindowInterfaceClass",
+        L"Karga Scanner Interface [Injected Window]",
+        WS_OVERLAPPEDWINDOW,
+        150, 150, width, height,
         nullptr, nullptr, GetModuleHandleW(nullptr), nullptr
     );
 
@@ -64,7 +68,6 @@ bool OverlayWindow::Create(HWND targetHwnd) {
         return false;
     }
 
-    SetLayeredWindowAttributes(hwnd_, RGB(0, 0, 0), 255, LWA_ALPHA);
     ShowWindow(hwnd_, SW_SHOW);
     UpdateWindow(hwnd_);
 
@@ -99,10 +102,8 @@ void OverlayWindow::RunLoop() {
             DispatchMessageW(&msg);
         }
 
-        if (targetHwnd_ != nullptr && IsWindow(targetHwnd_)) {
-            RECT rect{};
-            GetWindowRect(targetHwnd_, &rect);
-            SetWindowPos(hwnd_, HWND_TOPMOST, rect.left, rect.top, rect.right - rect.left, rect.bottom - rect.top, SWP_NOACTIVATE);
+        if (!running_) {
+            break;
         }
 
         ImGui_ImplDX11_NewFrame();
@@ -132,7 +133,8 @@ void OverlayWindow::Destroy() {
             DestroyWindow(hwnd_);
             hwnd_ = nullptr;
         }
-        UnregisterClassW(L"KargaOverlayClass", GetModuleHandleW(nullptr));
+        UnregisterClassW(L"KargaWindowInterfaceClass", GetModuleHandleW(nullptr));
+        g_overlayInstance = nullptr;
         running_ = false;
     }
 }

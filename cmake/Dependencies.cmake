@@ -22,6 +22,7 @@ set(JSON_BuildExamples OFF CACHE BOOL "" FORCE)
 
 set(INSTALL_GTEST OFF CACHE BOOL "" FORCE)
 set(BUILD_GMOCK OFF CACHE BOOL "" FORCE)
+set(BUILD_TESTING ON CACHE BOOL "" FORCE)
 
 FetchContent_Declare(
     zydis

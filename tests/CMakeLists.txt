@@ -1,4 +1,5 @@
 set(TEST_SOURCES
+    Core/TestMemoryReader.cpp
     Engine/TestDisassemblerEngine.cpp
     Rules/TestJsonRuleParser.cpp
 )
